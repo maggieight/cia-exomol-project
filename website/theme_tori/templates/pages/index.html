@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load pages_tags mezzanine_tags i18n static %}
+
+{% block main_container %}
+<div class="container">
+<div class="row">
+
+<div class="col-md-9 middle">
+{% block main %}
+
+<div>
+<h4>Latest News</h4>
+<ul class="list-group">
+{% for news_item in news_items %}
+<li class="list-group-item">{{ news_item.date|date:"d M Y" }}: <a href="/activities/news#news-{{ news_item.pk }}">{{ news_item.headline }}</a></li>
+{% endfor %}
+</ul>
+</div>
+
+<h4>About ExoMol</h4>
+
+<p><strong>ExoMol</strong> is a database of molecular line lists that can be used for spectral characterisation and simulation, and as input to atmospheric models of exoplanets, brown dwarfs and cool stars, and other models including those for combustion and sunspots.</p>
+
+<p>The ExoMol format is described in our article, <a href="http://www.sciencedirect.com/science/article/pii/S0022285216300807">The ExoMol database: Molecular line lists for exoplanet and other hot atmospheres</a>. The database can be navigated from the <a href="/data/">data page</a>.</p>
+
+
+{{ page.richtextpage.content|richtext_filters|safe }}
+
+{% endblock %}
+</div>
+
+<div class="col-md-3 right">
+    {% nevercache %}
+    {% include "includes/language_selector.html" %}
+    {% endnevercache %}
+    <div class="panel panel-default">
+    <div class="panel-body">
+    {% block right_panel %}
+
+    {% include "includes/update_announcements.html" %}
+
+    {% ifinstalled mezzanine.twitter %}
+    {% include "twitter/tweets.html" %}
+    {% endifinstalled %}
+    {% endblock %}
+    </div>
+    </div>
+</div>
+
+</div>
+</div>
+
+{% endblock main_container %}
+

@@ -1,0 +1,456 @@
+{
+  "collision_pair": {
+    "formula": "CO2-Ar",
+    "slug": "co2-ar",
+    "active_species_status": "unique",
+    "active_species": "co2",
+    "collider": "ar",
+    "components": [
+      {
+        "formula": "CO2",
+        "slug": "co2",
+        "cas_registry_number": "124-38-9"
+      },
+      {
+        "formula": "Ar",
+        "slug": "ar",
+        "cas_registry_number": "7440-37-1"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "odintsova2021",
+    "version": "20260803",
+    "sources": [
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "odintsova2021",
+        "authors": [
+          "T. A. Odintsova",
+          "E. A. Serov",
+          "A. A. Balashov",
+          "M. A. Koshelev",
+          "A. O. Koroleva",
+          "A. A. Simonova",
+          "M. Yu. Tretyakov",
+          "N. N. Filippov",
+          "D. N. Chistikov",
+          "A. A. Finenko",
+          "S. E. Lokshtanov",
+          "S. V. Petrov",
+          "A. A. Vigasin"
+        ],
+        "title": "CO2-CO2 and CO2-Ar continua at millimeter wavelengths",
+        "year": 2021,
+        "doi": "10.1016/j.jqsrt.2020.107400",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2020.107400",
+        "verified": true,
+        "ref": 41
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "hitran_cia_repository",
+        "authors": [
+          "HITRAN CIA Team"
+        ],
+        "title": "HITRAN online data: Collision Induced Absorption",
+        "year": 2024,
+        "doi": null,
+        "source_url": "https://hitran.org/cia/",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "terragni_hitran",
+        "authors": [
+          "J. Terragni",
+          "I.E. Gordon",
+          "E.M. Adkins",
+          "C. Boulet",
+          "A. Campargue",
+          "D. Chistikov",
+          "A. Finenko",
+          "H. Finkenzeller",
+          "H. Fleurbaey",
+          "R.J. Hargreaves",
+          "R.K. Hanson",
+          "J.-M. Hartmann",
+          "A. Klingberg",
+          "E. Kohler",
+          "A.O. Koroleva",
+          "D. Mondelain",
+          "G. Piccioni",
+          "S. Stefani",
+          "C.L. Strand",
+          "H. Tran",
+          "M. Turbet",
+          "A. Vigasin",
+          "F. Vitali",
+          "R. Volkamer",
+          "C. Wei"
+        ],
+        "title": "Collision induced absorption in HITRAN2024: Enhanced and improved data for atmospheric and planetary studies",
+        "year": 2025,
+        "doi": "10.1016/j.jqsrt.2025.109631",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2025.109631",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "gordon2026_hitran",
+        "authors": [
+          "I.E. Gordon",
+          "L.S. Rothman",
+          "R.J. Hargreaves",
+          "F.M. Gomez",
+          "T. Bertin",
+          "C. Hill",
+          "R.V. Kochanov",
+          "Y. Tan",
+          "P. Wcisło",
+          "V. Yu. Makhnev",
+          "P.F. Bernath",
+          "M. Birk",
+          "V. Boudon",
+          "A. Campargue",
+          "A. Coustenis",
+          "B.J. Drouin",
+          "R.R. Gamache",
+          "J.T. Hodges",
+          "D. Jacquemart",
+          "E.J. Mlawer",
+          "A.V. Nikitin",
+          "V.I. Perevalov",
+          "M. Rotger",
+          "S. Robert",
+          "J. Tennyson",
+          "G.C. Toon",
+          "H. Tran",
+          "V.G. Tyuterev",
+          "E.M. Adkins",
+          "A. Barbe",
+          "D.M. Bailey",
+          "K. Bielska",
+          "L. Bizzocchi",
+          "T.A. Blake",
+          "C.A. Bowesman",
+          "P. Cacciani",
+          "P. Čermák",
+          "A.G. Császár",
+          "L. Denis",
+          "S.C. Egbert",
+          "O. Egorov",
+          "A. Yu. Ermilov",
+          "A.J. Fleisher",
+          "H. Fleurbaey",
+          "A. Foltynowicz",
+          "T. Furtenbacher",
+          "M. Germann",
+          "E.R. Guest",
+          "J.J. Harrison",
+          "J.-M. Hartmann",
+          "A. Hjältén",
+          "S.-M. Hu",
+          "X. Huang",
+          "T.J. Johnson",
+          "H. Jóźwiak",
+          "S. Kassi",
+          "M.V. Khan",
+          "F. Kwabia-Tchana",
+          "T.J. Lee",
+          "D. Lisak",
+          "A.-W. Liu",
+          "O.M. Lyulin",
+          "N.A. Malarich",
+          "L. Manceron",
+          "A.A. Marinina",
+          "S.T. Massie",
+          "J. Mascio",
+          "E.S. Medvedev",
+          "V.V. Meshkov",
+          "G. Ch. Mellau",
+          "M. Melosso",
+          "S.N. Mikhailenko",
+          "D. Mondelain",
+          "H.S.P. Müller",
+          "M. O'Donnell",
+          "A. Owens",
+          "A. Perrin",
+          "O.L. Polyansky",
+          "P.L. Raston",
+          "Z.D. Reed",
+          "M. Rey",
+          "C. Richard",
+          "G.B. Rieker",
+          "C. Röske",
+          "S.W. Sharpe",
+          "E. Starikova",
+          "N. Stolarczyk",
+          "A.V. Stolyarov",
+          "K. Sung",
+          "F. Tamassia",
+          "J. Terragni",
+          "V.G. Ushakov",
+          "S. Vasilchenko",
+          "B. Vispoel",
+          "K.L. Vodopyanov",
+          "G. Wagner",
+          "S. Wójtewicz",
+          "S.N. Yurchenko",
+          "N.F. Zobov"
+        ],
+        "title": "The HITRAN2024 molecular spectroscopic database",
+        "year": 2026,
+        "doi": "10.1016/j.jqsrt.2026.109807",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2026.109807",
+        "verified": true,
+        "ref": null
+      }
+    ],
+    "repository": {
+      "name": "HITRAN CIA",
+      "version": "2021",
+      "collection": "main",
+      "original_files": [
+        "main/CO2-Ar_2021.cia.txt"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 200.0,
+      "max_temperature": 400.0,
+      "min_wavenumber": 0.0,
+      "max_wavenumber": 300.0,
+      "units": {
+        "temperature": "K",
+        "wavenumber_resolution": "cm-1"
+      },
+      "column_schemas": {
+        "standard": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^5 molecule^-2"
+          }
+        ]
+      },
+      "default_column_schema": "standard",
+      "files": [
+        {
+          "temperature": 200.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_200.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 210.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_210.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 220.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_220.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 230.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_230.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 240.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_240.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 250.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_250.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 260.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_260.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 270.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_270.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 280.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_280.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 290.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_290.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 300.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_300.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 310.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_310.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 320.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_320.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 330.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_330.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 340.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_340.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 350.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_350.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 360.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_360.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 370.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_370.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 380.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_380.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 390.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_390.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        },
+        {
+          "temperature": 400.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "CO2-Ar_odintsova2021_0_300_400.cia",
+          "citation_keys": [
+            "odintsova2021"
+          ],
+          "reference_number": 41
+        }
+      ]
+    }
+  }
+}

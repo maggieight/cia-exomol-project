@@ -1,0 +1,609 @@
+EXOMOL.master                                                                   # ID
+20170131                                                                        # Version number with format YYYYMMDD
+  39                                                                            # Number of molecules in the database
+  2                                                                             # Number of molecule names listed
+Aluminium(II) oxide                                                             # Name of the molecule
+Aluminium monoxide                                                              # Name of the molecule
+AlO                                                                             # Molecule chemical formula
+   4                                                                            # Number of isotopologues considered
+AIRCTMFFNKZQPN-WRTQXDLGSA-N                                                     # Inchi key of molecule
+26Al-16O                                                                        # Iso-slug
+(26Al)(16O)                                                                     # IsoFormula
+ATP                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+AIRCTMFFNKZQPN-UHFFFAOYSA-N                                                     # Inchi key of molecule
+27Al-16O                                                                        # Iso-slug
+(27Al)(16O)                                                                     # IsoFormula
+ATP                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+AIRCTMFFNKZQPN-PODNODBOSA-N                                                     # Inchi key of molecule
+27Al-17O                                                                        # Iso-slug
+(27Al)(17O)                                                                     # IsoFormula
+ATP                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+AIRCTMFFNKZQPN-MOROPIOGSA-N                                                     # Inchi key of molecule
+27Al-18O                                                                        # Iso-slug
+(27Al)(18O)                                                                     # IsoFormula
+ATP                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  2                                                                             # Number of molecule names listed
+Beryllium monohydride                                                           # Name of the molecule
+Beryllium(I) hydride                                                            # Name of the molecule
+BeH                                                                             # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+AYBCUKQQDUJLQN-UHFFFAOYSA-N                                                     # Inchi key of molecule
+9Be-1H                                                                          # Iso-slug
+(9Be)(1H)                                                                       # IsoFormula
+Yadin                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  3                                                                             # Number of molecule names listed
+Diatomic carbon                                                                 # Name of the molecule
+Ethenediylidene                                                                 # Name of the molecule
+Dicarbon                                                                        # Name of the molecule
+C2                                                                              # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+OTMSDBZUPAUEDD-UHFFFAOYSA-N                                                     # Inchi key of molecule
+12C2                                                                            # Iso-slug
+(12C)2                                                                          # IsoFormula
+Yueqi                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  2                                                                             # Number of molecule names listed
+Calcium monohydride                                                             # Name of the molecule
+Calcium(I) hydride                                                              # Name of the molecule
+CaH                                                                             # Molecule chemical formula
+   2                                                                            # Number of isotopologues considered
+PKHCKQOIOXDRJH-UHFFFAOYSA-N                                                     # Inchi key of molecule
+40Ca-1H                                                                         # Iso-slug
+(40Ca)(1H)                                                                      # IsoFormula
+Yadin                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+PKHCKQOIOXDRJH-UHFFFAOYSA-N                                                     # Inchi key of molecule
+40Ca-1H                                                                         # Iso-slug
+(40Ca)(1H)                                                                      # IsoFormula
+Yueqi                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  5                                                                             # Number of molecule names listed
+Calcium oxide                                                                   # Name of the molecule
+Quicklime                                                                       # Name of the molecule
+burnt lime                                                                      # Name of the molecule
+unslaked lime                                                                   # Name of the molecule
+pebble lime                                                                     # Name of the molecule
+CaO                                                                             # Molecule chemical formula
+   2                                                                            # Number of isotopologues considered
+LIVNPJMFVYWSIS-UHFFFAOYSA-N                                                     # Inchi key of molecule
+40Ca-16O                                                                        # Iso-slug
+(40Ca)(16O)                                                                     # IsoFormula
+VBATHY                                                                          # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+LIVNPJMFVYWSIS-UHFFFAOYSA-N                                                     # Inchi key of molecule
+40Ca-16O                                                                        # Iso-slug
+(40Ca)(16O)                                                                     # IsoFormula
+VBATHY                                                                          # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  3                                                                             # Number of molecule names listed
+Methylidyne                                                                     # Name of the molecule
+hydridocarbon                                                                   # Name of the molecule
+carbyne                                                                         # Name of the molecule
+CH                                                                              # Molecule chemical formula
+   2                                                                            # Number of isotopologues considered
+VRLIPUYDFBXWCH-UHFFFAOYSA-N                                                     # Inchi key of molecule
+12C-1H                                                                          # Iso-slug
+(12C)(1H)                                                                       # IsoFormula
+Yueqi                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+VRLIPUYDFBXWCH-OUBTZVSYSA-N                                                     # Inchi key of molecule
+13C-1H                                                                          # Iso-slug
+(13C)(1H)                                                                       # IsoFormula
+Yueqi                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  7                                                                             # Number of molecule names listed
+Methane                                                                         # Name of the molecule
+Tetrahydridocarbon                                                              # Name of the molecule
+Carbane                                                                         # Name of the molecule
+Marsh gas                                                                       # Name of the molecule
+Natural gas                                                                     # Name of the molecule
+Carbon tetrahydride                                                             # Name of the molecule
+Hydrogen carbide                                                                # Name of the molecule
+CH4                                                                             # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+VNWKTOKETHGBQD-UHFFFAOYSA-N                                                     # Inchi key of molecule
+12C-1H4                                                                         # Iso-slug
+(12C)(1H)4                                                                      # IsoFormula
+YT10to10                                                                        # Isotopologue dataset name
+20160927                                                                        # Version number with format YYYYMMDD
+  2                                                                             # Number of molecule names listed
+Cyanide                                                                         # Name of the molecule
+Cyano group                                                                     # Name of the molecule
+CN                                                                              # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+JEVCWSUVFOYBFI-UHFFFAOYSA-N                                                     # Inchi key of molecule
+12C-14N                                                                         # Iso-slug
+(12C)(14N)                                                                      # IsoFormula
+Yueqi                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  1                                                                             # Number of molecule names listed
+Carbon phosphorous                                                              # Name of the molecule
+CP                                                                              # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+GDPLAAHPHNAIGW-UHFFFAOYSA-N                                                     # Inchi key of molecule
+12C-31P                                                                         # Iso-slug
+(12C)(31P)                                                                      # IsoFormula
+Yueqi                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  4                                                                             # Number of molecule names listed
+Chromium(I) hydride                                                             # Name of the molecule
+Chromium hydride                                                                # Name of the molecule
+Chromium monohydride                                                            # Name of the molecule
+Chromhydrid                                                                     # Name of the molecule
+CrH                                                                             # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+SEGIELJIHJYODU-UHFFFAOYSA-N                                                     # Inchi key of molecule
+52Cr-1H                                                                         # Iso-slug
+(52Cr)(1H)                                                                      # IsoFormula
+Yueqi                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  2                                                                             # Number of molecule names listed
+Carbon monosulfide                                                              # Name of the molecule
+Carbon(II) sulfide                                                              # Name of the molecule
+CS                                                                              # Molecule chemical formula
+   8                                                                            # Number of isotopologues considered
+DXHPZXWIPWDXHJ-UHFFFAOYSA-N                                                     # Inchi key of molecule
+12C-32S                                                                         # Iso-slug
+(12C)(32S)                                                                      # IsoFormula
+JnK                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+DXHPZXWIPWDXHJ-PODNODBOSA-N                                                     # Inchi key of molecule
+12C-33S                                                                         # Iso-slug
+(12C)(33S)                                                                      # IsoFormula
+JnK                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+DXHPZXWIPWDXHJ-MOROPIOGSA-N                                                     # Inchi key of molecule
+12C-34S                                                                         # Iso-slug
+(12C)(34S)                                                                      # IsoFormula
+JnK                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+DXHPZXWIPWDXHJ-LPEROFBNSA-N                                                     # Inchi key of molecule
+12C-36S                                                                         # Iso-slug
+(12C)(36S)                                                                      # IsoFormula
+JnK                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+DXHPZXWIPWDXHJ-NMHUKANLSA-N                                                     # Inchi key of molecule
+13C-32S                                                                         # Iso-slug
+(13C)(32S)                                                                      # IsoFormula
+JnK                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+DXHPZXWIPWDXHJ-ABWZXHDGSA-N                                                     # Inchi key of molecule
+13C-33S                                                                         # Iso-slug
+(13C)(33S)                                                                      # IsoFormula
+JnK                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+DXHPZXWIPWDXHJ-YMPRBTCOSA-N                                                     # Inchi key of molecule
+13C-34S                                                                         # Iso-slug
+(13C)(34S)                                                                      # IsoFormula
+JnK                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+DXHPZXWIPWDXHJ-FEKPUQTESA-N                                                     # Inchi key of molecule
+13C-36S                                                                         # Iso-slug
+(13C)(36S)                                                                      # IsoFormula
+JnK                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  3                                                                             # Number of molecule names listed
+Iron monohydride                                                                # Name of the molecule
+Iron(I) hydride                                                                 # Name of the molecule
+Iron hydride                                                                    # Name of the molecule
+FeH                                                                             # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+VWDRTGQNZKYVEZ-UHFFFAOYSA-N                                                     # Inchi key of molecule
+56Fe-1H                                                                         # Iso-slug
+(56Fe)(1H)                                                                      # IsoFormula
+Yueqi                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  1                                                                             # Number of molecule names listed
+Deuterium hydride                                                               # Name of the molecule
+H2                                                                              # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+ZZIJOQHRUPVPQC-OUBTZVSYSA-N                                                     # Inchi key of molecule
+1H-2H                                                                           # Iso-slug
+(1H)(2H)                                                                        # IsoFormula
+CLT                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  1                                                                             # Number of molecule names listed
+Deuterium hydride ion                                                           # Name of the molecule
+H2_p                                                                            # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+ZZIJOQHRUPVPQC-OUBTZVSYSA-N                                                     # Inchi key of molecule
+1H-2H_p                                                                         # Iso-slug
+(1H)(2H)+                                                                       # IsoFormula
+CLT                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  3                                                                             # Number of molecule names listed
+Formaldehyde                                                                    # Name of the molecule
+Methanal                                                                        # Name of the molecule
+Carbonous acid                                                                  # Name of the molecule
+H2CO                                                                            # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+WSFSSNUMVMOOMR-UHFFFAOYSA-N                                                     # Inchi key of molecule
+1H2-12C-16O                                                                     # Iso-slug
+(1H)2(12C)(16O)                                                                 # IsoFormula
+AYTY                                                                            # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+ 11                                                                             # Number of molecule names listed
+Water                                                                           # Name of the molecule
+oxidane                                                                         # Name of the molecule
+Hydrogen oxide                                                                  # Name of the molecule
+Dihydrogen monoxide                                                             # Name of the molecule
+Hydrogen monoxide                                                               # Name of the molecule
+Dihydrogen oxide                                                                # Name of the molecule
+Hydrogen hydroxide                                                              # Name of the molecule
+Hydric acid                                                                     # Name of the molecule
+Hydrohydroxic acid                                                              # Name of the molecule
+Hydroxic acid                                                                   # Name of the molecule
+Hydrol                                                                          # Name of the molecule
+H2O                                                                             # Molecule chemical formula
+   2                                                                            # Number of isotopologues considered
+XLYOFNOQVPJJNP-DYCDLGHISA-N                                                     # Inchi key of molecule
+1H-2H-16O                                                                       # Iso-slug
+(1H)(2H)(16O)                                                                   # IsoFormula
+VTT                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+XLYOFNOQVPJJNP-UHFFFAOYSA-N                                                     # Inchi key of molecule
+1H2-16O                                                                         # Iso-slug
+(1H)2(16O)                                                                      # IsoFormula
+BT2                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  3                                                                             # Number of molecule names listed
+Hydrogen peroxide                                                               # Name of the molecule
+Dioxidane                                                                       # Name of the molecule
+Oxidanyl                                                                        # Name of the molecule
+H2O2                                                                            # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+MHAJPDPJQMAIIY-UHFFFAOYSA-N                                                     # Inchi key of molecule
+1H2-16O2                                                                        # Iso-slug
+(1H)2(16O)2                                                                     # IsoFormula
+APTY                                                                            # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+ 12                                                                             # Number of molecule names listed
+Hydrogen sulfide                                                                # Name of the molecule
+Dihydrogen monosulfide                                                          # Name of the molecule
+Dihydrogen sulfide                                                              # Name of the molecule
+Sewer gas                                                                       # Name of the molecule
+Sulfane                                                                         # Name of the molecule
+Sulfurated hydrogen                                                             # Name of the molecule
+Sulfureted hydrogen                                                             # Name of the molecule
+Sulfuretted hydrogen                                                            # Name of the molecule
+Sulfur hydride                                                                  # Name of the molecule
+Hydrosulfuric acid                                                              # Name of the molecule
+Hydrothionic acid                                                               # Name of the molecule
+Sulfhydric acid                                                                 # Name of the molecule
+H2S                                                                             # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+RWSOTUBLDIXVET-UHFFFAOYSA-N                                                     # Inchi key of molecule
+1H2-32S                                                                         # Iso-slug
+(1H)2(32S)                                                                      # IsoFormula
+AYT2                                                                            # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  2                                                                             # Number of molecule names listed
+Trihydrogen cation                                                              # Name of the molecule
+Protonated molecular hydrogen                                                   # Name of the molecule
+H3_p                                                                            # Molecule chemical formula
+   2                                                                            # Number of isotopologues considered
+QWLPJNYQVKBMAN-OUBTZVSYSA-N                                                     # Inchi key of molecule
+1H2-2H_p                                                                        # Iso-slug
+(1H)2(2H)                                                                       # IsoFormula
+ST                                                                              # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+QWLPJNYQVKBMAN-UHFFFAOYSA-N                                                     # Inchi key of molecule
+1H3_p                                                                           # Iso-slug
+(1H)3+                                                                          # IsoFormula
+NMT                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  3                                                                             # Number of molecule names listed
+Hydrogen chloride                                                               # Name of the molecule
+Hydrochloric acid                                                               # Name of the molecule
+Hydrochloride                                                                   # Name of the molecule
+HCl                                                                             # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+VEXZGXHMUGYJMC-UHFFFAOYSA-N                                                     # Inchi key of molecule
+1H-35Cl                                                                         # Iso-slug
+(1H)(35Cl)                                                                      # IsoFormula
+Yueqi                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  7                                                                             # Number of molecule names listed
+Hydrogen cyanide                                                                # Name of the molecule
+Formonitrile                                                                    # Name of the molecule
+Hydridonitridocarbon                                                            # Name of the molecule
+Formic anammonide                                                               # Name of the molecule
+Hydrocyanic acid                                                                # Name of the molecule
+Prussic acid                                                                    # Name of the molecule
+Methanenitrile                                                                  # Name of the molecule
+HCN                                                                             # Molecule chemical formula
+   2                                                                            # Number of isotopologues considered
+LELOWRISYMNNSU-UHFFFAOYSA-N                                                     # Inchi key of molecule
+1H-12C-14N                                                                      # Iso-slug
+(1H)(12C)(14N)                                                                  # IsoFormula
+Harris                                                                          # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+LELOWRISYMNNSU-NMHUKANLSA-N                                                     # Inchi key of molecule
+1H-13C-14N                                                                      # Iso-slug
+(1H)(13C)(14N)                                                                  # IsoFormula
+Larner                                                                          # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  3                                                                             # Number of molecule names listed
+Helium hydride ion                                                              # Name of the molecule
+Hydridohelium(1+)                                                               # Name of the molecule
+helium-hydride molecular ion                                                    # Name of the molecule
+HeH_p                                                                           # Molecule chemical formula
+   4                                                                            # Number of isotopologues considered
+HSFAAVLNFOAYQX-BJUDXGSMSA-N                                                     # Inchi key of molecule
+3He-1H_p                                                                        # Iso-slug
+(3He)(1H)+                                                                      # IsoFormula
+Engel                                                                           # Isotopologue dataset name
+20161017                                                                        # Version number with format YYYYMMDD
+WFQGVOXURMZTHC-BJUDXGSMSA-N                                                     # Inchi key of molecule
+3He-2H_p                                                                        # Iso-slug
+(3He)(2H)+                                                                      # IsoFormula
+Engel                                                                           # Isotopologue dataset name
+20161017                                                                        # Version number with format YYYYMMDD
+HSFAAVLNFOAYQX-UHFFFAOYSA-N                                                     # Inchi key of molecule
+4He-1H_p                                                                        # Iso-slug
+(4He)(1H)+                                                                      # IsoFormula
+Engel                                                                           # Isotopologue dataset name
+20160815                                                                        # Version number with format YYYYMMDD
+WFQGVOXURMZTHC-UHFFFAOYSA-N                                                     # Inchi key of molecule
+4He-2H_p                                                                        # Iso-slug
+(4He)(2H)+                                                                      # IsoFormula
+Engel                                                                           # Isotopologue dataset name
+20161017                                                                        # Version number with format YYYYMMDD
+  6                                                                             # Number of molecule names listed
+Nitric acid                                                                     # Name of the molecule
+Aqua fortis                                                                     # Name of the molecule
+Spirit of niter                                                                 # Name of the molecule
+Eau forte                                                                       # Name of the molecule
+Hydrogen nitrate                                                                # Name of the molecule
+Acidum nitricum                                                                 # Name of the molecule
+HNO3                                                                            # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+GRYLNZFGIOXLOG-UHFFFAOYSA-N                                                     # Inchi key of molecule
+1H-14N-16O3                                                                     # Iso-slug
+(1H)(14N)(16O)3                                                                 # IsoFormula
+AIJS                                                                            # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  3                                                                             # Number of molecule names listed
+Potassium chloride                                                              # Name of the molecule
+Sylvite                                                                         # Name of the molecule
+Muriate of potash                                                               # Name of the molecule
+KCl                                                                             # Molecule chemical formula
+   4                                                                            # Number of isotopologues considered
+WCUXLLCKKVVCTQ-UHFFFAOYSA-M                                                     # Inchi key of molecule
+39K-35Cl                                                                        # Iso-slug
+(39K)(35Cl)                                                                     # IsoFormula
+Barton                                                                          # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+WCUXLLCKKVVCTQ-ASOFUJMISA-M                                                     # Inchi key of molecule
+39K-37Cl                                                                        # Iso-slug
+(39K)(37Cl)                                                                     # IsoFormula
+Barton                                                                          # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+WCUXLLCKKVVCTQ-MOROPIOGSA-M                                                     # Inchi key of molecule
+41K-35Cl                                                                        # Iso-slug
+(41K)(35Cl)                                                                     # IsoFormula
+Barton                                                                          # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+WCUXLLCKKVVCTQ-XRZCQDKDSA-M                                                     # Inchi key of molecule
+41K-37Cl                                                                        # Iso-slug
+(41K)(37Cl)                                                                     # IsoFormula
+Barton                                                                          # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  2                                                                             # Number of molecule names listed
+Lithium monohydride                                                             # Name of the molecule
+Lithium(I) hydride                                                              # Name of the molecule
+LiH                                                                             # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+SIAPCJWMELPYOE-UHFFFAOYSA-N                                                     # Inchi key of molecule
+7Li-1H                                                                          # Iso-slug
+(7Li)(1H)                                                                       # IsoFormula
+CLT                                                                             # Isotopologue dataset name
+20160927                                                                        # Version number with format YYYYMMDD
+  2                                                                             # Number of molecule names listed
+Lithium monohydride                                                             # Name of the molecule
+Lithium(I) hydride                                                              # Name of the molecule
+LiH_p                                                                           # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+HSOYNNFNUCWPIZ-UHFFFAOYSA-N                                                     # Inchi key of molecule
+7Li-1H_p                                                                        # Iso-slug
+(7Li)(1H)+                                                                      # IsoFormula
+CLT                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  2                                                                             # Number of molecule names listed
+Magnesium monohydride                                                           # Name of the molecule
+Magnesium(I) hydride                                                            # Name of the molecule
+MgH                                                                             # Molecule chemical formula
+   3                                                                            # Number of isotopologues considered
+RZCHRULKKYOSQS-UHFFFAOYSA-N                                                     # Inchi key of molecule
+24Mg-1H                                                                         # Iso-slug
+(24Mg)(1H)                                                                      # IsoFormula
+Yadin                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+RZCHRULKKYOSQS-OUBTZVSYSA-N                                                     # Inchi key of molecule
+25Mg-1H                                                                         # Iso-slug
+(25Mg)(1H)                                                                      # IsoFormula
+Yadin                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+RZCHRULKKYOSQS-NJFSPNSNSA-N                                                     # Inchi key of molecule
+26Mg-1H                                                                         # Iso-slug
+(26Mg)(1H)                                                                      # IsoFormula
+Yadin                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  7                                                                             # Number of molecule names listed
+Sodium chloride                                                                 # Name of the molecule
+Common salt                                                                     # Name of the molecule
+Halite                                                                          # Name of the molecule
+Rock salt                                                                       # Name of the molecule
+Saline                                                                          # Name of the molecule
+Sodium chloric                                                                  # Name of the molecule
+Table salt                                                                      # Name of the molecule
+NaCl                                                                            # Molecule chemical formula
+   2                                                                            # Number of isotopologues considered
+FAPWRFPIFSIZLT-UHFFFAOYSA-M                                                     # Inchi key of molecule
+23Na-35Cl                                                                       # Iso-slug
+(23Na)(35Cl)                                                                    # IsoFormula
+Barton                                                                          # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+FAPWRFPIFSIZLT-ASOFUJMISA-M                                                     # Inchi key of molecule
+23Na-37Cl                                                                       # Iso-slug
+(23Na)(37Cl)                                                                    # IsoFormula
+Barton                                                                          # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  1                                                                             # Number of molecule names listed
+Sodium hydride                                                                  # Name of the molecule
+NaH                                                                             # Molecule chemical formula
+   2                                                                            # Number of isotopologues considered
+MPMYQQHEHYDOCL-UHFFFAOYSA-N                                                     # Inchi key of molecule
+23Na-1H                                                                         # Iso-slug
+(23Na)(1H)                                                                      # IsoFormula
+Rivlin                                                                          # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+LSNXYVOGLJRYRD-UHFFFAOYSA-N                                                     # Inchi key of molecule
+23Na-2H                                                                         # Iso-slug
+(23Na)(2H)                                                                      # IsoFormula
+Rivlin                                                                          # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  1                                                                             # Number of molecule names listed
+Nitrogen monohydride                                                            # Name of the molecule
+NH                                                                              # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+PDCKRJPYJMCOFO-UHFFFAOYSA-N                                                     # Inchi key of molecule
+14N-1H                                                                          # Iso-slug
+(14N)(1H)                                                                       # IsoFormula
+Yueqi                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  6                                                                             # Number of molecule names listed
+Ammonia                                                                         # Name of the molecule
+Ammonia gas                                                                     # Name of the molecule
+Nitro-sil                                                                       # Name of the molecule
+Azane                                                                           # Name of the molecule
+Ammoniakgas                                                                     # Name of the molecule
+Spirit of hartshorn                                                             # Name of the molecule
+NH3                                                                             # Molecule chemical formula
+   2                                                                            # Number of isotopologues considered
+QGZKDVFQNNGYKY-UHFFFAOYSA-N                                                     # Inchi key of molecule
+14N-1H3                                                                         # Iso-slug
+(14N)(1H)3                                                                      # IsoFormula
+BYTe                                                                            # Isotopologue dataset name
+20160815                                                                        # Version number with format YYYYMMDD
+QGZKDVFQNNGYKY-OUBTZVSYSA-N                                                     # Inchi key of molecule
+15N-1H3                                                                         # Iso-slug
+(15N)(1H)3                                                                      # IsoFormula
+BYTe-15                                                                         # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  5                                                                             # Number of molecule names listed
+Phosphine                                                                       # Name of the molecule
+Phosphane                                                                       # Name of the molecule
+Phosphamine                                                                     # Name of the molecule
+Phosphorus trihydride                                                           # Name of the molecule
+Phosphorated hydrogen                                                           # Name of the molecule
+PH3                                                                             # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+XYFCBTPGUUZFHI-UHFFFAOYSA-N                                                     # Inchi key of molecule
+31P-1H3                                                                         # Iso-slug
+(31P)(1H)3                                                                      # IsoFormula
+SAlTY                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  1                                                                             # Number of molecule names listed
+Phosphorus mononitride                                                          # Name of the molecule
+PN                                                                              # Molecule chemical formula
+   2                                                                            # Number of isotopologues considered
+AOPJVJYWEDDOBI-UHFFFAOYSA-N                                                     # Inchi key of molecule
+31P-14N                                                                         # Iso-slug
+(31P)(14N)                                                                      # IsoFormula
+YYLT                                                                            # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+AOPJVJYWEDDOBI-NMHUKANLSA-N                                                     # Inchi key of molecule
+31P-15N                                                                         # Iso-slug
+(31P)(15N)                                                                      # IsoFormula
+YYLT                                                                            # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  2                                                                             # Number of molecule names listed
+Scandium monohydride                                                            # Name of the molecule
+Scandium(I) hydride                                                             # Name of the molecule
+ScH                                                                             # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+ZTOCXCPDHKWLBM-UHFFFAOYSA-N                                                     # Inchi key of molecule
+45Sc-1H                                                                         # Iso-slug
+(45Sc)(1H)                                                                      # IsoFormula
+LYT                                                                             # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  1                                                                             # Number of molecule names listed
+Silicon monoxide                                                                # Name of the molecule
+SiO                                                                             # Molecule chemical formula
+   5                                                                            # Number of isotopologues considered
+LIVNPJMFVYWSIS-UHFFFAOYSA-N                                                     # Inchi key of molecule
+28Si-16O                                                                        # Iso-slug
+(28Si)(16O)                                                                     # IsoFormula
+EBJT                                                                            # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+LIVNPJMFVYWSIS-NMHUKANLSA-N                                                     # Inchi key of molecule
+28Si-17O                                                                        # Iso-slug
+(28Si)(17O)                                                                     # IsoFormula
+EBJT                                                                            # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+LIVNPJMFVYWSIS-ASOFUJMISA-N                                                     # Inchi key of molecule
+28Si-18O                                                                        # Iso-slug
+(28Si)(18O)                                                                     # IsoFormula
+EBJT                                                                            # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+LIVNPJMFVYWSIS-PODNODBOSA-N                                                     # Inchi key of molecule
+29Si-16O                                                                        # Iso-slug
+(29Si)(16O)                                                                     # IsoFormula
+EBJT                                                                            # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+LIVNPJMFVYWSIS-MOROPIOGSA-N                                                     # Inchi key of molecule
+30Si-16O                                                                        # Iso-slug
+(30Si)(16O)                                                                     # IsoFormula
+EBJT                                                                            # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  4                                                                             # Number of molecule names listed
+Sulfur dioxide                                                                  # Name of the molecule
+Sulphur dioxide                                                                 # Name of the molecule
+Sulfurous anhydride                                                             # Name of the molecule
+Sulfur(IV) oxide                                                                # Name of the molecule
+SO2                                                                             # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+RAHZWNYVWXNFOC-UHFFFAOYSA-N                                                     # Inchi key of molecule
+32S-16O2                                                                        # Iso-slug
+(32S)(16O)2                                                                     # IsoFormula
+ExoAmes                                                                         # Isotopologue dataset name
+20160923                                                                        # Version number with format YYYYMMDD
+  3                                                                             # Number of molecule names listed
+Sulfur trioxide                                                                 # Name of the molecule
+Sulfonylideneoxidane                                                            # Name of the molecule
+Sulfuric anhydride                                                              # Name of the molecule
+SO3                                                                             # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+LSNNMFCWUKXFEE-UHFFFAOYSA-N                                                     # Inchi key of molecule
+32S-16O3                                                                        # Iso-slug
+(32S)(16O)3                                                                     # IsoFormula
+UYT2                                                                            # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  2                                                                             # Number of molecule names listed
+Titanium monohydride                                                            # Name of the molecule
+Titanium(I) hydride                                                             # Name of the molecule
+TiH                                                                             # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+FUMHXHODRLFENL-UHFFFAOYSA-N                                                     # Inchi key of molecule
+48Ti-1H                                                                         # Iso-slug
+(48Ti)(1H)                                                                      # IsoFormula
+Yueqi                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD
+  4                                                                             # Number of molecule names listed
+Vanadium oxide (VO)                                                             # Name of the molecule
+Vanadium(II) oxide                                                              # Name of the molecule
+Vanadium monooxide                                                              # Name of the molecule
+Oxovanadium                                                                     # Name of the molecule
+VO                                                                              # Molecule chemical formula
+   1                                                                            # Number of isotopologues considered
+IBYSTTGVDIFUAY-UHFFFAOYSA-N                                                     # Inchi key of molecule
+51V-16O                                                                         # Iso-slug
+(51V)(16O)                                                                      # IsoFormula
+VOMYT                                                                           # Isotopologue dataset name
+20160726                                                                        # Version number with format YYYYMMDD

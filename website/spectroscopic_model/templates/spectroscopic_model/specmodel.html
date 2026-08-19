@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load mezzanine_tags %}
+
+{% block main %}
+<h2>{% block heading %}{{ specmodel.isotopologue.ordinary_formula_html|safe }} {{ specmodel.data_set.name }} spectroscopic model{% endblock %}</h2>
+
+<div>
+{{ specmodel.doc|richtext_filters|safe }}
+</div>
+
+<h4>Links</h4>
+<div class="list-group">
+{% for link in specmodel.link.all %}
+<a href="{{ data_link_stem }}{{ link.url }}" title="{{ link.description|safe }}" class="list-group-item">{{ link.display }}
+{% if link.size %}
+[{{ link.size|filesizeformat }}]
+{% endif %}
+</a>
+{% endfor %}
+</div>
+
+<h4>References</h4>
+<ol>
+{% for source in specmodel.source.all %}
+<li>{{ source.html|safe }}</li>
+{% endfor %}
+</ol>
+</div>
+
+{% endblock main %}

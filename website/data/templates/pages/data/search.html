@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block main %}
+<h2>Search</h2>
+<p>Search for molecules and isotopologues by formula, or datasets by name.</p>
+
+<form method="get">
+<p><label for="id_ordinary_formula">Formula:</label> <input type="text" name="ordinary_formula" value="" id="id_ordinary_formula" placeholder="e.g. H2O, (12C)(1H)4"/></p>
+<p><label for="id_dataset_name">Data Set:</label> <input type="text" name="dataset_name" value="" id="id_dataset_name" placeholder="e.g. BT2, CoYuTe" /></p>
+<input type="submit" />
+</form>
+
+<h3>Search Results</h3>
+
+<p>
+{% if molecules %}
+{% for molecule in molecules %}
+<a href="{% url 'data:molecule' molecule.slug %}">{{ molecule.ordinary_formula_html|safe }}</a><br/>
+{% endfor %}
+
+{% elif isotopologues %}
+{% for isotopologue in isotopologues %}
+<a href="{% url 'data:isotopologue' isotopologue.molecule.slug isotopologue.slug %}">{{ isotopologue.ordinary_formula_html|safe }}</a><br/>
+{% endfor %}
+
+{% elif datasets %}
+{% for dataset in datasets %}
+<h4>{{ dataset }}</h4>
+<ul>
+{% for data_collection in dataset.datacollection_set.all %}
+<li><a href="{% url 'data:dataset' data_collection.isotopologue.molecule.slug data_collection.isotopologue.slug data_collection.data_set.name %}#dc-{{ data_collection.pk }}">{{ data_collection.isotopologue.ordinary_formula_html|safe }} {{ data_collection.data_type }}</a></li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+{% else %}
+No results found.
+{% endif %}
+
+</p>
+
+{% endblock main %}

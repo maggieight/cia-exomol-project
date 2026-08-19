@@ -1,0 +1,31 @@
+{
+  "collision_pair": {
+    "formula": "N2-Air",
+    "slug": "n2-air",
+    "active_species_status": "unique",
+    "active_species": "n2",
+    "collider": "air",
+    "components": [
+      {
+        "formula": "N2",
+        "slug": "n2",
+        "cas_registry_number": "7727-37-9"
+      },
+      {
+        "formula": "Air",
+        "slug": "air",
+        "cas_registry_number": null,
+        "cas_registry_number_status": "not_applicable_mixture"
+      }
+    ]
+  },
+  "version": "20260803",
+  "recommended_dataset": "hitran2018-main",
+  "datasets": [
+    {
+      "dataset_id": "hitran2018-main",
+      "dataset_version": "20260803",
+      "metadata_file": "N2-Air_hitran2018-main_1850_5000_200_363.json"
+    }
+  ]
+}

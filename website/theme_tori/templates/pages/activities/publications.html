@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load pages_tags mezzanine_tags i18n static %}
+
+{% block main %}
+
+<div class="panel panel-primary">
+<div class="panel-heading">Line Lists</div>
+<div class="panel-body">
+<ol> {% for source in linelist_sources %}
+<li>{{ source.html|safe }}</li>
+{% endfor %}
+</ol>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<div class="panel-heading">ExoMol Services</div>
+<div class="panel-body">
+<ol> {% for source in services_sources %}
+<li>{{ source.html|safe }}</li>
+{% endfor %}
+</ol>
+</div>
+</div>
+
+<div class="panel panel-primary">
+<div class="panel-heading">Other Relevant ExoMol Publications</div>
+<div class="panel-body">
+<ol> {% for source in other_sources %}
+<li>{{ source.html|safe }}</li>
+{% endfor %}
+</ol>
+</div>
+</div>
+
+
+{% endblock main %}
+
+

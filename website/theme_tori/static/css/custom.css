@@ -1,0 +1,57 @@
+/* custom css styles for the ExoMol(3) website */
+
+body {
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 20pt;
+}
+
+div.error div.controls span.help-inline {
+    color: red;
+}
+
+ul.errorlist li {
+    color: red;
+}
+
+div.group-member-profile {
+    width: 600px;
+}
+
+div.bibliography {
+    font-size: 90%;
+}
+div.bibliography ol li {
+    padding-bottom: 5px;
+}
+div.bibliography p.caption {
+    font-style: italic;
+}
+
+form.article-form textarea#id_authors, textarea#id_title, textarea#id_title_html, textarea#id_title_latex {
+    width: 700px;
+    height: 30pt;
+}
+form.article-form input#id_journal, input#id_doi, textarea#id_url {
+    width: 700px;
+}
+form.article-form textarea#id_notes {
+    width: 700px;
+}
+.exotea-ref {
+    color: #0066bb;
+}
+
+.link-list-group-item {
+    color: #0066bb;
+    background-color: #ffffd2;
+}
+.link-description {
+    font-size: small;
+}
+
+a.recommended {
+    background-color: #ccffcc;
+}

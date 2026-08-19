@@ -1,0 +1,41 @@
+{
+  "collision_pair": {
+    "formula": "O2-Air",
+    "slug": "o2-air",
+    "active_species_status": "unique",
+    "active_species": "o2",
+    "collider": "air",
+    "components": [
+      {
+        "formula": "O2",
+        "slug": "o2",
+        "cas_registry_number": "7782-44-7"
+      },
+      {
+        "formula": "Air",
+        "slug": "air",
+        "cas_registry_number": null,
+        "cas_registry_number_status": "not_applicable_mixture"
+      }
+    ]
+  },
+  "version": "20260803",
+  "recommended_dataset": "hitran2024-main",
+  "datasets": [
+    {
+      "dataset_id": "hitran2024-main",
+      "dataset_version": "20260803",
+      "metadata_file": "O2-Air_hitran2024-main_1300_13840_193_356.json"
+    },
+    {
+      "dataset_id": "drouin2017",
+      "dataset_version": "20260803",
+      "metadata_file": "O2-Air_drouin2017_12990_13221_298_298.json"
+    },
+    {
+      "dataset_id": "karman2018",
+      "dataset_version": "20260803",
+      "metadata_file": "O2-Air_karman2018_7583_14806_206_346.json"
+    }
+  ]
+}

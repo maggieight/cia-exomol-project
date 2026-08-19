@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}ExoMol Bibliography Upload{% endblock %}
+
+{% block content %}
+
+<form action="upload" method="post" enctype="multipart/form-data">{% csrf_token %}
+{{ form }}
+<input type="submit" value="Submit"/>
+</form>
+
+<p style="text-align: right; font-style: italic;">The ExoMol bibliometrician is Olga Yurchenko</p>
+
+{% endblock %}
+
+
+
+
+

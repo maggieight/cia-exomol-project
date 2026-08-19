@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h2>Cross section data for {{ isotopologue.ordinary_formula_html|safe }}</h2>
+
+<div class="well">
+
+<p><em>Reminder</em>: the cross sections provided by this page are calculated at <strong>zero-pressure</strong> (<em>i.e.</em> Doppler-broadened lines only). If you enter your email address below it will only be used to inform you of fixes to the service in case it fails. Alternatively, please email <a href="mailto:christian.hill@ucl.ac.uk">christian.hill@ucl.ac.uk</a>.</p>
+<p>The default format of the .sigma data file is a single column of cross section points (in cm<sup>2</sup>/molec), one for each wavenumber bin selected, starting at <em>&nu;</em><sub>min</sub> and spaced by &Delta;<em>&nu;</em>. Select two-column output below if you want each cross section point preceded explicitly by the wavenumber at the centre of the bin it applies to.</p>
+
+<div style="border: 1px black solid; padding: 10px">
+<form action="/xsec/{{ isotopologue.slug }}/" method="post">{% csrf_token %}
+<table id="xsec_search_table">
+<colgroup>
+<col style="text-align: right; width: 250px;"/>
+<col style="width: 420px;"/>
+</colgroup>
+{{ form.as_p }}
+</table>
+<div style="width: 100px; margin: auto;">
+<input type="submit" value="Submit"/>
+</div>
+</form>
+</div>
+
+<div>
+<p>{{ xsec_meta.data_collection.data_set.description|safe }}</p>
+</div>
+
+<h3>References</h3>
+<ol>
+{% for source in xsec_meta.data_collection.source.all %}
+<li>{{ source.html|safe }}</li>
+{% endfor %}
+</ol>
+</div>
+
+
+</div>
+
+{% endblock main %}
+
+

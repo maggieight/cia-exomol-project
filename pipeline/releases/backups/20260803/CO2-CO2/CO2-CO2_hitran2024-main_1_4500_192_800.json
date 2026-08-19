@@ -1,0 +1,683 @@
+{
+  "collision_pair": {
+    "formula": "CO2-CO2",
+    "slug": "co2-co2",
+    "active_species_status": "unique",
+    "active_species": "co2",
+    "collider": "co2",
+    "components": [
+      {
+        "formula": "CO2",
+        "slug": "co2",
+        "cas_registry_number": "124-38-9"
+      },
+      {
+        "formula": "CO2",
+        "slug": "co2",
+        "cas_registry_number": "124-38-9"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "hitran2024-main",
+    "version": "20260803",
+    "sources": [
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "baranov2003",
+        "authors": [
+          "Y. I. Baranov",
+          "Gerald T. Fraser",
+          "W. J. Lafferty",
+          "A. A. Vigasin"
+        ],
+        "title": "Collision-induced absorption in the CO2 fermi triad for temperatures from 211K to 296 K. In: Camy-Peyret, C., Vigasin, A.A. (Eds), Weakly Interacting Molecular Pairs: Unconventional Absorbers of Radiation in the Atmosphere",
+        "year": 2003,
+        "doi": "10.1007/978-94-010-0025-3_12",
+        "source_url": "https://doi.org/10.1007/978-94-010-0025-3_12",
+        "verified": true,
+        "ref": 38
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "baranov2004",
+        "authors": [
+          "Yuri I. Baranov",
+          "W.J. Lafferty",
+          "G.T. Fraser"
+        ],
+        "title": "Infrared spectrum of the continuum and dimer absorption in the vicinity of the O2 vibrational fundamental in O2/CO2 mixtures",
+        "year": 2004,
+        "doi": "10.1016/j.jms.2004.04.010",
+        "source_url": "https://doi.org/10.1016/j.jms.2004.04.010",
+        "verified": true,
+        "ref": 23
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "baranov2018",
+        "authors": [
+          "Yu. I. Baranov"
+        ],
+        "title": "Collision-induced absorption in the region of the ν2+ν3 band of carbon dioxide",
+        "year": 2018,
+        "doi": "10.1016/j.jms.2017.11.005",
+        "source_url": "https://doi.org/10.1016/j.jms.2017.11.005",
+        "verified": true,
+        "ref": 39
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "gruszka1997",
+        "authors": [
+          "Marcin Gruszka",
+          "Aleksandra Borysow"
+        ],
+        "title": "Roto-Translational collision-induced absorption of CO2 for the atmosphere of Venus at frequencies from 0 to 250 cm⁻¹, at temperatures from 200 to 800 K",
+        "year": 1997,
+        "doi": "10.1006/icar.1997.5773",
+        "source_url": "https://doi.org/10.1006/icar.1997.5773",
+        "verified": true,
+        "ref": 20
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "terragni2025",
+        "authors": [
+          "Jacopo Terragni",
+          "Erika Kohler",
+          "Vincent Kofman",
+          "Seamus Anderson",
+          "Geronimo L. Villanueva",
+          "Sara Faggi"
+        ],
+        "title": "New measurements of high-temperature CO2-CO2 collision-induced absorption in the 1100-1800 cm⁻¹ range",
+        "year": 2025,
+        "doi": "10.1016/j.jqsrt.2025.109595",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2025.109595",
+        "verified": true,
+        "ref": 57
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "tran2024",
+        "authors": [
+          "H. Tran",
+          "J.M. Hartmann",
+          "E. Rambinison",
+          "M. Turbet"
+        ],
+        "title": "Collision-induced absorptions by pure CO2 in the infrared: New measurements in the 1150-4500 cm⁻¹ spectral range and empirical modeling for applications",
+        "year": 2024,
+        "doi": "10.1016/j.icarus.2024.116265",
+        "source_url": "https://doi.org/10.1016/j.icarus.2024.116265",
+        "verified": true,
+        "ref": 49
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "hitran_cia_repository",
+        "authors": [
+          "HITRAN CIA Team"
+        ],
+        "title": "HITRAN online data: Collision Induced Absorption",
+        "year": 2024,
+        "doi": null,
+        "source_url": "https://hitran.org/cia/",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "terragni_hitran",
+        "authors": [
+          "J. Terragni",
+          "I.E. Gordon",
+          "E.M. Adkins",
+          "C. Boulet",
+          "A. Campargue",
+          "D. Chistikov",
+          "A. Finenko",
+          "H. Finkenzeller",
+          "H. Fleurbaey",
+          "R.J. Hargreaves",
+          "R.K. Hanson",
+          "J.-M. Hartmann",
+          "A. Klingberg",
+          "E. Kohler",
+          "A.O. Koroleva",
+          "D. Mondelain",
+          "G. Piccioni",
+          "S. Stefani",
+          "C.L. Strand",
+          "H. Tran",
+          "M. Turbet",
+          "A. Vigasin",
+          "F. Vitali",
+          "R. Volkamer",
+          "C. Wei"
+        ],
+        "title": "Collision induced absorption in HITRAN2024: Enhanced and improved data for atmospheric and planetary studies",
+        "year": 2025,
+        "doi": "10.1016/j.jqsrt.2025.109631",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2025.109631",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "gordon2026_hitran",
+        "authors": [
+          "I.E. Gordon",
+          "L.S. Rothman",
+          "R.J. Hargreaves",
+          "F.M. Gomez",
+          "T. Bertin",
+          "C. Hill",
+          "R.V. Kochanov",
+          "Y. Tan",
+          "P. Wcisło",
+          "V. Yu. Makhnev",
+          "P.F. Bernath",
+          "M. Birk",
+          "V. Boudon",
+          "A. Campargue",
+          "A. Coustenis",
+          "B.J. Drouin",
+          "R.R. Gamache",
+          "J.T. Hodges",
+          "D. Jacquemart",
+          "E.J. Mlawer",
+          "A.V. Nikitin",
+          "V.I. Perevalov",
+          "M. Rotger",
+          "S. Robert",
+          "J. Tennyson",
+          "G.C. Toon",
+          "H. Tran",
+          "V.G. Tyuterev",
+          "E.M. Adkins",
+          "A. Barbe",
+          "D.M. Bailey",
+          "K. Bielska",
+          "L. Bizzocchi",
+          "T.A. Blake",
+          "C.A. Bowesman",
+          "P. Cacciani",
+          "P. Čermák",
+          "A.G. Császár",
+          "L. Denis",
+          "S.C. Egbert",
+          "O. Egorov",
+          "A. Yu. Ermilov",
+          "A.J. Fleisher",
+          "H. Fleurbaey",
+          "A. Foltynowicz",
+          "T. Furtenbacher",
+          "M. Germann",
+          "E.R. Guest",
+          "J.J. Harrison",
+          "J.-M. Hartmann",
+          "A. Hjältén",
+          "S.-M. Hu",
+          "X. Huang",
+          "T.J. Johnson",
+          "H. Jóźwiak",
+          "S. Kassi",
+          "M.V. Khan",
+          "F. Kwabia-Tchana",
+          "T.J. Lee",
+          "D. Lisak",
+          "A.-W. Liu",
+          "O.M. Lyulin",
+          "N.A. Malarich",
+          "L. Manceron",
+          "A.A. Marinina",
+          "S.T. Massie",
+          "J. Mascio",
+          "E.S. Medvedev",
+          "V.V. Meshkov",
+          "G. Ch. Mellau",
+          "M. Melosso",
+          "S.N. Mikhailenko",
+          "D. Mondelain",
+          "H.S.P. Müller",
+          "M. O'Donnell",
+          "A. Owens",
+          "A. Perrin",
+          "O.L. Polyansky",
+          "P.L. Raston",
+          "Z.D. Reed",
+          "M. Rey",
+          "C. Richard",
+          "G.B. Rieker",
+          "C. Röske",
+          "S.W. Sharpe",
+          "E. Starikova",
+          "N. Stolarczyk",
+          "A.V. Stolyarov",
+          "K. Sung",
+          "F. Tamassia",
+          "J. Terragni",
+          "V.G. Ushakov",
+          "S. Vasilchenko",
+          "B. Vispoel",
+          "K.L. Vodopyanov",
+          "G. Wagner",
+          "S. Wójtewicz",
+          "S.N. Yurchenko",
+          "N.F. Zobov"
+        ],
+        "title": "The HITRAN2024 molecular spectroscopic database",
+        "year": 2026,
+        "doi": "10.1016/j.jqsrt.2026.109807",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2026.109807",
+        "verified": true,
+        "ref": null
+      }
+    ],
+    "repository": {
+      "name": "HITRAN CIA",
+      "version": "2024",
+      "collection": "main",
+      "original_files": [
+        "main/CO2-CO2_2024.cia.txt"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 192.0,
+      "max_temperature": 800.0,
+      "min_wavenumber": 1.0,
+      "max_wavenumber": 4499.5952,
+      "units": {
+        "temperature": "K",
+        "wavenumber_resolution": "cm-1"
+      },
+      "column_schemas": {
+        "standard": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^5 molecule^-2"
+          }
+        ]
+      },
+      "default_column_schema": "standard",
+      "files": [
+        {
+          "temperature": 192.0,
+          "wavenumber_resolution": 0.234,
+          "npoints": 2995,
+          "filename": "CO2-CO2_hitran2024-main_1150_1850_192.cia",
+          "citation_keys": [
+            "baranov2004"
+          ],
+          "reference_number": 23
+        },
+        {
+          "temperature": 200.0,
+          "wavenumber_resolution": null,
+          "npoints": 750,
+          "filename": "CO2-CO2_hitran2024-main_1_750_200.cia",
+          "citation_keys": [
+            "gruszka1997"
+          ],
+          "reference_number": 20
+        },
+        {
+          "temperature": 207.0,
+          "wavenumber_resolution": 0.234,
+          "npoints": 2995,
+          "filename": "CO2-CO2_hitran2024-main_1150_1850_207.cia",
+          "citation_keys": [
+            "baranov2004"
+          ],
+          "reference_number": 23
+        },
+        {
+          "temperature": 218.0,
+          "wavenumber_resolution": 0.234,
+          "npoints": 2995,
+          "filename": "CO2-CO2_hitran2024-main_1150_1850_218.cia",
+          "citation_keys": [
+            "baranov2004"
+          ],
+          "reference_number": 23
+        },
+        {
+          "temperature": 221.0,
+          "wavenumber_resolution": 0.234,
+          "npoints": 2995,
+          "filename": "CO2-CO2_hitran2024-main_1150_1850_221.cia",
+          "citation_keys": [
+            "baranov2004"
+          ],
+          "reference_number": 23
+        },
+        {
+          "temperature": 221.0,
+          "wavenumber_resolution": null,
+          "npoints": 1361,
+          "filename": "CO2-CO2_hitran2024-main_2510_2850_221.cia",
+          "citation_keys": [
+            "baranov2003"
+          ],
+          "reference_number": 38
+        },
+        {
+          "temperature": 224.0,
+          "wavenumber_resolution": null,
+          "npoints": 750,
+          "filename": "CO2-CO2_hitran2024-main_1_750_224.cia",
+          "citation_keys": [
+            "gruszka1997"
+          ],
+          "reference_number": 20
+        },
+        {
+          "temperature": 229.0,
+          "wavenumber_resolution": 0.234,
+          "npoints": 2995,
+          "filename": "CO2-CO2_hitran2024-main_1150_1850_229.cia",
+          "citation_keys": [
+            "baranov2004"
+          ],
+          "reference_number": 23
+        },
+        {
+          "temperature": 230.0,
+          "wavenumber_resolution": 0.482,
+          "npoints": 676,
+          "filename": "CO2-CO2_hitran2024-main_2850_3176_230.cia",
+          "citation_keys": [
+            "tran2024"
+          ],
+          "reference_number": 49
+        },
+        {
+          "temperature": 235.0,
+          "wavenumber_resolution": null,
+          "npoints": 1361,
+          "filename": "CO2-CO2_hitran2024-main_2510_2850_235.cia",
+          "citation_keys": [
+            "baranov2003"
+          ],
+          "reference_number": 38
+        },
+        {
+          "temperature": 239.0,
+          "wavenumber_resolution": 0.234,
+          "npoints": 2995,
+          "filename": "CO2-CO2_hitran2024-main_1150_1850_239.cia",
+          "citation_keys": [
+            "baranov2004"
+          ],
+          "reference_number": 23
+        },
+        {
+          "temperature": 249.0,
+          "wavenumber_resolution": 0.234,
+          "npoints": 2995,
+          "filename": "CO2-CO2_hitran2024-main_1150_1850_249.cia",
+          "citation_keys": [
+            "baranov2004"
+          ],
+          "reference_number": 23
+        },
+        {
+          "temperature": 250.0,
+          "wavenumber_resolution": null,
+          "npoints": 750,
+          "filename": "CO2-CO2_hitran2024-main_1_750_250.cia",
+          "citation_keys": [
+            "gruszka1997"
+          ],
+          "reference_number": 20
+        },
+        {
+          "temperature": 260.0,
+          "wavenumber_resolution": 0.482,
+          "npoints": 676,
+          "filename": "CO2-CO2_hitran2024-main_2850_3176_260.cia",
+          "citation_keys": [
+            "tran2024"
+          ],
+          "reference_number": 49
+        },
+        {
+          "temperature": 260.0,
+          "wavenumber_resolution": 0.482,
+          "npoints": 359,
+          "filename": "CO2-CO2_hitran2024-main_3995_4168_260.cia",
+          "citation_keys": [
+            "tran2024"
+          ],
+          "reference_number": 49
+        },
+        {
+          "temperature": 270.0,
+          "wavenumber_resolution": 0.234,
+          "npoints": 2995,
+          "filename": "CO2-CO2_hitran2024-main_1150_1850_270.cia",
+          "citation_keys": [
+            "baranov2004"
+          ],
+          "reference_number": 23
+        },
+        {
+          "temperature": 280.0,
+          "wavenumber_resolution": null,
+          "npoints": 750,
+          "filename": "CO2-CO2_hitran2024-main_1_750_280.cia",
+          "citation_keys": [
+            "gruszka1997"
+          ],
+          "reference_number": 20
+        },
+        {
+          "temperature": 295.0,
+          "wavenumber_resolution": 0.482,
+          "npoints": 676,
+          "filename": "CO2-CO2_hitran2024-main_2850_3176_295.cia",
+          "citation_keys": [
+            "tran2024"
+          ],
+          "reference_number": 49
+        },
+        {
+          "temperature": 295.0,
+          "wavenumber_resolution": 0.482,
+          "npoints": 1047,
+          "filename": "CO2-CO2_hitran2024-main_3995_4500_295.cia",
+          "citation_keys": [
+            "tran2024"
+          ],
+          "reference_number": 49
+        },
+        {
+          "temperature": 297.0,
+          "wavenumber_resolution": 0.234,
+          "npoints": 2995,
+          "filename": "CO2-CO2_hitran2024-main_1150_1850_297.cia",
+          "citation_keys": [
+            "baranov2004"
+          ],
+          "reference_number": 23
+        },
+        {
+          "temperature": 297.0,
+          "wavenumber_resolution": null,
+          "npoints": 1411,
+          "filename": "CO2-CO2_hitran2024-main_2510_2851_297.cia",
+          "citation_keys": [
+            "baranov2003"
+          ],
+          "reference_number": 38
+        },
+        {
+          "temperature": 298.0,
+          "wavenumber_resolution": null,
+          "npoints": 3530,
+          "filename": "CO2-CO2_hitran2024-main_2850_3250_298.cia",
+          "citation_keys": [
+            "baranov2018"
+          ],
+          "reference_number": 39
+        },
+        {
+          "temperature": 313.0,
+          "wavenumber_resolution": null,
+          "npoints": 750,
+          "filename": "CO2-CO2_hitran2024-main_1_750_313.cia",
+          "citation_keys": [
+            "gruszka1997"
+          ],
+          "reference_number": 20
+        },
+        {
+          "temperature": 330.0,
+          "wavenumber_resolution": 0.161,
+          "npoints": 4357,
+          "filename": "CO2-CO2_hitran2024-main_1150_1851_330.cia",
+          "citation_keys": [
+            "baranov2004"
+          ],
+          "reference_number": 23
+        },
+        {
+          "temperature": 346.0,
+          "wavenumber_resolution": 0.161,
+          "npoints": 4357,
+          "filename": "CO2-CO2_hitran2024-main_1150_1851_346.cia",
+          "citation_keys": [
+            "baranov2004"
+          ],
+          "reference_number": 23
+        },
+        {
+          "temperature": 350.0,
+          "wavenumber_resolution": null,
+          "npoints": 750,
+          "filename": "CO2-CO2_hitran2024-main_1_750_350.cia",
+          "citation_keys": [
+            "gruszka1997"
+          ],
+          "reference_number": 20
+        },
+        {
+          "temperature": 360.0,
+          "wavenumber_resolution": 0.161,
+          "npoints": 4357,
+          "filename": "CO2-CO2_hitran2024-main_1150_1851_360.cia",
+          "citation_keys": [
+            "baranov2004"
+          ],
+          "reference_number": 23
+        },
+        {
+          "temperature": 375.0,
+          "wavenumber_resolution": 0.121,
+          "npoints": 5641,
+          "filename": "CO2-CO2_hitran2024-main_1120_1800_375.cia",
+          "citation_keys": [
+            "terragni2025"
+          ],
+          "reference_number": 57
+        },
+        {
+          "temperature": 400.0,
+          "wavenumber_resolution": 0.121,
+          "npoints": 5641,
+          "filename": "CO2-CO2_hitran2024-main_1120_1800_400.cia",
+          "citation_keys": [
+            "terragni2025"
+          ],
+          "reference_number": 57
+        },
+        {
+          "temperature": 425.0,
+          "wavenumber_resolution": 0.121,
+          "npoints": 5641,
+          "filename": "CO2-CO2_hitran2024-main_1120_1800_425.cia",
+          "citation_keys": [
+            "terragni2025"
+          ],
+          "reference_number": 57
+        },
+        {
+          "temperature": 430.0,
+          "wavenumber_resolution": null,
+          "npoints": 750,
+          "filename": "CO2-CO2_hitran2024-main_1_750_430.cia",
+          "citation_keys": [
+            "gruszka1997"
+          ],
+          "reference_number": 20
+        },
+        {
+          "temperature": 450.0,
+          "wavenumber_resolution": 0.121,
+          "npoints": 5641,
+          "filename": "CO2-CO2_hitran2024-main_1120_1800_450.cia",
+          "citation_keys": [
+            "terragni2025"
+          ],
+          "reference_number": 57
+        },
+        {
+          "temperature": 475.0,
+          "wavenumber_resolution": 0.121,
+          "npoints": 5641,
+          "filename": "CO2-CO2_hitran2024-main_1120_1800_475.cia",
+          "citation_keys": [
+            "terragni2025"
+          ],
+          "reference_number": 57
+        },
+        {
+          "temperature": 500.0,
+          "wavenumber_resolution": 0.121,
+          "npoints": 5641,
+          "filename": "CO2-CO2_hitran2024-main_1120_1800_500.cia",
+          "citation_keys": [
+            "terragni2025"
+          ],
+          "reference_number": 57
+        },
+        {
+          "temperature": 529.0,
+          "wavenumber_resolution": null,
+          "npoints": 750,
+          "filename": "CO2-CO2_hitran2024-main_1_750_529.cia",
+          "citation_keys": [
+            "gruszka1997"
+          ],
+          "reference_number": 20
+        },
+        {
+          "temperature": 651.0,
+          "wavenumber_resolution": null,
+          "npoints": 750,
+          "filename": "CO2-CO2_hitran2024-main_1_750_651.cia",
+          "citation_keys": [
+            "gruszka1997"
+          ],
+          "reference_number": 20
+        },
+        {
+          "temperature": 800.0,
+          "wavenumber_resolution": null,
+          "npoints": 750,
+          "filename": "CO2-CO2_hitran2024-main_1_750_800.cia",
+          "citation_keys": [
+            "gruszka1997"
+          ],
+          "reference_number": 20
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "collision_pair": {
+    "formula": "O2-O2",
+    "slug": "o2-o2",
+    "active_species_status": "unique",
+    "active_species": "o2",
+    "collider": "o2",
+    "components": [
+      {
+        "formula": "O2",
+        "slug": "o2",
+        "cas_registry_number": "7782-44-7"
+      },
+      {
+        "formula": "O2",
+        "slug": "o2",
+        "cas_registry_number": "7782-44-7"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "dong2026",
+    "version": "20260803",
+    "sources": [
+      {
+        "repository": "JQSRT",
+        "citation_key": "dong2026",
+        "authors": [
+          "Hang Dong",
+          "Honghua Huang",
+          "Tao Yang",
+          "Yuan Meng",
+          "Jun Huang",
+          "Qiang Liu",
+          "Qiang Zhao",
+          "Xingji Lu",
+          "Weiguang Ma",
+          "Yinbo Huang",
+          "Zhensong Cao"
+        ],
+        "title": "Quantitative determination of O2 collision-induced absorption near 1.06 μm by cavity ring-down spectroscopy",
+        "year": 2026,
+        "doi": "10.1016/j.jqsrt.2026.109973",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2026.109973",
+        "verified": true,
+        "ref": null
+      }
+    ],
+    "repository": {
+      "name": "JQSRT supplementary material",
+      "version": null,
+      "collection": "dong2026",
+      "original_files": [
+        "CIA B_O2-O2_1.06um.txt"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 296.0,
+      "max_temperature": 296.0,
+      "min_wavenumber": 9120.0,
+      "max_wavenumber": 9820.0,
+      "wavenumber_resolution": null,
+      "nominal_wavenumber_step": 0.01,
+      "units": {
+        "temperature": "K",
+        "wavenumber": "cm^-1",
+        "wavenumber_resolution": "cm^-1",
+        "nominal_wavenumber_step": "cm^-1"
+      },
+      "column_schemas": {
+        "with_absolute_uncertainty": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^-1 amagat^-2"
+          },
+          {
+            "name": "uncertainty",
+            "units": "cm^-1 amagat^-2",
+            "uncertainty_type": "absolute",
+            "applies_to": "cia_coefficient",
+            "uncertainty_level": "1_sigma",
+            "description": "combined standard uncertainty, 1 sigma"
+          }
+        ]
+      },
+      "default_column_schema": "with_absolute_uncertainty",
+      "files": [
+        {
+          "temperature": 296.0,
+          "wavenumber_resolution": null,
+          "npoints": 70001,
+          "filename": "O2-O2_dong2026_9120_9820_296.cia",
+          "citation_keys": [
+            "dong2026"
+          ]
+        }
+      ]
+    }
+  }
+}

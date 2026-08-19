@@ -1,0 +1,37 @@
+{
+  "collision_pair": {
+    "formula": "CO2-CH4",
+    "slug": "co2-ch4",
+    "active_species_status": "unique",
+    "active_species": "co2",
+    "collider": "ch4",
+    "components": [
+      {
+      "formula": "CO2",
+      "slug": "co2",
+      "cas_number": "124-38-9"
+      },
+      {
+      "formula": "CH4",
+      "slug": "ch4",
+      "cas_number": "74-82-8"
+      }
+    ]
+  },
+  "version": "20260730",
+  "recommended_dataset": "fakhardji2022",
+  "datasets": [
+    {
+      "dataset_id": "fakhardji2022",
+      "metadata_file": "CO2-CH4_fakhardji2022_0_720_100_600.json"
+    },
+    {
+      "dataset_id": "wordsworth2017",
+      "metadata_file": "CO2-CH4_wordsworth2017_0_2000_200_350.json"
+    },
+    {
+      "dataset_id": "turbet2020",
+      "metadata_file": "CO2-CH4_turbet2020_5_1200_100_600.json"
+    }
+  ]
+}

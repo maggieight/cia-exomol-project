@@ -1,0 +1,693 @@
+{
+  "collision_pair": {
+    "formula": "N2-Ar",
+    "slug": "n2-ar",
+    "active_species_status": "unique",
+    "active_species": "n2",
+    "collider": "ar",
+    "components": [
+      {
+        "formula": "N2",
+        "slug": "n2",
+        "cas_registry_number": "7727-37-9"
+      },
+      {
+        "formula": "Ar",
+        "slug": "ar",
+        "cas_registry_number": "7440-37-1"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "serov2024",
+    "version": "20260803",
+    "sources": [
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "serov2024",
+        "authors": [
+          "E.A. Serov",
+          "T.A. Galanina",
+          "A.O. Koroleva",
+          "D.S. Makarov",
+          "I.S. Amerkhanov",
+          "M.A. Koshelev",
+          "M.Yu. Tretyakov",
+          "D.N. Chistikov",
+          "A.A. Finenko",
+          "A.A. Vigasin"
+        ],
+        "title": "Continuum absorption in pure N2 gas and in its mixture with Ar",
+        "year": 2024,
+        "doi": "10.1016/j.jqsrt.2024.109172",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2024.109172",
+        "verified": true,
+        "ref": 51
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "hitran_cia_repository",
+        "authors": [
+          "HITRAN CIA Team"
+        ],
+        "title": "HITRAN online data: Collision Induced Absorption",
+        "year": 2024,
+        "doi": null,
+        "source_url": "https://hitran.org/cia/",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "terragni_hitran",
+        "authors": [
+          "J. Terragni",
+          "I.E. Gordon",
+          "E.M. Adkins",
+          "C. Boulet",
+          "A. Campargue",
+          "D. Chistikov",
+          "A. Finenko",
+          "H. Finkenzeller",
+          "H. Fleurbaey",
+          "R.J. Hargreaves",
+          "R.K. Hanson",
+          "J.-M. Hartmann",
+          "A. Klingberg",
+          "E. Kohler",
+          "A.O. Koroleva",
+          "D. Mondelain",
+          "G. Piccioni",
+          "S. Stefani",
+          "C.L. Strand",
+          "H. Tran",
+          "M. Turbet",
+          "A. Vigasin",
+          "F. Vitali",
+          "R. Volkamer",
+          "C. Wei"
+        ],
+        "title": "Collision induced absorption in HITRAN2024: Enhanced and improved data for atmospheric and planetary studies",
+        "year": 2025,
+        "doi": "10.1016/j.jqsrt.2025.109631",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2025.109631",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "gordon2026_hitran",
+        "authors": [
+          "I.E. Gordon",
+          "L.S. Rothman",
+          "R.J. Hargreaves",
+          "F.M. Gomez",
+          "T. Bertin",
+          "C. Hill",
+          "R.V. Kochanov",
+          "Y. Tan",
+          "P. Wcisło",
+          "V. Yu. Makhnev",
+          "P.F. Bernath",
+          "M. Birk",
+          "V. Boudon",
+          "A. Campargue",
+          "A. Coustenis",
+          "B.J. Drouin",
+          "R.R. Gamache",
+          "J.T. Hodges",
+          "D. Jacquemart",
+          "E.J. Mlawer",
+          "A.V. Nikitin",
+          "V.I. Perevalov",
+          "M. Rotger",
+          "S. Robert",
+          "J. Tennyson",
+          "G.C. Toon",
+          "H. Tran",
+          "V.G. Tyuterev",
+          "E.M. Adkins",
+          "A. Barbe",
+          "D.M. Bailey",
+          "K. Bielska",
+          "L. Bizzocchi",
+          "T.A. Blake",
+          "C.A. Bowesman",
+          "P. Cacciani",
+          "P. Čermák",
+          "A.G. Császár",
+          "L. Denis",
+          "S.C. Egbert",
+          "O. Egorov",
+          "A. Yu. Ermilov",
+          "A.J. Fleisher",
+          "H. Fleurbaey",
+          "A. Foltynowicz",
+          "T. Furtenbacher",
+          "M. Germann",
+          "E.R. Guest",
+          "J.J. Harrison",
+          "J.-M. Hartmann",
+          "A. Hjältén",
+          "S.-M. Hu",
+          "X. Huang",
+          "T.J. Johnson",
+          "H. Jóźwiak",
+          "S. Kassi",
+          "M.V. Khan",
+          "F. Kwabia-Tchana",
+          "T.J. Lee",
+          "D. Lisak",
+          "A.-W. Liu",
+          "O.M. Lyulin",
+          "N.A. Malarich",
+          "L. Manceron",
+          "A.A. Marinina",
+          "S.T. Massie",
+          "J. Mascio",
+          "E.S. Medvedev",
+          "V.V. Meshkov",
+          "G. Ch. Mellau",
+          "M. Melosso",
+          "S.N. Mikhailenko",
+          "D. Mondelain",
+          "H.S.P. Müller",
+          "M. O'Donnell",
+          "A. Owens",
+          "A. Perrin",
+          "O.L. Polyansky",
+          "P.L. Raston",
+          "Z.D. Reed",
+          "M. Rey",
+          "C. Richard",
+          "G.B. Rieker",
+          "C. Röske",
+          "S.W. Sharpe",
+          "E. Starikova",
+          "N. Stolarczyk",
+          "A.V. Stolyarov",
+          "K. Sung",
+          "F. Tamassia",
+          "J. Terragni",
+          "V.G. Ushakov",
+          "S. Vasilchenko",
+          "B. Vispoel",
+          "K.L. Vodopyanov",
+          "G. Wagner",
+          "S. Wójtewicz",
+          "S.N. Yurchenko",
+          "N.F. Zobov"
+        ],
+        "title": "The HITRAN2024 molecular spectroscopic database",
+        "year": 2026,
+        "doi": "10.1016/j.jqsrt.2026.109807",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2026.109807",
+        "verified": true,
+        "ref": null
+      }
+    ],
+    "repository": {
+      "name": "HITRAN CIA",
+      "version": "2024",
+      "collection": "main",
+      "original_files": [
+        "main/N2-Ar_2024.cia.txt"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 70.0,
+      "max_temperature": 500.0,
+      "min_wavenumber": 0.0,
+      "max_wavenumber": 2600.0,
+      "units": {
+        "temperature": "K",
+        "wavenumber_resolution": "cm-1"
+      },
+      "column_schemas": {
+        "standard": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^5 molecule^-2"
+          }
+        ]
+      },
+      "default_column_schema": "standard",
+      "files": [
+        {
+          "temperature": 70.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "N2-Ar_serov2024_0_300_70.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 80.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "N2-Ar_serov2024_0_300_80.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 90.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "N2-Ar_serov2024_0_300_90.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 100.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3001,
+          "filename": "N2-Ar_serov2024_0_300_100.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 110.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3501,
+          "filename": "N2-Ar_serov2024_0_350_110.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 120.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3501,
+          "filename": "N2-Ar_serov2024_0_350_120.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 130.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3501,
+          "filename": "N2-Ar_serov2024_0_350_130.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 140.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3501,
+          "filename": "N2-Ar_serov2024_0_350_140.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 150.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3501,
+          "filename": "N2-Ar_serov2024_0_350_150.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 160.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3501,
+          "filename": "N2-Ar_serov2024_0_350_160.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 170.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3501,
+          "filename": "N2-Ar_serov2024_0_350_170.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 180.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3501,
+          "filename": "N2-Ar_serov2024_0_350_180.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 190.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3501,
+          "filename": "N2-Ar_serov2024_0_350_190.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 200.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 3501,
+          "filename": "N2-Ar_serov2024_0_350_200.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 210.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4001,
+          "filename": "N2-Ar_serov2024_0_400_210.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 220.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4001,
+          "filename": "N2-Ar_serov2024_0_400_220.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 230.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4001,
+          "filename": "N2-Ar_serov2024_0_400_230.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 240.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4001,
+          "filename": "N2-Ar_serov2024_0_400_240.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 250.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4001,
+          "filename": "N2-Ar_serov2024_0_400_250.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 260.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4001,
+          "filename": "N2-Ar_serov2024_0_400_260.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 270.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4001,
+          "filename": "N2-Ar_serov2024_0_400_270.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 280.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4001,
+          "filename": "N2-Ar_serov2024_0_400_280.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 290.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4001,
+          "filename": "N2-Ar_serov2024_0_400_290.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 300.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4001,
+          "filename": "N2-Ar_serov2024_0_400_300.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 300.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 5001,
+          "filename": "N2-Ar_serov2024_2100_2600_300.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 310.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_310.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 320.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_320.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 330.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_330.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 340.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_340.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 350.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_350.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 360.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_360.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 370.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_370.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 380.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_380.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 390.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_390.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 400.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_400.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 410.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_410.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 420.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_420.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 430.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_430.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 440.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_440.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 450.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_450.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 460.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_460.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 470.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_470.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 480.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_480.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 490.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_490.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        },
+        {
+          "temperature": 500.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 4501,
+          "filename": "N2-Ar_serov2024_0_450_500.cia",
+          "citation_keys": [
+            "serov2024"
+          ],
+          "reference_number": 51
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h2>Cross section data for {{ isotopologue.ordinary_formula_html|safe }}</h2>
+
+<div class="well">
+
+<p>Here are the results of your search:  {{ T }}&nbsp;K, {{ numin }} - {{ numax }}&nbsp;cm<sup>-1</sup>, &Delta;&nu; = {{ dnu }}&nbsp;cm<sup>-1</sup>.</p>
+{{ summary }}
+<ul>
+{% for output_file in output_files %}
+<li><a href="/results/{{ output_file }}">{{ output_file }}</a></li>
+{% endfor %}
+</ul>
+
+<h3>References</h3>
+<ol>
+{% for source in sources %}
+<li>{{ source.html|safe }}</li>
+{% endfor %}
+</ol>
+
+</div>
+
+{% endblock main %}
+
+
+

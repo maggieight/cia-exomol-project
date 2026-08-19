@@ -1,0 +1,30 @@
+{
+  "collision_pair": {
+    "formula": "O2-CO2",
+    "slug": "o2-co2",
+    "active_species_status": "unique",
+    "active_species": "o2",
+    "collider": "co2",
+    "components": [
+      {
+        "formula": "O2",
+        "slug": "o2",
+        "cas_registry_number": "7782-44-7"
+      },
+      {
+        "formula": "CO2",
+        "slug": "co2",
+        "cas_registry_number": "124-38-9"
+      }
+    ]
+  },
+  "version": "20260817",
+  "recommended_dataset": "hitran2024-main",
+  "datasets": [
+    {
+      "dataset_id": "hitran2024-main",
+      "dataset_version": "20260817",
+      "metadata_file": "O2-CO2_hitran2024-main_9105_13840_293_296.json"
+    }
+  ]
+}

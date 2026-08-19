@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load pages_tags mezzanine_tags i18n static %}
+
+{% block main %}
+
+<h2>Older News</h2>
+
+{% for news_item in news_items %}
+<div class="panel panel-{% if news_item.important %}primary{% else %}info{% endif %}">
+<div class="panel-heading">{{ news_item.date|date:"d M Y" }}</div>
+<div class="panel-body">
+<h4>{{ news_item.headline }}</h4>
+{{ news_item.content|richtext_filters|safe }}
+</div>
+</div>
+{% endfor %}
+
+{% endblock main %}
+

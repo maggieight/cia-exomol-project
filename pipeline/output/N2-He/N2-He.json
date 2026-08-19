@@ -1,0 +1,30 @@
+{
+  "collision_pair": {
+    "formula": "N2-He",
+    "slug": "n2-he",
+    "active_species_status": "unique",
+    "active_species": "n2",
+    "collider": "he",
+    "components": [
+      {
+        "formula": "N2",
+        "slug": "n2",
+        "cas_registry_number": "7727-37-9"
+      },
+      {
+        "formula": "He",
+        "slug": "he",
+        "cas_registry_number": "7440-59-7"
+      }
+    ]
+  },
+  "version": "20260817",
+  "recommended_dataset": "barziv1972",
+  "datasets": [
+    {
+      "dataset_id": "barziv1972",
+      "dataset_version": "20260817",
+      "metadata_file": "N2-He_barziv1972_1_1000_300_300.json"
+    }
+  ]
+}

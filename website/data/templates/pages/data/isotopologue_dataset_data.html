@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% load static dataset_tags %}
+
+{% block extra_js %}
+<script>
+function show_or_hide(ul_id) {
+    $('#'+ul_id).toggle();
+    var btn = $('#'+ul_id).prev();
+    btn.toggleClass("btn-success btn-danger");
+    if ( $('#'+ul_id).is(":hidden") ) {
+        btn.html("Show files");
+    } else {
+        btn.html("Hide files");
+    }
+}
+</script>
+{% endblock extra_js %}
+
+{% block extra_css %}
+<style>
+button.show-hide-files-button.btn-danger {
+    margin-bottom: 10px;
+}
+</style>
+{% endblock extra_css %}
+
+
+{% block main %}
+<h2>{% block heading %}The {{ dataset.name }} dataset for {{ isotopologue.ordinary_formula_html|safe }}
+{% endblock %}</h2>
+
+{% if versioning %}
+<p>
+Version {{ versioning.version }}
+{% if is_latest_version %}(latest version){% else %}(this is not the latest version){% endif %}
+</p>
+{% endif %}
+
+
+
+<div class="well">
+<h4>Metadata</h4>
+<ul class="list-group">
+<!--<li class="list-group-item link-list-group-item"><a href="?export=HTML">Human-readable metadata (HTML)</a></li>-->
+<!--<li class="list-group-item link-list-group-item"><a href="?export=JSON">{{ isotopologue.slug }}__{{ dataset.name }}{% if not is_latest_version %}-{{ versioning.version }}{% endif %}.json</a>
+<br/><span class="link-description">Details and description of the files in this dataset, in JSON format.</span></li>-->
+
+<!-- this is to be deprecated at some point -->
+{% if dataset|has_def_file %}
+<li class="list-group-item link-list-group-item"><a href="?export=def">{{ isotopologue.slug }}__{{ dataset.name }}.def</a>: <span class="link-description">"Definitions" file (text format).</span></li>
+<li class="list-group-item link-list-group-item"><a href="?export=json">{{ isotopologue.slug }}__{{ dataset.name }}.json</a>: <span class="link-description">"Definitions" file (JSON format).</span></li>
+{% endif %}
+
+{% if versioning.zenodo_doi %}
+<li class="list-group-item link-list-group-item">
+<a href="https://doi.org/{{ versioning.zenodo_doi }}">{{ versioning.zenodo_doi }}</a>
+<br/><span class="link-description">Zenodo DOI persistent identifier.</span></li>
+</li>
+{% endif %}
+
+</ul>
+</div>
+
+{% if dataset|has_def_file %}
+<div class="well">
+<h4>Spectroscopic Model</h4>
+<div class="list-group">
+<a href="/models/{{ isotopologue.molecule.slug }}/{{ isotopologue.slug }}/{{ dataset.name }}/" class="list-group-item link-list-group-item">{{ isotopologue.slug }}__{{ dataset.name }}.model</a>
+</div>
+</div>
+{% endif %}
+
+{% if spectrum_image_url %}
+<div class="well">
+<h4>Spectrum overview</h4>
+<img src="{{ spectrum_image_url }}" width="850"/>
+</div>
+{% endif %}
+
+{% for data_collection in data_collections %}
+    <div class="well {% if data_collection.external %} external{% endif %}">
+    <a name="dc-{{ data_collection.pk }}"></a>
+    <h4>{{ data_collection.data_set }}: {{ data_collection.data_type.name }}{% if data_collection.external %} (external){% endif %}</h4>
+
+    <p>{{ data_collection.data_set.description|safe }}</p>
+
+    {% if data_collection.link.count > 4 %}
+        <button class="show-hide-files-button btn btn-success" onclick="show_or_hide('dc-ul-{{ data_collection.pk }}');">Show files</button>
+        <ul class="list-group" id="dc-ul-{{ data_collection.pk }}" hidden>
+    {% else %}
+        <ul class="list-group" id="dc-ul-{{ data_collection.pk }}">
+    {% endif %}
+
+    {% for link in data_collection.link.all %}
+    <li class="list-group-item link-list-group-item"><a href="{{ link.url }}" title="{{ link.description|safe }}">{{ link.display }}</a>
+    {% if link.size %}
+    [{{ link.size|filesizeformat }}]
+    {% endif %}
+    {% if link.description %}
+    <br/><span class="link-description">{{ link.description }}</span>
+    {% endif %}
+    </li>
+    {% endfor %}
+    </ul>
+
+    <h4>References</h4>
+    <ol>
+    {% for source in data_collection.source.all %}
+    <li>{{ source.html|safe }}</li>
+    {% endfor %}
+    </ol>
+    </div>
+{% endfor %}
+
+{% endblock main %}
+

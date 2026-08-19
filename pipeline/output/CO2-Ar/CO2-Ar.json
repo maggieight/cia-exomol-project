@@ -1,0 +1,30 @@
+{
+  "collision_pair": {
+    "formula": "CO2-Ar",
+    "slug": "co2-ar",
+    "active_species_status": "unique",
+    "active_species": "co2",
+    "collider": "ar",
+    "components": [
+      {
+        "formula": "CO2",
+        "slug": "co2",
+        "cas_registry_number": "124-38-9"
+      },
+      {
+        "formula": "Ar",
+        "slug": "ar",
+        "cas_registry_number": "7440-37-1"
+      }
+    ]
+  },
+  "version": "20260817",
+  "recommended_dataset": "odintsova2021",
+  "datasets": [
+    {
+      "dataset_id": "odintsova2021",
+      "dataset_version": "20260817",
+      "metadata_file": "CO2-Ar_odintsova2021_0_300_200_400.json"
+    }
+  ]
+}

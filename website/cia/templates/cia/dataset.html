@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% load cia_tags static %}
+
+{% block meta_title %}Collision-induced absorption data for {{ pair.formula }}{% endblock %}
+
+{% block extra_js %}
+{{ block.super }}
+<script>
+function cia_show_or_hide(table_id) {
+    var table = $('#' + table_id);
+    table.toggle();
+    var button = table.prev();
+    button.toggleClass("btn-success btn-danger");
+    if (table.is(":hidden")) {
+        button.html("Show {{ files|length }} files");
+        button.attr("aria-expanded", "false");
+    } else {
+        button.html("Hide files");
+        button.attr("aria-expanded", "true");
+    }
+}
+</script>
+{% endblock extra_js %}
+
+{% block extra_css %}
+{{ block.super }}
+<link rel="stylesheet" href="{% static 'cia/cia.css' %}">
+<style>
+button.show-hide-files-button.btn-danger {
+    margin-bottom: 10px;
+}
+</style>
+{% endblock extra_css %}
+
+{% block main %}
+<p><a href="{% url 'cia:pair' pair.slug %}">&larr; {{ pair.formula|chemical_formula }} datasets</a></p>
+<h1>Collision-induced absorption data for {{ pair.formula|chemical_formula }}</h1>
+
+<div class="well cia-metadata-panel">
+<h4>Metadata</h4>
+<div class="list-group-item cia-metadata-summary">
+<dl class="dl-horizontal">
+  <dt>Dataset ID</dt><dd>{{ summary.id }}</dd>
+  <dt>Version</dt><dd>{{ dataset.version|default:"Not specified" }}</dd>
+  {% if dataset.repository %}
+  <dt>Repository</dt>
+  <dd>{{ dataset.repository.name }}{% if dataset.repository.version %}, {{ dataset.repository.version }}{% endif %}{% if dataset.repository.collection %} ({% if dataset.repository.collection == "sup" %}supplementary{% else %}{{ dataset.repository.collection }}{% endif %}){% endif %}</dd>
+  {% endif %}
+  {% with xsecs=dataset.collision_induced_absorption_xsecs %}
+  <dt>Temperature range</dt><dd>{{ xsecs.min_temperature }}&ndash;{{ xsecs.max_temperature }} {{ xsecs.units.temperature }}</dd>
+  <dt>Wavenumber range</dt><dd>{{ xsecs.min_wavenumber }}&ndash;{{ xsecs.max_wavenumber }} cm<sup>&minus;1</sup></dd>
+  {% endwith %}
+</dl>
+</div>
+<div class="list-group">
+  <div class="list-group-item link-list-group-item cia-metadata-file"><a href="{% url 'cia:download' pair.slug summary.id metadata_file %}">{{ metadata_file|chemical_filename }}</a>: "Definitions" file (JSON format).</div>
+</div>
+</div>
+
+<div class="well cia-data-panel">
+{% if files|length > 3 %}
+<button type="button" class="show-hide-files-button btn btn-success" aria-expanded="false" onclick="cia_show_or_hide('cia-files');">Show {{ files|length }} files</button>
+<div class="table-responsive" id="cia-files" hidden>
+{% else %}
+<div class="table-responsive" id="cia-files">
+{% endif %}
+<table class="table table-striped">
+  <thead><tr><th>Files</th><th>Temperature</th><th>Points</th></tr></thead>
+  <tbody>
+  {% for file in files %}
+  <tr>
+    <td><a href="{% url 'cia:download' pair.slug summary.id file.filename %}">{{ file.filename|chemical_filename }}</a></td>
+    <td>{{ file.temperature|compact_number }}{{ dataset.collision_induced_absorption_xsecs.units.temperature }}</td>
+    <td>{{ file.npoints }}</td>
+  </tr>
+  {% empty %}
+  <tr><td colspan="3">No data files are listed.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>
+
+{% if dataset.sources %}
+<h4>References</h4>
+<ol>
+{% for source in dataset.sources %}
+  <li>
+    {{ source.authors|join:", " }} ({{ source.year }}), “{{ source.title|reference_title }}”
+    {% if source.source_url %}[<a href="{{ source.source_url|cut:' ' }}">{% if source.citation_key == "hitran_cia_repository" %}link to website{% else %}link to article{% endif %}</a>]{% endif %}
+  </li>
+{% endfor %}
+</ol>
+{% endif %}
+</div>
+{% endblock %}

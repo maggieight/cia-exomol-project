@@ -1,0 +1,1070 @@
+{
+  "collision_pair": {
+    "formula": "O2-Air",
+    "slug": "o2-air",
+    "active_species_status": "unique",
+    "active_species": "o2",
+    "collider": "air",
+    "components": [
+      {
+        "formula": "O2",
+        "slug": "o2",
+        "cas_registry_number": "7782-44-7"
+      },
+      {
+        "formula": "Air",
+        "slug": "air",
+        "cas_registry_number": null,
+        "cas_registry_number_status": "not_applicable_mixture"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "karman2018",
+    "version": "20260817",
+    "sources": [
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "karman2018",
+        "authors": [
+          "Tijs Karman",
+          "Mark A. J. Koenis",
+          "Agniva Banerjee",
+          "David H. Parker",
+          "Iouli E. Gordon",
+          "Ad van der Avoird",
+          "Wim J. van der Zande",
+          "Gerrit C. Groenenboom"
+        ],
+        "title": "O2-O2 and O2-N2 collision-induced absorption mechanisms unravelled",
+        "year": 2018,
+        "doi": "10.1038/s41557-018-0015-x",
+        "source_url": "https://doi.org/10.1038/s41557-018-0015-x",
+        "verified": true,
+        "ref": 27
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "hitran_cia_repository",
+        "authors": [
+          "HITRAN CIA Team"
+        ],
+        "title": "HITRAN online data: Collision Induced Absorption",
+        "year": 2024,
+        "doi": null,
+        "source_url": "https://hitran.org/cia/",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "terragni_hitran",
+        "authors": [
+          "J. Terragni",
+          "I.E. Gordon",
+          "E.M. Adkins",
+          "C. Boulet",
+          "A. Campargue",
+          "D. Chistikov",
+          "A. Finenko",
+          "H. Finkenzeller",
+          "H. Fleurbaey",
+          "R.J. Hargreaves",
+          "R.K. Hanson",
+          "J.-M. Hartmann",
+          "A. Klingberg",
+          "E. Kohler",
+          "A.O. Koroleva",
+          "D. Mondelain",
+          "G. Piccioni",
+          "S. Stefani",
+          "C.L. Strand",
+          "H. Tran",
+          "M. Turbet",
+          "A. Vigasin",
+          "F. Vitali",
+          "R. Volkamer",
+          "C. Wei"
+        ],
+        "title": "Collision induced absorption in HITRAN2024: Enhanced and improved data for atmospheric and planetary studies",
+        "year": 2025,
+        "doi": "10.1016/j.jqsrt.2025.109631",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2025.109631",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "gordon2026_hitran",
+        "authors": [
+          "I.E. Gordon",
+          "L.S. Rothman",
+          "R.J. Hargreaves",
+          "F.M. Gomez",
+          "T. Bertin",
+          "C. Hill",
+          "R.V. Kochanov",
+          "Y. Tan",
+          "P. Wcisło",
+          "V. Yu. Makhnev",
+          "P.F. Bernath",
+          "M. Birk",
+          "V. Boudon",
+          "A. Campargue",
+          "A. Coustenis",
+          "B.J. Drouin",
+          "R.R. Gamache",
+          "J.T. Hodges",
+          "D. Jacquemart",
+          "E.J. Mlawer",
+          "A.V. Nikitin",
+          "V.I. Perevalov",
+          "M. Rotger",
+          "S. Robert",
+          "J. Tennyson",
+          "G.C. Toon",
+          "H. Tran",
+          "V.G. Tyuterev",
+          "E.M. Adkins",
+          "A. Barbe",
+          "D.M. Bailey",
+          "K. Bielska",
+          "L. Bizzocchi",
+          "T.A. Blake",
+          "C.A. Bowesman",
+          "P. Cacciani",
+          "P. Čermák",
+          "A.G. Császár",
+          "L. Denis",
+          "S.C. Egbert",
+          "O. Egorov",
+          "A. Yu. Ermilov",
+          "A.J. Fleisher",
+          "H. Fleurbaey",
+          "A. Foltynowicz",
+          "T. Furtenbacher",
+          "M. Germann",
+          "E.R. Guest",
+          "J.J. Harrison",
+          "J.-M. Hartmann",
+          "A. Hjältén",
+          "S.-M. Hu",
+          "X. Huang",
+          "T.J. Johnson",
+          "H. Jóźwiak",
+          "S. Kassi",
+          "M.V. Khan",
+          "F. Kwabia-Tchana",
+          "T.J. Lee",
+          "D. Lisak",
+          "A.-W. Liu",
+          "O.M. Lyulin",
+          "N.A. Malarich",
+          "L. Manceron",
+          "A.A. Marinina",
+          "S.T. Massie",
+          "J. Mascio",
+          "E.S. Medvedev",
+          "V.V. Meshkov",
+          "G. Ch. Mellau",
+          "M. Melosso",
+          "S.N. Mikhailenko",
+          "D. Mondelain",
+          "H.S.P. Müller",
+          "M. O'Donnell",
+          "A. Owens",
+          "A. Perrin",
+          "O.L. Polyansky",
+          "P.L. Raston",
+          "Z.D. Reed",
+          "M. Rey",
+          "C. Richard",
+          "G.B. Rieker",
+          "C. Röske",
+          "S.W. Sharpe",
+          "E. Starikova",
+          "N. Stolarczyk",
+          "A.V. Stolyarov",
+          "K. Sung",
+          "F. Tamassia",
+          "J. Terragni",
+          "V.G. Ushakov",
+          "S. Vasilchenko",
+          "B. Vispoel",
+          "K.L. Vodopyanov",
+          "G. Wagner",
+          "S. Wójtewicz",
+          "S.N. Yurchenko",
+          "N.F. Zobov"
+        ],
+        "title": "The HITRAN2024 molecular spectroscopic database",
+        "year": 2026,
+        "doi": "10.1016/j.jqsrt.2026.109807",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2026.109807",
+        "verified": true,
+        "ref": null
+      }
+    ],
+    "repository": {
+      "name": "HITRAN CIA",
+      "version": "2018",
+      "collection": "sup",
+      "original_files": [
+        "sup/O2-Air_theory_temp_2018.cia.txt"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 206.0,
+      "max_temperature": 346.0,
+      "min_wavenumber": 7583.0,
+      "max_wavenumber": 14806.0,
+      "units": {
+        "temperature": "K",
+        "wavenumber_resolution": "cm-1"
+      },
+      "column_schemas": {
+        "standard": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^5 molecule^-2"
+          }
+        ]
+      },
+      "default_column_schema": "standard",
+      "files": [
+        {
+          "temperature": 206.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_7583_8183_206.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 206.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_9060_9660_206.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 206.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_10525_11125_206.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 206.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_12802_13402_206.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 206.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_14206_14806_206.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 216.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_7583_8183_216.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 216.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_9060_9660_216.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 216.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_10525_11125_216.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 216.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_12802_13402_216.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 216.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_14206_14806_216.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 226.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_7583_8183_226.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 226.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_9060_9660_226.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 226.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_10525_11125_226.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 226.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_12802_13402_226.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 226.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_14206_14806_226.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 236.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_7583_8183_236.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 236.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_9060_9660_236.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 236.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_10525_11125_236.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 236.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_12802_13402_236.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 236.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_14206_14806_236.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 246.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_7583_8183_246.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 246.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_9060_9660_246.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 246.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_10525_11125_246.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 246.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_12802_13402_246.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 246.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_14206_14806_246.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 256.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_7583_8183_256.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 256.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_9060_9660_256.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 256.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_10525_11125_256.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 256.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_12802_13402_256.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 256.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_14206_14806_256.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 266.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_7583_8183_266.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 266.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_9060_9660_266.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 266.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_10525_11125_266.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 266.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_12802_13402_266.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 266.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_14206_14806_266.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 276.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_7583_8183_276.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 276.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_9060_9660_276.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 276.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_10525_11125_276.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 276.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_12802_13402_276.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 276.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_14206_14806_276.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 286.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_7583_8183_286.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 286.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_9060_9660_286.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 286.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_10525_11125_286.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 286.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_12802_13402_286.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 286.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_14206_14806_286.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 296.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_7583_8183_296.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 296.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_9060_9660_296.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 296.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_10525_11125_296.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 296.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_12802_13402_296.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 296.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_14206_14806_296.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 306.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_7583_8183_306.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 306.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_9060_9660_306.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 306.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_10525_11125_306.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 306.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_12802_13402_306.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 306.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_14206_14806_306.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 316.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_7583_8183_316.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 316.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_9060_9660_316.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 316.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_10525_11125_316.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 316.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_12802_13402_316.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 316.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_14206_14806_316.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 326.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_7583_8183_326.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 326.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_9060_9660_326.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 326.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_10525_11125_326.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 326.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_12802_13402_326.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 326.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_14206_14806_326.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 336.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_7583_8183_336.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 336.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_9060_9660_336.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 336.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_10525_11125_336.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 336.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_12802_13402_336.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 336.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_14206_14806_336.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 346.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_7583_8183_346.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 346.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_9060_9660_346.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 346.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_10525_11125_346.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 346.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_12802_13402_346.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        },
+        {
+          "temperature": 346.0,
+          "wavenumber_resolution": null,
+          "npoints": 6001,
+          "filename": "O2-Air_karman2018_14206_14806_346.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27,
+          "variant": "theory-temperature"
+        }
+      ]
+    },
+    "variants": [
+      "theory-temperature"
+    ]
+  }
+}

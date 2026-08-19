@@ -1,0 +1,801 @@
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__00000-00100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 00000-00100 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__00100-00200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 00100-00200 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__00200-00300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 00200-00300 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__00300-00400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 00300-00400 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__00400-00500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 00400-00500 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__00500-00600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 00500-00600 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__00600-00700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 00600-00700 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__00700-00800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 00700-00800 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__00800-00900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 00800-00900 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__00900-01000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 00900-01000 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__01000-01100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 01000-01100 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__01100-01200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 01100-01200 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__01200-01300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 01200-01300 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__01300-01400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 01300-01400 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__01400-01500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 01400-01500 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__01500-01600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 01500-01600 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__01600-01700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 01600-01700 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__01700-01800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 01700-01800 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__01800-01900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 01800-01900 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__01900-02000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 01900-02000 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__02000-02100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 02000-02100 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__02100-02200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 02100-02200 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__02200-02300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 02200-02300 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__02300-02400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 02300-02400 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__02400-02500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 02400-02500 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__02500-02600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 02500-02600 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__02600-02700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 02600-02700 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__02700-02800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 02700-02800 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__02800-02900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 02800-02900 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__02900-03000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 02900-03000 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__03000-03100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 03000-03100 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__03100-03200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 03100-03200 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__03200-03300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 03200-03300 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__03300-03400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 03300-03400 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__03400-03500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 03400-03500 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__03500-03600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 03500-03600 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__03600-03700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 03600-03700 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__03700-03800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 03700-03800 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__03800-03900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 03800-03900 cm-1', 1);
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__03900-04000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 03900-04000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__04000-04100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 04000-04100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__04100-04200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 04100-04200 cm-1', 1);
+
+
+
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__04200-04300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 04200-04300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__04300-04400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 04300-04400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__04400-04500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 04400-04500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__04500-04600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 04500-04600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__04600-04700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 04600-04700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__04700-04800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 04700-04800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__04800-04900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 04800-04900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__04900-05000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 04900-05000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__05000-05100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 05000-05100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__05100-05200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 05100-05200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__05200-05300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 05200-05300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__05300-05400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 05300-05400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__05400-05500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 05400-05500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__05500-05600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 05500-05600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__05600-05700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 05600-05700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__05700-05800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 05700-05800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__05800-05900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 05800-05900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__05900-06000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 05900-06000 cm-1', 1);
+
+
+
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__06000-06100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 06000-06100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__06100-06200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 06100-06200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__06200-06300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 06200-06300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__06300-06400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 06300-06400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__06400-06500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 06400-06500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__06500-06600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 06500-06600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__06600-06700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 06600-06700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__06700-06800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 06700-06800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__06800-06900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 06800-06900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__06900-07000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 06900-07000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__07000-07100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 07000-07100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__07100-07200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 07100-07200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__07200-07300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 07200-07300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__07300-07400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 07300-07400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__07400-07500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 07400-07500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__07500-07600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 07500-07600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__07600-07700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 07600-07700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__07700-07800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 07700-07800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__07800-07900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 07800-07900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__07900-08000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 07900-08000 cm-1', 1);
+
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__08000-08100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 08000-08100 cm-1', 1);
+
+
+
+
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__08100-08200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 08100-08200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__08200-08300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 08200-08300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__08300-08400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 08300-08400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__08400-08500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 08400-08500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__08500-08600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 08500-08600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__08600-08700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 08600-08700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__08700-08800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 08700-08800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__08800-08900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 08800-08900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__08900-09000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 08900-09000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__09000-09100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 09000-09100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__09100-09200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 09100-09200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__09200-09300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 09200-09300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__09300-09400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 09300-09400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__09400-09500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 09400-09500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__09500-09600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 09500-09600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__09600-09700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 09600-09700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__09700-09800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 09700-09800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__09800-09900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 09800-09900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__09900-10000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 09900-10000 cm-1', 1);
+
+
+
+
+
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__10000-10100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 10000-10100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__10100-10200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 10100-10200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__10200-10300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 10200-10300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__10300-10400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 10300-10400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__10400-10500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 10400-10500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__10500-10600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 10500-10600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__10600-10700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 10600-10700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__10700-10800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 10700-10800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__10800-10900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 10800-10900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__10900-11000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 10900-11000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__11000-11100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 11000-11100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__11100-11200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 11100-11200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__11200-11300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 11200-11300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__11300-11400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 11300-11400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__11400-11500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 11400-11500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__11500-11600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 11500-11600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__11600-11700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 11600-11700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__11700-11800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 11700-11800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__11800-11900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 11800-11900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__11900-12000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 11900-12000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__12000-12100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 12000-12100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__12100-12200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 12100-12200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__12200-12300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 12200-12300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__12300-12400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 12300-12400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__12400-12500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 12400-12500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__12500-12600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 12500-12600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__12600-12700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 12600-12700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__12700-12800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 12700-12800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__12800-12900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 12800-12900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__12900-13000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 12900-13000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__13000-13100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 13000-13100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__13100-13200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 13100-13200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__13200-13300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 13200-13300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__13300-13400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 13300-13400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__13400-13500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 13400-13500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__13500-13600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 13500-13600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__13600-13700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 13600-13700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__13700-13800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 13700-13800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__13800-13900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 13800-13900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__13900-14000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 13900-14000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__14000-14100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 14000-14100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__14100-14200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 14100-14200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__14200-14300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 14200-14300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__14300-14400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 14300-14400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__14400-14500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 14400-14500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__14500-14600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 14500-14600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__14600-14700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 14600-14700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__14700-14800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 14700-14800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__14800-14900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 14800-14900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__14900-15000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 14900-15000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__15000-15100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 15000-15100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__15100-15200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 15100-15200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__15200-15300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 15200-15300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__15300-15400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 15300-15400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__15400-15500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 15400-15500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__15500-15600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 15500-15600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__15600-15700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 15600-15700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__15700-15800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 15700-15800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__15800-15900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 15800-15900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__15900-16000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 15900-16000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__16000-16100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 16000-16100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__16100-16200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 16100-16200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__16200-16300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 16200-16300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__16300-16400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 16300-16400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__16400-16500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 16400-16500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__16500-16600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 16500-16600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__16600-16700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 16600-16700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__16700-16800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 16700-16800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__16800-16900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 16800-16900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__16900-17000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 16900-17000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__17000-17100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 17000-17100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__17100-17200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 17100-17200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__17200-17300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 17200-17300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__17300-17400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 17300-17400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__17400-17500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 17400-17500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__17500-17600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 17500-17600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__17600-17700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 17600-17700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__17700-17800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 17700-17800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__17800-17900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 17800-17900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__17900-18000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 17900-18000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__18000-18100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 18000-18100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__18100-18200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 18100-18200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__18200-18300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 18200-18300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__18300-18400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 18300-18400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__18400-18500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 18400-18500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__18500-18600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 18500-18600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__18600-18700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 18600-18700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__18700-18800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 18700-18800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__18800-18900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 18800-18900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__18900-19000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 18900-19000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__19000-19100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 19000-19100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__19100-19200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 19100-19200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__19200-19300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 19200-19300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__19300-19400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 19300-19400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__19400-19500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 19400-19500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__19500-19600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 19500-19600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__19600-19700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 19600-19700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__19700-19800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 19700-19800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__19800-19900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 19800-19900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__19900-20000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 19900-20000 cm-1', 1);
+
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__20000-20100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 20000-20100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__20100-20200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 20100-20200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__20200-20300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 20200-20300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__20300-20400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 20300-20400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__20400-20500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 20400-20500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__20500-20600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 20500-20600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__20600-20700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 20600-20700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__20700-20800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 20700-20800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__20800-20900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 20800-20900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__20900-21000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 20900-21000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__21000-21100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 21000-21100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__21100-21200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 21100-21200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__21200-21300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 21200-21300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__21300-21400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 21300-21400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__21400-21500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 21400-21500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__21500-21600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 21500-21600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__21600-21700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 21600-21700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__21700-21800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 21700-21800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__21800-21900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 21800-21900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__21900-22000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 21900-22000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__22000-22100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 22000-22100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__22100-22200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 22100-22200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__22200-22300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 22200-22300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__22300-22400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 22300-22400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__22400-22500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 22400-22500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__22500-22600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 22500-22600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__22600-22700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 22600-22700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__22700-22800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 22700-22800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__22800-22900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 22800-22900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__22900-23000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 22900-23000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__23000-23100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 23000-23100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__23100-23200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 23100-23200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__23200-23300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 23200-23300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__23300-23400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 23300-23400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__23400-23500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 23400-23500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__23500-23600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 23500-23600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__23600-23700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 23600-23700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__23700-23800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 23700-23800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__23800-23900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 23800-23900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__23900-24000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 23900-24000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__24000-24100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 24000-24100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__24100-24200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 24100-24200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__24200-24300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 24200-24300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__24300-24400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 24300-24400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__24400-24500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 24400-24500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__24500-24600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 24500-24600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__24600-24700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 24600-24700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__24700-24800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 24700-24800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__24800-24900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 24800-24900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__24900-25000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 24900-25000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__25000-25100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 25000-25100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__25100-25200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 25100-25200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__25200-25300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 25200-25300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__25300-25400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 25300-25400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__25400-25500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 25400-25500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__25500-25600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 25500-25600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__25600-25700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 25600-25700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__25700-25800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 25700-25800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__25800-25900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 25800-25900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__25900-26000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 25900-26000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__26000-26100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 26000-26100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__26100-26200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 26100-26200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__26200-26300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 26200-26300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__26300-26400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 26300-26400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__26400-26500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 26400-26500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__26500-26600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 26500-26600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__26600-26700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 26600-26700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__26700-26800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 26700-26800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__26800-26900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 26800-26900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__26900-27000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 26900-27000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__27000-27100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 27000-27100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__27100-27200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 27100-27200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__27200-27300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 27200-27300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__27300-27400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 27300-27400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__27400-27500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 27400-27500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__27500-27600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 27500-27600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__27600-27700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 27600-27700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__27700-27800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 27700-27800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__27800-27900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 27800-27900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__27900-28000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 27900-28000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__28000-28100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 28000-28100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__28100-28200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 28100-28200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__28200-28300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 28200-28300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__28300-28400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 28300-28400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__28400-28500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 28400-28500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__28500-28600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 28500-28600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__28600-28700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 28600-28700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__28700-28800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 28700-28800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__28800-28900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 28800-28900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__28900-29000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 28900-29000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__29000-29100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 29000-29100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__29100-29200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 29100-29200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__29200-29300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 29200-29300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__29300-29400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 29300-29400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__29400-29500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 29400-29500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__29500-29600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 29500-29600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__29600-29700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 29600-29700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__29700-29800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 29700-29800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__29800-29900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 29800-29900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__29900-30000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 29900-30000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__30000-30100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 30000-30100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__30100-30200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 30100-30200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__30200-30300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 30200-30300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__30300-30400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 30300-30400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__30400-30500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 30400-30500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__30500-30600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 30500-30600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__30600-30700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 30600-30700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__30700-30800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 30700-30800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__30800-30900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 30800-30900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__30900-31000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 30900-31000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__31000-31100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 31000-31100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__31100-31200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 31100-31200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__31200-31300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 31200-31300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__31300-31400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 31300-31400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__31400-31500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 31400-31500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__31500-31600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 31500-31600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__31600-31700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 31600-31700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__31700-31800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 31700-31800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__31800-31900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 31800-31900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__31900-32000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 31900-32000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__32000-32100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 32000-32100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__32100-32200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 32100-32200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__32200-32300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 32200-32300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__32300-32400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 32300-32400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__32400-32500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 32400-32500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__32500-32600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 32500-32600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__32600-32700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 32600-32700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__32700-32800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 32700-32800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__32800-32900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 32800-32900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__32900-33000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 32900-33000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__33000-33100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 33000-33100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__33100-33200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 33100-33200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__33200-33300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 33200-33300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__33300-33400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 33300-33400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__33400-33500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 33400-33500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__33500-33600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 33500-33600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__33600-33700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 33600-33700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__33700-33800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 33700-33800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__33800-33900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 33800-33900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__33900-34000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 33900-34000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__34000-34100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 34000-34100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__34100-34200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 34100-34200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__34200-34300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 34200-34300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__34300-34400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 34300-34400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__34400-34500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 34400-34500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__34500-34600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 34500-34600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__34600-34700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 34600-34700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__34700-34800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 34700-34800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__34800-34900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 34800-34900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__34900-35000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 34900-35000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__35000-35100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 35000-35100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__35100-35200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 35100-35200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__35200-35300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 35200-35300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__35300-35400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 35300-35400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__35400-35500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 35400-35500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__35500-35600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 35500-35600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__35600-35700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 35600-35700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__35700-35800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 35700-35800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__35800-35900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 35800-35900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__35900-36000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 35900-36000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__36000-36100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 36000-36100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__36100-36200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 36100-36200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__36200-36300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 36200-36300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__36300-36400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 36300-36400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__36400-36500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 36400-36500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__36500-36600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 36500-36600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__36600-36700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 36600-36700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__36700-36800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 36700-36800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__36800-36900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 36800-36900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__36900-37000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 36900-37000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__37000-37100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 37000-37100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__37100-37200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 37100-37200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__37200-37300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 37200-37300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__37300-37400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 37300-37400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__37400-37500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 37400-37500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__37500-37600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 37500-37600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__37600-37700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 37600-37700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__37700-37800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 37700-37800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__37800-37900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 37800-37900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__37900-38000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 37900-38000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__38000-38100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 38000-38100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__38100-38200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 38100-38200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__38200-38300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 38200-38300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__38300-38400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 38300-38400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__38400-38500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 38400-38500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__38500-38600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 38500-38600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__38600-38700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 38600-38700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__38700-38800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 38700-38800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__38800-38900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 38800-38900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__38900-39000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 38900-39000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__39000-39100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 39000-39100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__39100-39200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 39100-39200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__39200-39300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 39200-39300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__39300-39400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 39300-39400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__39400-39500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 39400-39500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__39500-39600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 39500-39600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__39600-39700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 39600-39700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__39700-39800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 39700-39800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__39800-39900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 39800-39900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__39900-40000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 39900-40000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__40000-40100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 40000-40100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__40100-40200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 40100-40200 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__40200-40300.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 40200-40300 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__40300-40400.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 40300-40400 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__40400-40500.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 40400-40500 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__40500-40600.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 40500-40600 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__40600-40700.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 40600-40700 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__40700-40800.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 40700-40800 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__40800-40900.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 40800-40900 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__40900-41000.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 40900-41000 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__41000-41100.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 41000-41100 cm-1', 1);
+
+insert into data_link (url, description, local_file) values ('/db/H2O/1H2-16O/POKAZATEL/1H2-16O__POKAZATEL__41100-41200.trans.bz2', 'POKAZATEL (1H)2(16O) line list transitions: 41100-41200 cm-1', 1);

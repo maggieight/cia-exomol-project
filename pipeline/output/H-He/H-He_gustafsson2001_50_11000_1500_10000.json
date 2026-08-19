@@ -1,0 +1,335 @@
+{
+  "collision_pair": {
+    "formula": "H-He",
+    "slug": "h-he",
+    "active_species_status": "no_unique_active_species",
+    "active_species": null,
+    "collider": null,
+    "components": [
+      {
+        "formula": "H",
+        "slug": "h",
+        "cas_registry_number": "98645-24-0"
+      },
+      {
+        "formula": "He",
+        "slug": "he",
+        "cas_registry_number": "7440-59-7"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "gustafsson2001",
+    "version": "20260817",
+    "sources": [
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "gustafsson2001",
+        "authors": [
+          "Magnus Gustafsson",
+          "Lothar Frommhold"
+        ],
+        "title": "Infrared Absorption Spectra of Collisionally Interacting He and H Atoms",
+        "year": 2001,
+        "doi": "10.1086/318311",
+        "source_url": "https://doi.org/10.1086/318311",
+        "verified": true,
+        "ref": 18
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "hitran_cia_repository",
+        "authors": [
+          "HITRAN CIA Team"
+        ],
+        "title": "HITRAN online data: Collision Induced Absorption",
+        "year": 2024,
+        "doi": null,
+        "source_url": "https://hitran.org/cia/",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "terragni_hitran",
+        "authors": [
+          "J. Terragni",
+          "I.E. Gordon",
+          "E.M. Adkins",
+          "C. Boulet",
+          "A. Campargue",
+          "D. Chistikov",
+          "A. Finenko",
+          "H. Finkenzeller",
+          "H. Fleurbaey",
+          "R.J. Hargreaves",
+          "R.K. Hanson",
+          "J.-M. Hartmann",
+          "A. Klingberg",
+          "E. Kohler",
+          "A.O. Koroleva",
+          "D. Mondelain",
+          "G. Piccioni",
+          "S. Stefani",
+          "C.L. Strand",
+          "H. Tran",
+          "M. Turbet",
+          "A. Vigasin",
+          "F. Vitali",
+          "R. Volkamer",
+          "C. Wei"
+        ],
+        "title": "Collision induced absorption in HITRAN2024: Enhanced and improved data for atmospheric and planetary studies",
+        "year": 2025,
+        "doi": "10.1016/j.jqsrt.2025.109631",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2025.109631",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "gordon2026_hitran",
+        "authors": [
+          "I.E. Gordon",
+          "L.S. Rothman",
+          "R.J. Hargreaves",
+          "F.M. Gomez",
+          "T. Bertin",
+          "C. Hill",
+          "R.V. Kochanov",
+          "Y. Tan",
+          "P. Wcisło",
+          "V. Yu. Makhnev",
+          "P.F. Bernath",
+          "M. Birk",
+          "V. Boudon",
+          "A. Campargue",
+          "A. Coustenis",
+          "B.J. Drouin",
+          "R.R. Gamache",
+          "J.T. Hodges",
+          "D. Jacquemart",
+          "E.J. Mlawer",
+          "A.V. Nikitin",
+          "V.I. Perevalov",
+          "M. Rotger",
+          "S. Robert",
+          "J. Tennyson",
+          "G.C. Toon",
+          "H. Tran",
+          "V.G. Tyuterev",
+          "E.M. Adkins",
+          "A. Barbe",
+          "D.M. Bailey",
+          "K. Bielska",
+          "L. Bizzocchi",
+          "T.A. Blake",
+          "C.A. Bowesman",
+          "P. Cacciani",
+          "P. Čermák",
+          "A.G. Császár",
+          "L. Denis",
+          "S.C. Egbert",
+          "O. Egorov",
+          "A. Yu. Ermilov",
+          "A.J. Fleisher",
+          "H. Fleurbaey",
+          "A. Foltynowicz",
+          "T. Furtenbacher",
+          "M. Germann",
+          "E.R. Guest",
+          "J.J. Harrison",
+          "J.-M. Hartmann",
+          "A. Hjältén",
+          "S.-M. Hu",
+          "X. Huang",
+          "T.J. Johnson",
+          "H. Jóźwiak",
+          "S. Kassi",
+          "M.V. Khan",
+          "F. Kwabia-Tchana",
+          "T.J. Lee",
+          "D. Lisak",
+          "A.-W. Liu",
+          "O.M. Lyulin",
+          "N.A. Malarich",
+          "L. Manceron",
+          "A.A. Marinina",
+          "S.T. Massie",
+          "J. Mascio",
+          "E.S. Medvedev",
+          "V.V. Meshkov",
+          "G. Ch. Mellau",
+          "M. Melosso",
+          "S.N. Mikhailenko",
+          "D. Mondelain",
+          "H.S.P. Müller",
+          "M. O'Donnell",
+          "A. Owens",
+          "A. Perrin",
+          "O.L. Polyansky",
+          "P.L. Raston",
+          "Z.D. Reed",
+          "M. Rey",
+          "C. Richard",
+          "G.B. Rieker",
+          "C. Röske",
+          "S.W. Sharpe",
+          "E. Starikova",
+          "N. Stolarczyk",
+          "A.V. Stolyarov",
+          "K. Sung",
+          "F. Tamassia",
+          "J. Terragni",
+          "V.G. Ushakov",
+          "S. Vasilchenko",
+          "B. Vispoel",
+          "K.L. Vodopyanov",
+          "G. Wagner",
+          "S. Wójtewicz",
+          "S.N. Yurchenko",
+          "N.F. Zobov"
+        ],
+        "title": "The HITRAN2024 molecular spectroscopic database",
+        "year": 2026,
+        "doi": "10.1016/j.jqsrt.2026.109807",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2026.109807",
+        "verified": true,
+        "ref": null
+      }
+    ],
+    "repository": {
+      "name": "HITRAN CIA",
+      "version": "2011",
+      "collection": "main",
+      "original_files": [
+        "main/He-H_2011.cia.txt"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 1500.0,
+      "max_temperature": 10000.0,
+      "min_wavenumber": 50.0,
+      "max_wavenumber": 11000.0,
+      "units": {
+        "temperature": "K",
+        "wavenumber_resolution": "cm-1"
+      },
+      "column_schemas": {
+        "standard": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^5 molecule^-2"
+          }
+        ]
+      },
+      "default_column_schema": "standard",
+      "files": [
+        {
+          "temperature": 1500.0,
+          "wavenumber_resolution": null,
+          "npoints": 10951,
+          "filename": "H-He_gustafsson2001_50_11000_1500.cia",
+          "citation_keys": [
+            "gustafsson2001"
+          ],
+          "reference_number": 18
+        },
+        {
+          "temperature": 2250.0,
+          "wavenumber_resolution": null,
+          "npoints": 10951,
+          "filename": "H-He_gustafsson2001_50_11000_2250.cia",
+          "citation_keys": [
+            "gustafsson2001"
+          ],
+          "reference_number": 18
+        },
+        {
+          "temperature": 3000.0,
+          "wavenumber_resolution": null,
+          "npoints": 10951,
+          "filename": "H-He_gustafsson2001_50_11000_3000.cia",
+          "citation_keys": [
+            "gustafsson2001"
+          ],
+          "reference_number": 18
+        },
+        {
+          "temperature": 4000.0,
+          "wavenumber_resolution": null,
+          "npoints": 10951,
+          "filename": "H-He_gustafsson2001_50_11000_4000.cia",
+          "citation_keys": [
+            "gustafsson2001"
+          ],
+          "reference_number": 18
+        },
+        {
+          "temperature": 5000.0,
+          "wavenumber_resolution": null,
+          "npoints": 10951,
+          "filename": "H-He_gustafsson2001_50_11000_5000.cia",
+          "citation_keys": [
+            "gustafsson2001"
+          ],
+          "reference_number": 18
+        },
+        {
+          "temperature": 6000.0,
+          "wavenumber_resolution": null,
+          "npoints": 10951,
+          "filename": "H-He_gustafsson2001_50_11000_6000.cia",
+          "citation_keys": [
+            "gustafsson2001"
+          ],
+          "reference_number": 18
+        },
+        {
+          "temperature": 7000.0,
+          "wavenumber_resolution": null,
+          "npoints": 10951,
+          "filename": "H-He_gustafsson2001_50_11000_7000.cia",
+          "citation_keys": [
+            "gustafsson2001"
+          ],
+          "reference_number": 18
+        },
+        {
+          "temperature": 8000.0,
+          "wavenumber_resolution": null,
+          "npoints": 10951,
+          "filename": "H-He_gustafsson2001_50_11000_8000.cia",
+          "citation_keys": [
+            "gustafsson2001"
+          ],
+          "reference_number": 18
+        },
+        {
+          "temperature": 9000.0,
+          "wavenumber_resolution": null,
+          "npoints": 10951,
+          "filename": "H-He_gustafsson2001_50_11000_9000.cia",
+          "citation_keys": [
+            "gustafsson2001"
+          ],
+          "reference_number": 18
+        },
+        {
+          "temperature": 10000.0,
+          "wavenumber_resolution": null,
+          "npoints": 10951,
+          "filename": "H-He_gustafsson2001_50_11000_10000.cia",
+          "citation_keys": [
+            "gustafsson2001"
+          ],
+          "reference_number": 18
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collision_pair": {
+    "formula": "CH4-He",
+    "slug": "ch4-he",
+    "active_species_status": "unique",
+    "active_species": "ch4",
+    "collider": "he",
+    "components": [
+      {
+        "formula": "CH4",
+        "slug": "ch4",
+        "cas_registry_number": "74-82-8"
+      },
+      {
+        "formula": "He",
+        "slug": "he",
+        "cas_registry_number": "7440-59-7"
+      }
+    ]
+  },
+  "version": "20260803",
+  "recommended_dataset": "taylor1988",
+  "datasets": [
+    {
+      "dataset_id": "taylor1988",
+      "dataset_version": "20260803",
+      "metadata_file": "CH4-He_taylor1988_1_1000_40_350.json"
+    }
+  ]
+}

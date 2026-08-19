@@ -1,0 +1,40 @@
+{
+  "collision_pair": {
+    "formula": "H2-He",
+    "slug": "h2-he",
+    "active_species_status": "unique",
+    "active_species": "h2",
+    "collider": "he",
+    "components": [
+      {
+        "formula": "H2",
+        "slug": "h2",
+        "cas_registry_number": "1333-74-0"
+      },
+      {
+        "formula": "He",
+        "slug": "he",
+        "cas_registry_number": "7440-59-7"
+      }
+    ]
+  },
+  "version": "20260817",
+  "recommended_dataset": "abel2012",
+  "datasets": [
+    {
+      "dataset_id": "abel2012",
+      "dataset_version": "20260817",
+      "metadata_file": "H2-He_abel2012_20_20000_200_9900.json"
+    },
+    {
+      "dataset_id": "borysow1988",
+      "dataset_version": "20260817",
+      "metadata_file": "H2-He_borysow1988_0_2400_40_400.json"
+    },
+    {
+      "dataset_id": "vitali2025",
+      "dataset_version": "20260817",
+      "metadata_file": "H2-He_vitali2025_2400_6500_121_504.json"
+    }
+  ]
+}

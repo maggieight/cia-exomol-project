@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load mezzanine_tags %}
+
+{% block main %}
+<h2>{% block heading %}{{ isotopologue.ordinary_formula_html|safe }} {{ data_set.name }} spectroscopic model{% endblock %}</h2>
+
+<div>
+<p>Sorry – this spectroscopic model is not yet available.</p>
+<p>We are continuing to add spectroscopic models to the website for all the ExoMol ab initio line lists.</p>
+<p>Please <a href="/contact/">contact us</a> if your need is urgent.</p>
+</div>
+
+{% endblock main %}
+

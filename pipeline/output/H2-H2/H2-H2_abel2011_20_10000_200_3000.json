@@ -1,0 +1,1367 @@
+{
+  "collision_pair": {
+    "formula": "H2-H2",
+    "slug": "h2-h2",
+    "active_species_status": "unique",
+    "active_species": "h2",
+    "collider": "h2",
+    "components": [
+      {
+        "formula": "H2",
+        "slug": "h2",
+        "cas_registry_number": "1333-74-0"
+      },
+      {
+        "formula": "H2",
+        "slug": "h2",
+        "cas_registry_number": "1333-74-0"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "abel2011",
+    "version": "20260817",
+    "sources": [
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "abel2011",
+        "authors": [
+          "Martin Abel",
+          "Lothar Frommhold",
+          "Xiaoping Li",
+          "Katharine L. C. Hunt"
+        ],
+        "title": "Collision-induced absorption by H2 pairs: From hundreds to thousands of Kelvin",
+        "year": 2011,
+        "doi": "10.1021/jp109441f",
+        "source_url": "https://doi.org/10.1021/jp109441f",
+        "verified": true,
+        "ref": 6
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "hitran_cia_repository",
+        "authors": [
+          "HITRAN CIA Team"
+        ],
+        "title": "HITRAN online data: Collision Induced Absorption",
+        "year": 2024,
+        "doi": null,
+        "source_url": "https://hitran.org/cia/",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "terragni_hitran",
+        "authors": [
+          "J. Terragni",
+          "I.E. Gordon",
+          "E.M. Adkins",
+          "C. Boulet",
+          "A. Campargue",
+          "D. Chistikov",
+          "A. Finenko",
+          "H. Finkenzeller",
+          "H. Fleurbaey",
+          "R.J. Hargreaves",
+          "R.K. Hanson",
+          "J.-M. Hartmann",
+          "A. Klingberg",
+          "E. Kohler",
+          "A.O. Koroleva",
+          "D. Mondelain",
+          "G. Piccioni",
+          "S. Stefani",
+          "C.L. Strand",
+          "H. Tran",
+          "M. Turbet",
+          "A. Vigasin",
+          "F. Vitali",
+          "R. Volkamer",
+          "C. Wei"
+        ],
+        "title": "Collision induced absorption in HITRAN2024: Enhanced and improved data for atmospheric and planetary studies",
+        "year": 2025,
+        "doi": "10.1016/j.jqsrt.2025.109631",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2025.109631",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "gordon2026_hitran",
+        "authors": [
+          "I.E. Gordon",
+          "L.S. Rothman",
+          "R.J. Hargreaves",
+          "F.M. Gomez",
+          "T. Bertin",
+          "C. Hill",
+          "R.V. Kochanov",
+          "Y. Tan",
+          "P. Wcisło",
+          "V. Yu. Makhnev",
+          "P.F. Bernath",
+          "M. Birk",
+          "V. Boudon",
+          "A. Campargue",
+          "A. Coustenis",
+          "B.J. Drouin",
+          "R.R. Gamache",
+          "J.T. Hodges",
+          "D. Jacquemart",
+          "E.J. Mlawer",
+          "A.V. Nikitin",
+          "V.I. Perevalov",
+          "M. Rotger",
+          "S. Robert",
+          "J. Tennyson",
+          "G.C. Toon",
+          "H. Tran",
+          "V.G. Tyuterev",
+          "E.M. Adkins",
+          "A. Barbe",
+          "D.M. Bailey",
+          "K. Bielska",
+          "L. Bizzocchi",
+          "T.A. Blake",
+          "C.A. Bowesman",
+          "P. Cacciani",
+          "P. Čermák",
+          "A.G. Császár",
+          "L. Denis",
+          "S.C. Egbert",
+          "O. Egorov",
+          "A. Yu. Ermilov",
+          "A.J. Fleisher",
+          "H. Fleurbaey",
+          "A. Foltynowicz",
+          "T. Furtenbacher",
+          "M. Germann",
+          "E.R. Guest",
+          "J.J. Harrison",
+          "J.-M. Hartmann",
+          "A. Hjältén",
+          "S.-M. Hu",
+          "X. Huang",
+          "T.J. Johnson",
+          "H. Jóźwiak",
+          "S. Kassi",
+          "M.V. Khan",
+          "F. Kwabia-Tchana",
+          "T.J. Lee",
+          "D. Lisak",
+          "A.-W. Liu",
+          "O.M. Lyulin",
+          "N.A. Malarich",
+          "L. Manceron",
+          "A.A. Marinina",
+          "S.T. Massie",
+          "J. Mascio",
+          "E.S. Medvedev",
+          "V.V. Meshkov",
+          "G. Ch. Mellau",
+          "M. Melosso",
+          "S.N. Mikhailenko",
+          "D. Mondelain",
+          "H.S.P. Müller",
+          "M. O'Donnell",
+          "A. Owens",
+          "A. Perrin",
+          "O.L. Polyansky",
+          "P.L. Raston",
+          "Z.D. Reed",
+          "M. Rey",
+          "C. Richard",
+          "G.B. Rieker",
+          "C. Röske",
+          "S.W. Sharpe",
+          "E. Starikova",
+          "N. Stolarczyk",
+          "A.V. Stolyarov",
+          "K. Sung",
+          "F. Tamassia",
+          "J. Terragni",
+          "V.G. Ushakov",
+          "S. Vasilchenko",
+          "B. Vispoel",
+          "K.L. Vodopyanov",
+          "G. Wagner",
+          "S. Wójtewicz",
+          "S.N. Yurchenko",
+          "N.F. Zobov"
+        ],
+        "title": "The HITRAN2024 molecular spectroscopic database",
+        "year": 2026,
+        "doi": "10.1016/j.jqsrt.2026.109807",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2026.109807",
+        "verified": true,
+        "ref": null
+      }
+    ],
+    "repository": {
+      "name": "HITRAN CIA",
+      "version": "2011",
+      "collection": "main",
+      "original_files": [
+        "main/H2-H2_2011.cia.txt"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 200.0,
+      "max_temperature": 3000.0,
+      "min_wavenumber": 20.0,
+      "max_wavenumber": 10000.0,
+      "units": {
+        "temperature": "K",
+        "wavenumber_resolution": "cm-1"
+      },
+      "column_schemas": {
+        "standard": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^5 molecule^-2"
+          }
+        ]
+      },
+      "default_column_schema": "standard",
+      "files": [
+        {
+          "temperature": 200.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_200.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 225.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_225.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 250.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_250.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 275.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_275.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 300.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_300.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 325.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_325.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 350.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_350.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 375.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_375.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 400.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_400.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 425.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_425.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 450.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_450.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 475.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_475.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 500.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_500.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 525.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_525.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 550.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_550.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 575.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_575.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 600.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_600.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 625.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_625.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 650.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_650.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 675.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_675.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 700.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_700.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 725.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_725.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 750.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_750.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 775.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_775.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 800.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_800.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 825.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_825.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 850.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_850.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 875.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_875.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 900.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_900.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 925.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_925.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 950.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_950.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 975.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_975.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1000.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1000.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1025.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1025.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1050.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1050.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1075.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1075.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1100.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1100.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1125.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1125.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1150.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1150.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1175.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1175.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1200.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1200.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1225.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1225.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1250.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1250.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1275.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1275.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1300.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1300.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1325.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1325.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1350.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1350.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1375.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1375.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1400.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1400.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1425.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1425.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1450.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1450.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1475.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1475.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1500.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1500.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1525.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1525.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1550.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1550.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1575.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1575.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1600.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1600.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1625.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1625.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1650.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1650.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1675.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1675.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1700.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1700.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1725.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1725.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1750.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1750.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1775.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1775.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1800.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1800.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1825.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1825.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1850.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1850.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1875.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1875.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1900.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1900.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1925.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1925.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1950.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1950.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 1975.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_1975.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2000.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2000.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2025.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2025.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2050.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2050.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2075.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2075.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2100.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2100.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2125.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2125.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2150.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2150.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2175.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2175.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2200.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2200.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2225.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2225.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2250.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2250.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2275.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2275.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2300.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2300.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2325.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2325.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2350.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2350.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2375.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2375.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2400.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2400.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2425.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2425.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2450.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2450.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2475.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2475.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2500.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2500.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2525.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2525.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2550.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2550.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2575.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2575.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2600.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2600.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2625.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2625.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2650.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2650.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2675.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2675.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2700.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2700.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2725.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2725.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2750.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2750.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2775.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2775.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2800.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2800.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2825.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2825.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2850.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2850.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2875.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2875.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2900.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2900.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2925.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2925.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2950.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2950.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 2975.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_2975.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        },
+        {
+          "temperature": 3000.0,
+          "wavenumber_resolution": null,
+          "npoints": 9981,
+          "filename": "H2-H2_abel2011_20_10000_3000.cia",
+          "citation_keys": [
+            "abel2011"
+          ],
+          "reference_number": 6
+        }
+      ]
+    }
+  }
+}

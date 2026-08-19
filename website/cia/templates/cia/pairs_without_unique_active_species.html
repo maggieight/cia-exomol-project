@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load cia_tags static %}
+
+{% block meta_title %}CIA pairs without a unique active species{% endblock %}
+
+{% block extra_css %}
+{{ block.super }}
+<link rel="stylesheet" href="{% static 'cia/cia.css' %}">
+{% endblock %}
+
+{% block main %}
+<p><a href="{% url 'cia:index' %}">&larr; All CIA data</a></p>
+<h1>Pairs without a unique active species</h1>
+
+<div class="well cia-list-panel">
+<div class="list-group">
+{% for pair in pairs %}
+  <a class="list-group-item link-list-group-item cia-list-item" href="{% url 'cia:pair' pair.slug %}">
+    {{ pair.formula|chemical_formula }}
+  </a>
+{% empty %}
+  <p>No pairs without a unique active species are available.</p>
+{% endfor %}
+</div>
+</div>
+{% endblock %}

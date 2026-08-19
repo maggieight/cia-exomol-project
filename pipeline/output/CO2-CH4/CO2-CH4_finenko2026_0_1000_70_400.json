@@ -1,0 +1,767 @@
+{
+  "collision_pair": {
+    "formula": "CO2-CH4",
+    "slug": "co2-ch4",
+    "active_species_status": "unique",
+    "active_species": "co2",
+    "collider": "ch4",
+    "components": [
+      {
+        "formula": "CO2",
+        "slug": "co2",
+        "cas_registry_number": "124-38-9"
+      },
+      {
+        "formula": "CH4",
+        "slug": "ch4",
+        "cas_registry_number": "74-82-8"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "finenko2026",
+    "version": "20260817",
+    "sources": [
+      {
+        "repository": "JQSRT",
+        "citation_key": "finenko2026",
+        "authors": [
+          "A.A. Finenko",
+          "D.N. Chistikov",
+          "A.O. Koroleva",
+          "A.A. Vigasin"
+        ],
+        "title": "Trajectory-based far infrared collision-induced absorption spectra of CH4-CO2 in the temperature range from 70 K to 400 K",
+        "year": 2026,
+        "doi": "10.1016/j.jqsrt.2026.109810",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2026.109810",
+        "verified": true,
+        "ref": null
+      }
+    ],
+    "repository": {
+      "name": "JQSRT supplementary data",
+      "version": null,
+      "collection": "finenko2026",
+      "original_files": [
+        "CH4-CO2-D3.cia",
+        "CH4-CO2-D4a.cia"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 70.0,
+      "max_temperature": 400.0,
+      "min_wavenumber": 0.0,
+      "max_wavenumber": 1000.0,
+      "wavenumber_resolution": 0.1,
+      "units": {
+        "temperature": "K",
+        "wavenumber": "cm^-1",
+        "wavenumber_resolution": "cm^-1"
+      },
+      "variant_descriptions": {
+        "d3-schofield": "Schofield procedure",
+        "d4a-frommhold": "Frommhold procedure"
+      },
+      "column_schemas": {
+        "standard": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^5 molecule^-2"
+          }
+        ]
+      },
+      "default_column_schema": "standard",
+      "files": [
+        {
+          "temperature": 70.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 6001,
+          "filename": "CO2-CH4_finenko2026_0_600_70_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 70.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 6001,
+          "filename": "CO2-CH4_finenko2026_0_600_70_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 80.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 6001,
+          "filename": "CO2-CH4_finenko2026_0_600_80_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 80.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 6001,
+          "filename": "CO2-CH4_finenko2026_0_600_80_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 90.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_90_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 90.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_90_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 100.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_100_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 100.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_100_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 110.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_110_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 110.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_110_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 120.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_120_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 120.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_120_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 130.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_130_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 130.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_130_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 140.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_140_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 140.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_140_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 150.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_150_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 150.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_150_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 160.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_160_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 160.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_160_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 170.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_170_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 170.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_170_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 180.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_180_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 180.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_180_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 190.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_190_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 190.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_190_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 200.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_200_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 200.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_200_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 210.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_210_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 210.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_210_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 220.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_220_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 220.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_220_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 230.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_230_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 230.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_230_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 240.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_240_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 240.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_240_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 250.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_250_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 250.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_250_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 260.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_260_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 260.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_260_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 270.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_270_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 270.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_270_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 280.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_280_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 280.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_280_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 290.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_290_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 290.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_290_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 300.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_300_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 300.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 8001,
+          "filename": "CO2-CH4_finenko2026_0_800_300_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 310.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10000,
+          "filename": "CO2-CH4_finenko2026_0_1000_310_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 310.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10001,
+          "filename": "CO2-CH4_finenko2026_0_1000_310_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 320.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10000,
+          "filename": "CO2-CH4_finenko2026_0_1000_320_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 320.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10001,
+          "filename": "CO2-CH4_finenko2026_0_1000_320_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 330.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10000,
+          "filename": "CO2-CH4_finenko2026_0_1000_330_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 330.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10001,
+          "filename": "CO2-CH4_finenko2026_0_1000_330_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 340.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10000,
+          "filename": "CO2-CH4_finenko2026_0_1000_340_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 340.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10001,
+          "filename": "CO2-CH4_finenko2026_0_1000_340_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 350.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10000,
+          "filename": "CO2-CH4_finenko2026_0_1000_350_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 350.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10001,
+          "filename": "CO2-CH4_finenko2026_0_1000_350_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 360.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10000,
+          "filename": "CO2-CH4_finenko2026_0_1000_360_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 360.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10001,
+          "filename": "CO2-CH4_finenko2026_0_1000_360_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 370.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10000,
+          "filename": "CO2-CH4_finenko2026_0_1000_370_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 370.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10001,
+          "filename": "CO2-CH4_finenko2026_0_1000_370_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 380.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10000,
+          "filename": "CO2-CH4_finenko2026_0_1000_380_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 380.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10001,
+          "filename": "CO2-CH4_finenko2026_0_1000_380_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 390.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10000,
+          "filename": "CO2-CH4_finenko2026_0_1000_390_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 390.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10001,
+          "filename": "CO2-CH4_finenko2026_0_1000_390_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        },
+        {
+          "temperature": 400.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10000,
+          "filename": "CO2-CH4_finenko2026_0_1000_400_d4a-frommhold.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d4a-frommhold"
+        },
+        {
+          "temperature": 400.0,
+          "wavenumber_resolution": 0.1,
+          "npoints": 10001,
+          "filename": "CO2-CH4_finenko2026_0_1000_400_d3-schofield.cia",
+          "citation_keys": [
+            "finenko2026"
+          ],
+          "variant": "d3-schofield"
+        }
+      ]
+    },
+    "variants": [
+      "d3-schofield",
+      "d4a-frommhold"
+    ]
+  }
+}

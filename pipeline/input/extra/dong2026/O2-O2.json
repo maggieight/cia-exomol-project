@@ -1,0 +1,72 @@
+{
+  "collision_pair": {
+    "formula": "O2-O2",
+    "slug": "o2-o2",
+    "active_species_status": "unique",
+    "active_species": "o2",
+    "collider": "o2",
+    "components": [
+      {
+        "formula": "O2",
+        "slug": "o2",
+        "cas_registry_number": "7782-44-7"
+      },
+      {
+        "formula": "O2",
+        "slug": "o2",
+        "cas_registry_number": "7782-44-7"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "dong2026",
+    "recommendation_status": "supplementary",
+    "repository": {
+      "name": "JQSRT supplementary material",
+      "version": null,
+      "collection": "dong2026",
+      "original_files": [
+        "CIA B_O2-O2_1.06um.txt"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 296,
+      "max_temperature": 296,
+      "min_wavenumber": 9120,
+      "max_wavenumber": 9820,
+      "wavenumber_resolution": null,
+      "nominal_wavenumber_step": 0.01,
+      "units": {
+        "temperature": "K",
+        "wavenumber": "cm^-1",
+        "wavenumber_resolution": "cm^-1",
+        "nominal_wavenumber_step": "cm^-1"
+      },
+      "column_schemas": {
+        "with_absolute_uncertainty": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^-1 amagat^-2"
+          },
+          {
+            "name": "uncertainty",
+            "units": "cm^-1 amagat^-2",
+            "uncertainty_type": "absolute",
+            "applies_to": "cia_coefficient",
+            "uncertainty_level": "1_sigma",
+            "description": "combined standard uncertainty, 1 sigma"
+          }
+        ]
+      },
+      "default_column_schema": "with_absolute_uncertainty",
+      "data_file": "O2-O2.csv"
+    },
+    "sources": [
+      "dong2026"
+    ]
+  }
+}

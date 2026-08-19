@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load pages_tags mezzanine_tags i18n static %}
+
+{% block main %}
+
+<p>The most recent <a href="/about/group-photo/">Group Photo is here</a>.</p>
+
+<h2>Current Group Members</h2>
+{% for profile in current_group_member_profiles %}
+{% include "pages/about/group_member_profile.html" %}
+{% endfor %}
+
+<h2>Former Group Members</h2>
+{% for profile in former_group_member_profiles %}
+{% include "pages/about/group_member_profile.html" %}
+{% endfor %}
+
+{% endblock main %}
+

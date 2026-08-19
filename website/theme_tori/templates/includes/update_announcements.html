@@ -1,0 +1,10 @@
+<h4>Latest Updates</h4>
+<ul class="list-group">
+{% for update_announcement in update_announcements %}
+<li class="list-group-item">
+<h5>{{ update_announcement.date|date:"d M Y" }}</h5>
+<a href="/activities/exomol-updates#news-{{ update_announcement.pk }}">{{ update_announcement.headline|safe }}</a>
+</li>
+{% endfor %}
+</ul>
+

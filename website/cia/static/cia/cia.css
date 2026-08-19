@@ -1,0 +1,92 @@
+a.cia-recommended,
+a.cia-recommended:hover,
+a.cia-recommended:focus {
+    background-color: #d9edf7;
+    color: #555;
+}
+
+a.cia-index-item:hover,
+a.cia-index-item:focus {
+    background-color: #f5f5f5;
+    color: #555;
+}
+
+a.cia-index-item {
+    padding: 13px 18px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.cia-index-group {
+    width: 100%;
+    max-width: 500px;
+}
+
+.cia-list-panel {
+    width: 100%;
+    max-width: 200px;
+}
+
+a.cia-list-item {
+    padding: 13px 18px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+a.cia-list-item:hover,
+a.cia-list-item:focus {
+    background-color: #f5f5f5;
+    color: #555;
+}
+
+.cia-dataset-panel {
+    width: 100%;
+    max-width: 700px;
+}
+
+a.cia-dataset-item {
+    padding: 13px 18px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+a.cia-dataset-item:hover,
+a.cia-dataset-item:focus {
+    background-color: #f5f5f5;
+    color: #555;
+}
+
+.cia-metadata-file,
+.cia-metadata-file:hover,
+.cia-metadata-file:focus {
+    background-color: #ffffd2;
+}
+
+.cia-metadata-file a {
+    text-decoration: none;
+}
+
+.cia-metadata-file a:hover,
+.cia-metadata-file a:focus {
+    text-decoration: underline;
+}
+
+.cia-metadata-summary {
+    margin-bottom: 10px;
+    background-color: #ffffd2;
+}
+
+.cia-metadata-summary .dl-horizontal {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .cia-metadata-summary .dl-horizontal dt {
+        width: 180px;
+        text-align: left;
+    }
+
+    .cia-metadata-summary .dl-horizontal dd {
+        margin-left: 190px;
+    }
+}

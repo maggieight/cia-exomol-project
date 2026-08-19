@@ -1,0 +1,24 @@
+
+<h3>Broadening coefficients for {{ molecule.ordinary_formula_html|safe }}</h3>
+<div class="well {% if broadening_collection.external %} external{% endif %}" style="width: 700px;">
+<p>Note: unless otherwise stated, the broadening coefficients for the principal (most abundant) isotopologue can be used for other isotopologues of the same molecule.</p>
+<ul class="list-group">
+{% for link in broadening_collection.link.all %}
+<li class="list-group-item link-list-group-item"><a href="{{ link.url }}" title="{{ link.description|safe }}">{{ link.display }}</a>
+{% if link.size %}
+[{{ link.size|filesizeformat }}]
+{% endif %}
+{% if link.description %}
+<br/><span class="link-description">{{ link.description }}</span>
+{% endif %}
+</li>
+{% endfor %}
+</ul>
+
+<h4>References</h4>
+<ol>
+{% for source in broadening_collection.source.all %}
+<li>{{ source.html|safe }}</li>
+{% endfor %}
+</ol>
+</div>

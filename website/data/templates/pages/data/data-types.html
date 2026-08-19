@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h2>ExoMol Data Types</h2>
+
+<div class="well" style="width: 500px;">
+<div class="list-group">
+{% for data_type in data_types %}
+    <a href="{{ data_type.type_str}}" class="list-group-item link-list-group-item">{{ data_type.description }}</a>
+{% endfor %}
+</div>
+
+<div class="list-group">
+<a href="http://www.exomol.com/repository/PES/" class="list-group-item link-list-group-item">Spectroscopic Models</a>
+</div>
+
+</div>
+
+
+{% endblock main %}

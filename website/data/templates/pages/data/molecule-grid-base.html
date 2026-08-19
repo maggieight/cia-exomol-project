@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block extra_js %}
+<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+<script type="text/javascript">
+
+function do_layout() {
+    $('.grid').masonry({
+      // options
+      itemSelector: '.grid-item',
+      columnWidth: 200
+    });
+}
+
+$( document ).ready(function() {
+    do_layout();
+});
+
+function searchFilter() {
+    var input, filter, atags, a, i;
+    input = document.getElementById('search_molecules');
+    filter = input.value;
+    atags = document.getElementsByClassName('molecule_link');
+
+    for (i = 0; i < atags.length; i++) {            
+        if (atags[i].getAttribute("href").indexOf(filter) > -1) {
+            atags[i].style.display = "";
+        } else {
+            atags[i].style.display = "none";
+        }
+    }
+    do_layout();
+}
+
+</script>
+{% endblock %}
+
+{% block main %}
+<h2>{% block heading %}{% endblock %}</h2>
+<p>Search species: <input type="text" id="search_molecules" onkeyup="searchFilter()" placeholder="Search by formula"></p>
+
+<div class="grid">
+{% for molecule_type, molecules in molecule_types.items %}
+<div class="grid-item" style="width: 200px;">
+<div class="well">
+<h4>{{ molecule_type}}</h4>
+    <div class="list-group">
+    {% for molecule in molecules %}
+        <a href="{% url 'data:molecule' molecule.slug %}" class="list-group-item link-list-group-item molecule_link">{{ molecule.ordinary_formula_html|safe }}</a>
+    {% endfor %}
+    </div>
+</div>
+</div>
+{% endfor %}
+</div>
+{% endblock main %}
+

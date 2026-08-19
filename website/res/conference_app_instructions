@@ -1,0 +1,31 @@
+django-admin.py startapp conferences
+
+Add a conference through the admin (the "short title" should match "XXX" in
+the URL used for this conference: exomol.com/conferences/XXX/ e.g.
+exomol.com/conferences/ExoMol2018/
+
+Create a "Rich text page": Conference "Spectroscopy of Exoplanets" under
+"Activities" in the Mezzanine Pages admin (exomol.com/admin/pages/page/); in
+its Meta data entry, make the URL "conferences/ExoMol2018". If the original
+URL has already been sent out, let me know and I'll add a redirect.
+
+Add child Rich text pages to it as necessary (venue, accommodation, speakers,
+dates, letters, links, travel, ...)
+
+Two features will require special attention: a form for registration and
+abstract / presentation upload:
+
+(1) Add a "Form" child page to the ExoMol2018 conference page and give it the
+title "Registration". The "Content" is the preamble to the registration form;
+the Response is the page shown after the user has submitted the form. Build
+the form by adding and customizing Fields from the section at the bottom of
+this admin page. You can also define an email to be sent when the form is
+submitted.
+
+(2) Abstract / presentation upload requires integration with the Django app:
+I'll dig out the necessary files and implement them within the Mezzanine
+framework of the current ExoMol website.
+
+For now, I've marked the additional Mezzanine pages as Draft (ie only visible
+on the live website by staff). You'll want to set this to Published when you're
+happy with them.

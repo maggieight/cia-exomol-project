@@ -1,0 +1,71 @@
+{
+  "collision_pair": {
+    "formula": "Ar-He",
+    "slug": "ar-he",
+    "active_species_status": "no_unique_active_species",
+    "active_species": null,
+    "collider": null,
+    "components": [
+      {
+        "formula": "Ar",
+        "slug": "ar",
+        "cas_registry_number": "7440-37-1"
+      },
+      {
+        "formula": "He",
+        "slug": "he",
+        "cas_registry_number": "7440-59-7"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "chandran2025",
+    "recommendation_status": "supplementary",
+    "repository": {
+      "name": "JQSRT supplementary material",
+      "version": null,
+      "collection": "chandran2025",
+      "original_files": [
+        "CIA_HeAr_165K.data",
+        "CIA_HeAr_295K.data",
+        "CIA_HeAr_1000K.data",
+        "CIA_HeAr_2000K.data"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 165,
+      "max_temperature": 2000,
+      "min_wavenumber": 5,
+      "max_wavenumber": 3000,
+      "nominal_wavenumber_step": 5,
+      "units": {
+        "temperature": "K",
+        "wavenumber": "cm^-1",
+        "nominal_wavenumber_step": "cm^-1"
+      },
+      "column_schemas": {
+        "with_absolute_uncertainty": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^-1 amagat^-2"
+          },
+          {
+            "name": "uncertainty",
+            "units": "cm^-1 amagat^-2",
+            "uncertainty_type": "absolute",
+            "applies_to": "cia_coefficient"
+          }
+        ]
+      },
+      "default_column_schema": "with_absolute_uncertainty",
+      "data_file": "Ar-He.csv"
+    },
+    "sources": [
+      "chandran2025"
+    ]
+  }
+}

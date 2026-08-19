@@ -1,0 +1,30 @@
+{
+  "collision_pair": {
+    "formula": "H-He",
+    "slug": "h-he",
+    "active_species_status": "no_unique_active_species",
+    "active_species": null,
+    "collider": null,
+    "components": [
+      {
+        "formula": "H",
+        "slug": "h",
+        "cas_registry_number": "98645-24-0"
+      },
+      {
+        "formula": "He",
+        "slug": "he",
+        "cas_registry_number": "7440-59-7"
+      }
+    ]
+  },
+  "version": "20260803",
+  "recommended_dataset": "gustafsson2001",
+  "datasets": [
+    {
+      "dataset_id": "gustafsson2001",
+      "dataset_version": "20260803",
+      "metadata_file": "H-He_gustafsson2001_50_11000_1500_10000.json"
+    }
+  ]
+}

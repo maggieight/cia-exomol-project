@@ -1,0 +1,6 @@
+Pete Dermott's PR:
+https://github.com/stephenmcd/mezzanine/pull/1956
+
+pip install git+https://github.com/fermorltd/mezzanine.git@2.2-compat
+pip install -U git+https://github.com/fermorltd/filebrowser-safe.git@2.2-compat
+pip install -U git+https://github.com/fermorltd/grappelli-safe.git@2.2-compat

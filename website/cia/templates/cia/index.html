@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load cia_tags static %}
+
+{% block meta_title %}Collision-induced absorption{% endblock %}
+
+{% block extra_css %}
+{{ block.super }}
+<link rel="stylesheet" href="{% static 'cia/cia.css' %}">
+{% endblock %}
+
+{% block main %}
+<h1>Collision-induced absorption</h1>
+<p>Select an active species or a collision pair.</p>
+
+<div class="well cia-index-group">
+<h2>Active species</h2>
+<div class="list-group">
+{% for item in species %}
+  <a class="list-group-item link-list-group-item cia-index-item" href="{% url 'cia:species' item.slug %}">
+    {{ item.formula|chemical_formula }}
+    <span class="badge">{{ item.pairs|length }} pair{{ item.pairs|length|pluralize }}</span>
+  </a>
+{% empty %}
+  <p>No active species are available.</p>
+{% endfor %}
+</div>
+</div>
+
+{% if unassigned_pairs %}
+<div class="well cia-index-group">
+<div class="list-group">
+  <a class="list-group-item link-list-group-item cia-index-item" href="{% url 'cia:pairs_without_unique_active_species' %}">
+    Pairs without a unique active species
+    <span class="badge">{{ unassigned_pairs|length }} pair{{ unassigned_pairs|length|pluralize }}</span>
+  </a>
+</div>
+</div>
+{% endif %}
+{% endblock %}

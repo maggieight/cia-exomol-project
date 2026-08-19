@@ -1,0 +1,91 @@
+{
+  "co2": {
+    "formula": "CO2",
+    "slug": "co2",
+    "cas_registry_number": "124-38-9",
+    "cas_source": "NIST Chemistry WebBook",
+    "cas_source_url": "https://webbook.nist.gov/",
+    "verified": true
+  },
+  "ar": {
+    "formula": "Ar",
+    "slug": "ar",
+    "cas_registry_number": "7440-37-1",
+    "cas_source": "NIST Chemistry WebBook",
+    "cas_source_url": "https://webbook.nist.gov/",
+    "verified": true
+  },
+  "ch4": {
+    "formula": "CH4",
+    "slug": "ch4",
+    "cas_registry_number": "74-82-8",
+    "cas_source": "NIST Chemistry WebBook",
+    "cas_source_url": "https://webbook.nist.gov/",
+    "verified": true
+  },
+  "h2": {
+    "formula": "H2",
+    "slug": "h2",
+    "cas_registry_number": "1333-74-0",
+    "cas_source": "NIST Chemistry WebBook",
+    "cas_source_url": "https://webbook.nist.gov/",
+    "verified": true
+  },
+  "h2o": {
+    "formula": "H2O",
+    "slug": "h2o",
+    "cas_registry_number": "7732-18-5",
+    "cas_source": "NIST Chemistry WebBook",
+    "cas_source_url": "https://webbook.nist.gov/",
+    "verified": true
+  },
+  "he": {
+    "formula": "He",
+    "slug": "he",
+    "cas_registry_number": "7440-59-7",
+    "cas_source": "NIST Chemistry WebBook",
+    "cas_source_url": "https://webbook.nist.gov/",
+    "verified": true
+  },
+  "h": {
+    "formula": "H",
+    "slug": "h",
+    "cas_registry_number": "98645-24-0",
+    "cas_source": "NIST Chemistry WebBook",
+    "cas_source_url": "https://webbook.nist.gov/",
+    "verified": true
+  },
+  "o2": {
+    "formula": "O2",
+    "slug": "o2",
+    "cas_registry_number": "7782-44-7",
+    "cas_source": "NIST Chemistry WebBook",
+    "cas_source_url": "https://webbook.nist.gov/",
+    "verified": true
+  },
+  "air": {
+    "formula": "Air",
+    "slug": "air",
+    "cas_registry_number": null,
+    "cas_registry_number_status": "not_applicable_mixture",
+    "cas_source": "NIST Chemistry WebBook",
+    "cas_source_url": "https://webbook.nist.gov/",
+    "verified": true
+  },
+  "n2": {
+    "formula": "N2",
+    "slug": "n2",
+    "cas_registry_number": "7727-37-9",
+    "cas_source": "NIST Chemistry WebBook",
+    "cas_source_url": "https://webbook.nist.gov/",
+    "verified": true
+  },
+  "ne": {
+    "formula": "Ne",
+    "slug": "ne",
+    "cas_registry_number": "7440-01-9",
+    "cas_source": "NIST Chemistry WebBook",
+    "cas_source_url": "https://webbook.nist.gov/",
+    "verified": true
+  }
+}

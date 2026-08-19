@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+venv/
+**pycache**/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Secrets and local configuration
+.env
+*.db
+local_settings.py
+
+# File exceeding GitHub's 100 MB limit
+pipeline/input/main/H2-He_2011.cia.txt

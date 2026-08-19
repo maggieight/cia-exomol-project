@@ -1,0 +1,40 @@
+{
+  "collision_pair": {
+    "formula": "CO2-H2",
+    "slug": "co2-h2",
+    "active_species_status": "unique",
+    "active_species": "co2",
+    "collider": "h2",
+    "components": [
+      {
+        "formula": "CO2",
+        "slug": "co2",
+        "cas_registry_number": "124-38-9"
+      },
+      {
+        "formula": "H2",
+        "slug": "h2",
+        "cas_registry_number": "1333-74-0"
+      }
+    ]
+  },
+  "version": "20260803",
+  "recommended_dataset": "turbet2020",
+  "datasets": [
+    {
+      "dataset_id": "turbet2020",
+      "dataset_version": "20260803",
+      "metadata_file": "CO2-H2_turbet2020_5_1500_100_600.json"
+    },
+    {
+      "dataset_id": "vitali2026",
+      "dataset_version": "20260803",
+      "metadata_file": "CO2-H2_vitali2026_3193_5962_241_498.json"
+    },
+    {
+      "dataset_id": "wordsworth2017",
+      "dataset_version": "20260803",
+      "metadata_file": "CO2-H2_wordsworth2017_0_2000_200_350.json"
+    }
+  ]
+}

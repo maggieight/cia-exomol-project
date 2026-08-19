@@ -1,0 +1,30 @@
+{
+  "collision_pair": {
+    "formula": "He-Ne",
+    "slug": "he-ne",
+    "active_species_status": "no_unique_active_species",
+    "active_species": null,
+    "collider": null,
+    "components": [
+      {
+        "formula": "He",
+        "slug": "he",
+        "cas_registry_number": "7440-59-7"
+      },
+      {
+        "formula": "Ne",
+        "slug": "ne",
+        "cas_registry_number": "7440-01-9"
+      }
+    ]
+  },
+  "version": "20260817",
+  "recommended_dataset": null,
+  "datasets": [
+    {
+      "dataset_id": "chandran2025",
+      "dataset_version": "20260817",
+      "metadata_file": "He-Ne_chandran2025_5_4000_77_2000.json"
+    }
+  ]
+}

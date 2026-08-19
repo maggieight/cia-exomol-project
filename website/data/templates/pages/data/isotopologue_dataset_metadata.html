@@ -1,0 +1,29 @@
+
+
+
+EDIT THIS FOR METADATA
+
+
+
+{% extends "base.html" %}
+{% load static dataset_tags %}
+
+
+{% block extra_css %}
+<style>
+button.show-hide-files-button.btn-danger {
+    margin-bottom: 10px;
+}
+</style>
+{% endblock extra_css %}
+
+
+{% block main %}
+<h2>{% block heading %}Metadata for the {{ dd.dataset }} dataset of {{ isotopologue.ordinary_formula_html|safe }}{% endblock %}</h2>
+
+<p>{{ dd.isotopologue }}</p>
+
+
+{% endblock main %}
+
+

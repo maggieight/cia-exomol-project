@@ -1,0 +1,461 @@
+{
+  "collision_pair": {
+    "formula": "H2-He",
+    "slug": "h2-he",
+    "active_species_status": "unique",
+    "active_species": "h2",
+    "collider": "he",
+    "components": [
+      {
+        "formula": "H2",
+        "slug": "h2",
+        "cas_registry_number": "1333-74-0"
+      },
+      {
+        "formula": "He",
+        "slug": "he",
+        "cas_registry_number": "7440-59-7"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "borysow1988",
+    "version": "20260803",
+    "sources": [
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "borysow1988",
+        "authors": [
+          "Jacek Borysow",
+          "Lothar Frommhold",
+          "George Birnbaum"
+        ],
+        "title": "Collision-induced Rototranslational Absorption Spectra of H2-He Pairs at Temperatures from 40 to 3000 K",
+        "year": 1988,
+        "doi": "10.1086/166112",
+        "source_url": "https://doi.org/10.1086/166112",
+        "verified": true,
+        "ref": 14
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "hitran_cia_repository",
+        "authors": [
+          "HITRAN CIA Team"
+        ],
+        "title": "HITRAN online data: Collision Induced Absorption",
+        "year": 2024,
+        "doi": null,
+        "source_url": "https://hitran.org/cia/",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "terragni_hitran",
+        "authors": [
+          "J. Terragni",
+          "I.E. Gordon",
+          "E.M. Adkins",
+          "C. Boulet",
+          "A. Campargue",
+          "D. Chistikov",
+          "A. Finenko",
+          "H. Finkenzeller",
+          "H. Fleurbaey",
+          "R.J. Hargreaves",
+          "R.K. Hanson",
+          "J.-M. Hartmann",
+          "A. Klingberg",
+          "E. Kohler",
+          "A.O. Koroleva",
+          "D. Mondelain",
+          "G. Piccioni",
+          "S. Stefani",
+          "C.L. Strand",
+          "H. Tran",
+          "M. Turbet",
+          "A. Vigasin",
+          "F. Vitali",
+          "R. Volkamer",
+          "C. Wei"
+        ],
+        "title": "Collision induced absorption in HITRAN2024: Enhanced and improved data for atmospheric and planetary studies",
+        "year": 2025,
+        "doi": "10.1016/j.jqsrt.2025.109631",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2025.109631",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "gordon2026_hitran",
+        "authors": [
+          "I.E. Gordon",
+          "L.S. Rothman",
+          "R.J. Hargreaves",
+          "F.M. Gomez",
+          "T. Bertin",
+          "C. Hill",
+          "R.V. Kochanov",
+          "Y. Tan",
+          "P. Wcisło",
+          "V. Yu. Makhnev",
+          "P.F. Bernath",
+          "M. Birk",
+          "V. Boudon",
+          "A. Campargue",
+          "A. Coustenis",
+          "B.J. Drouin",
+          "R.R. Gamache",
+          "J.T. Hodges",
+          "D. Jacquemart",
+          "E.J. Mlawer",
+          "A.V. Nikitin",
+          "V.I. Perevalov",
+          "M. Rotger",
+          "S. Robert",
+          "J. Tennyson",
+          "G.C. Toon",
+          "H. Tran",
+          "V.G. Tyuterev",
+          "E.M. Adkins",
+          "A. Barbe",
+          "D.M. Bailey",
+          "K. Bielska",
+          "L. Bizzocchi",
+          "T.A. Blake",
+          "C.A. Bowesman",
+          "P. Cacciani",
+          "P. Čermák",
+          "A.G. Császár",
+          "L. Denis",
+          "S.C. Egbert",
+          "O. Egorov",
+          "A. Yu. Ermilov",
+          "A.J. Fleisher",
+          "H. Fleurbaey",
+          "A. Foltynowicz",
+          "T. Furtenbacher",
+          "M. Germann",
+          "E.R. Guest",
+          "J.J. Harrison",
+          "J.-M. Hartmann",
+          "A. Hjältén",
+          "S.-M. Hu",
+          "X. Huang",
+          "T.J. Johnson",
+          "H. Jóźwiak",
+          "S. Kassi",
+          "M.V. Khan",
+          "F. Kwabia-Tchana",
+          "T.J. Lee",
+          "D. Lisak",
+          "A.-W. Liu",
+          "O.M. Lyulin",
+          "N.A. Malarich",
+          "L. Manceron",
+          "A.A. Marinina",
+          "S.T. Massie",
+          "J. Mascio",
+          "E.S. Medvedev",
+          "V.V. Meshkov",
+          "G. Ch. Mellau",
+          "M. Melosso",
+          "S.N. Mikhailenko",
+          "D. Mondelain",
+          "H.S.P. Müller",
+          "M. O'Donnell",
+          "A. Owens",
+          "A. Perrin",
+          "O.L. Polyansky",
+          "P.L. Raston",
+          "Z.D. Reed",
+          "M. Rey",
+          "C. Richard",
+          "G.B. Rieker",
+          "C. Röske",
+          "S.W. Sharpe",
+          "E. Starikova",
+          "N. Stolarczyk",
+          "A.V. Stolyarov",
+          "K. Sung",
+          "F. Tamassia",
+          "J. Terragni",
+          "V.G. Ushakov",
+          "S. Vasilchenko",
+          "B. Vispoel",
+          "K.L. Vodopyanov",
+          "G. Wagner",
+          "S. Wójtewicz",
+          "S.N. Yurchenko",
+          "N.F. Zobov"
+        ],
+        "title": "The HITRAN2024 molecular spectroscopic database",
+        "year": 2026,
+        "doi": "10.1016/j.jqsrt.2026.109807",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2026.109807",
+        "verified": true,
+        "ref": null
+      }
+    ],
+    "repository": {
+      "name": "HITRAN CIA",
+      "version": "2011",
+      "collection": "sup",
+      "original_files": [
+        "sup/H2-He_eq_2011.cia.txt",
+        "sup/H2-He_norm_2011.cia.txt"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 40.0,
+      "max_temperature": 400.0,
+      "min_wavenumber": 0.02,
+      "max_wavenumber": 2400.0,
+      "units": {
+        "temperature": "K",
+        "wavenumber_resolution": "cm-1"
+      },
+      "column_schemas": {
+        "standard": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^5 molecule^-2"
+          }
+        ]
+      },
+      "default_column_schema": "standard",
+      "files": [
+        {
+          "temperature": 40.0,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_40_equilibrium.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "equilibrium"
+        },
+        {
+          "temperature": 40.0,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_40_normal.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "normal"
+        },
+        {
+          "temperature": 51.7,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_51.7_equilibrium.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "equilibrium"
+        },
+        {
+          "temperature": 51.7,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_51.7_normal.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "normal"
+        },
+        {
+          "temperature": 66.7,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_66.7_equilibrium.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "equilibrium"
+        },
+        {
+          "temperature": 66.7,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_66.7_normal.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "normal"
+        },
+        {
+          "temperature": 86.2,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_86.2_equilibrium.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "equilibrium"
+        },
+        {
+          "temperature": 86.2,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_86.2_normal.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "normal"
+        },
+        {
+          "temperature": 111.3,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_111.3_equilibrium.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "equilibrium"
+        },
+        {
+          "temperature": 111.3,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_111.3_normal.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "normal"
+        },
+        {
+          "temperature": 143.8,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_143.8_equilibrium.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "equilibrium"
+        },
+        {
+          "temperature": 143.8,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_143.8_normal.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "normal"
+        },
+        {
+          "temperature": 185.7,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_185.7_equilibrium.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "equilibrium"
+        },
+        {
+          "temperature": 185.7,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_185.7_normal.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "normal"
+        },
+        {
+          "temperature": 239.8,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_239.8_equilibrium.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "equilibrium"
+        },
+        {
+          "temperature": 239.8,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_239.8_normal.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "normal"
+        },
+        {
+          "temperature": 309.7,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_309.7_equilibrium.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "equilibrium"
+        },
+        {
+          "temperature": 309.7,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_309.7_normal.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "normal"
+        },
+        {
+          "temperature": 400.0,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_400_equilibrium.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "equilibrium"
+        },
+        {
+          "temperature": 400.0,
+          "wavenumber_resolution": null,
+          "npoints": 2428,
+          "filename": "H2-He_borysow1988_0_2400_400_normal.cia",
+          "citation_keys": [
+            "borysow1988"
+          ],
+          "reference_number": 14,
+          "variant": "normal"
+        }
+      ]
+    },
+    "variants": [
+      "equilibrium",
+      "normal"
+    ]
+  }
+}

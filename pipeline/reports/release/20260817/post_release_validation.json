@@ -1,0 +1,60 @@
+{
+  "valid": true,
+  "missing_files": [],
+  "orphan_files": [],
+  "content_mismatches": [],
+  "internal_validation": {
+    "schema_version": 1,
+    "summary": {
+      "errors": 0,
+      "broken_references": 0,
+      "filename_collisions": 0,
+      "numeric_mismatches": 0,
+      "orphan_dataset_json": 0,
+      "orphan_cia_files": 0,
+      "filename_metadata_mismatches": 0,
+      "validated_cia_files": 1339,
+      "master_errors": 0
+    },
+    "errors": [],
+    "broken_references": [],
+    "filename_collisions": [],
+    "numeric_mismatches": [],
+    "orphan_dataset_json": [],
+    "orphan_cia_files": [],
+    "filename_metadata_mismatches": [],
+    "golden_co2_ch4_100k": {
+      "passed": true,
+      "comparison": "complete line-by-line token comparison",
+      "generated_rows": 16956,
+      "example_rows": 16956,
+      "first_wavenumber": "0.0420",
+      "last_wavenumber": "719.6560",
+      "exact_text_match": true
+    },
+    "master_validation": {
+      "valid": true,
+      "errors": [],
+      "pair_count": 29,
+      "actual_pair_json_count": 29,
+      "recommended_pair_count": 23,
+      "supplementary_only_pair_count": 6,
+      "null_recommended_pairs": [
+        "Ar-He",
+        "Ar-Ne",
+        "CH4-Ar",
+        "CH4-CH4",
+        "H2O-H2O",
+        "He-Ne"
+      ],
+      "broken_pair_files": [],
+      "broken_recommended_metadata": [],
+      "orphan_pair_json": [],
+      "orphan_dataset_json": [],
+      "orphan_cia_files": [],
+      "cross_file_version_mismatches": [],
+      "reachable_dataset_json_count": 50,
+      "reachable_cia_count": 1339
+    }
+  }
+}

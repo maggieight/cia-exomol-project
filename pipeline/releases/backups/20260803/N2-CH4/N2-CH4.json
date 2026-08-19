@@ -1,0 +1,35 @@
+{
+  "collision_pair": {
+    "formula": "N2-CH4",
+    "slug": "n2-ch4",
+    "active_species_status": "unique",
+    "active_species": "n2",
+    "collider": "ch4",
+    "components": [
+      {
+        "formula": "N2",
+        "slug": "n2",
+        "cas_registry_number": "7727-37-9"
+      },
+      {
+        "formula": "CH4",
+        "slug": "ch4",
+        "cas_registry_number": "74-82-8"
+      }
+    ]
+  },
+  "version": "20260803",
+  "recommended_dataset": "finenko2022",
+  "datasets": [
+    {
+      "dataset_id": "finenko2022",
+      "dataset_version": "20260803",
+      "metadata_file": "N2-CH4_finenko2022_0_800_70_400.json"
+    },
+    {
+      "dataset_id": "borysow1993",
+      "dataset_version": "20260803",
+      "metadata_file": "N2-CH4_borysow1993_0_1379_40_400.json"
+    }
+  ]
+}

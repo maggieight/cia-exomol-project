@@ -1,0 +1,121 @@
+{
+  "collision_pair": {
+    "formula": "Ar-Ne",
+    "slug": "ar-ne",
+    "active_species_status": "no_unique_active_species",
+    "active_species": null,
+    "collider": null,
+    "components": [
+      {
+        "formula": "Ar",
+        "slug": "ar",
+        "cas_registry_number": "7440-37-1"
+      },
+      {
+        "formula": "Ne",
+        "slug": "ne",
+        "cas_registry_number": "7440-01-9"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "chandran2025",
+    "version": "20260803",
+    "sources": [
+      {
+        "repository": "JQSRT",
+        "citation_key": "chandran2025",
+        "authors": [
+          "Nikhila A. Chandran",
+          "Tijs Karman"
+        ],
+        "title": "Complete insensitivity to ab initio data — A new perspective on modeling collision-induced absorption of noble gas atoms",
+        "year": 2025,
+        "doi": "10.1016/j.jqsrt.2025.109597",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2025.109597",
+        "verified": true,
+        "ref": null
+      }
+    ],
+    "repository": {
+      "name": "JQSRT supplementary material",
+      "version": null,
+      "collection": "chandran2025",
+      "original_files": [
+        "CIA_NeAr_165K.data",
+        "CIA_NeAr_295K.data",
+        "CIA_NeAr_1000K.data",
+        "CIA_NeAr_2000K.data"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 165.0,
+      "max_temperature": 2000.0,
+      "min_wavenumber": 5.0,
+      "max_wavenumber": 3000.0,
+      "nominal_wavenumber_step": 5,
+      "units": {
+        "temperature": "K",
+        "wavenumber": "cm^-1",
+        "nominal_wavenumber_step": "cm^-1"
+      },
+      "column_schemas": {
+        "with_absolute_uncertainty": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^-1 amagat^-2"
+          },
+          {
+            "name": "uncertainty",
+            "units": "cm^-1 amagat^-2",
+            "uncertainty_type": "absolute",
+            "applies_to": "cia_coefficient"
+          }
+        ]
+      },
+      "default_column_schema": "with_absolute_uncertainty",
+      "files": [
+        {
+          "temperature": 165.0,
+          "wavenumber_resolution": null,
+          "npoints": 600,
+          "filename": "Ar-Ne_chandran2025_5_3000_165.cia",
+          "citation_keys": [
+            "chandran2025"
+          ]
+        },
+        {
+          "temperature": 295.0,
+          "wavenumber_resolution": null,
+          "npoints": 600,
+          "filename": "Ar-Ne_chandran2025_5_3000_295.cia",
+          "citation_keys": [
+            "chandran2025"
+          ]
+        },
+        {
+          "temperature": 1000.0,
+          "wavenumber_resolution": null,
+          "npoints": 600,
+          "filename": "Ar-Ne_chandran2025_5_3000_1000.cia",
+          "citation_keys": [
+            "chandran2025"
+          ]
+        },
+        {
+          "temperature": 2000.0,
+          "wavenumber_resolution": null,
+          "npoints": 600,
+          "filename": "Ar-Ne_chandran2025_5_3000_2000.cia",
+          "citation_keys": [
+            "chandran2025"
+          ]
+        }
+      ]
+    }
+  }
+}

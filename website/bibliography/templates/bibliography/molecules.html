@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block extra_js %}
+<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+<script type="text/javascript">
+$( document ).ready(function() {
+    $('.grid').masonry({
+      // options
+      itemSelector: '.grid-item',
+      columnWidth: 200
+    });
+});
+</script>
+{% endblock %}
+
+{% block main %}
+<h2>{% block heading %}{% endblock %}</h2>
+
+<div class="grid">
+{% for molecule_type, molecules in molecule_types.items %}
+<div class="grid-item" style="width: 200px;">
+<div class="well">
+<h4>{{ molecule_type}}</h4>
+    <div class="list-group">
+    {% for molecule in molecules %}
+        <a href="{{ molecule.slug }}" class="list-group-item">{{ molecule.ordinary_formula_html|safe }}</a>
+    {% endfor %}
+    </div>
+</div>
+</div>
+{% endfor %}
+</div>
+{% endblock main %}
+
+

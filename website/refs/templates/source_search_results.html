@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}ExoMol Bibliography Search Results{% endblock %}
+
+{% block content %}
+
+{% if molecule %}
+<h1>ExoMol Bibliography Search Results</h1>
+{% endif %}
+
+<p>{{ sources.count }} references matched the search for: {{ search_terms }}</p>
+
+{% if sources %}
+<p>Select sources and save as:</p>
+<form name="sources_select" method="POST" action="save">
+{% csrf_token %}
+<p>
+<input type="submit" name="output_format" value="Text"/>
+<input type="submit" name="output_format" value="XSAMS"/>
+<input type="submit" name="output_format" value="BibTeX"/>
+</p>
+{% for source in sources %}
+<p class="ui-hanging-indent"><input type="checkbox" name="source_id" value="{{ source.id }}"/>&nbsp;{{ source.html|safe }}</p>
+{% endfor %}
+</form>
+{% endif %}
+
+<p style="text-align: right; font-style: italic; margin-top: 10px;">The ExoMol bibliometrician is Olga Yurchenko</p>
+
+{% endblock %}
+
+<input type="text" name="molecule_search" style="width: 200px;"/></td><td><input name="molecule_search_submit" type="submit" value="Search"/></p>

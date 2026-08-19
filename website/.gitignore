@@ -1,0 +1,13 @@
+*.pyc
+*.pyo
+*.db
+*.swp
+*.swo
+.DS_Store
+.coverage
+local_settings.py
+exomol3/bin
+res/conf.py
+activate
+activate-dev
+.venv

@@ -1,0 +1,35 @@
+{
+  "collision_pair": {
+    "formula": "N2-Ar",
+    "slug": "n2-ar",
+    "active_species_status": "unique",
+    "active_species": "n2",
+    "collider": "ar",
+    "components": [
+      {
+        "formula": "N2",
+        "slug": "n2",
+        "cas_registry_number": "7727-37-9"
+      },
+      {
+        "formula": "Ar",
+        "slug": "ar",
+        "cas_registry_number": "7440-37-1"
+      }
+    ]
+  },
+  "version": "20260817",
+  "recommended_dataset": "serov2024",
+  "datasets": [
+    {
+      "dataset_id": "serov2024",
+      "dataset_version": "20260817",
+      "metadata_file": "N2-Ar_serov2024_0_2600_70_500.json"
+    },
+    {
+      "dataset_id": "moreau1999",
+      "dataset_version": "20260817",
+      "metadata_file": "N2-Ar_moreau1999_2131_2559_300_300.json"
+    }
+  ]
+}

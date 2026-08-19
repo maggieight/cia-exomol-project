@@ -1,0 +1,851 @@
+{
+  "collision_pair": {
+    "formula": "O2-O2",
+    "slug": "o2-o2",
+    "active_species_status": "unique",
+    "active_species": "o2",
+    "collider": "o2",
+    "components": [
+      {
+        "formula": "O2",
+        "slug": "o2",
+        "cas_registry_number": "7782-44-7"
+      },
+      {
+        "formula": "O2",
+        "slug": "o2",
+        "cas_registry_number": "7782-44-7"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "hitran2024-main",
+    "version": "20260817",
+    "sources": [
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "adkins2023",
+        "authors": [
+          "Erin M. Adkins",
+          "Tijs Karman",
+          "Alain Campargue",
+          "Didier Mondelain",
+          "Joseph T. Hodges"
+        ],
+        "title": "Parameterized model to approximate theoretical collision-induced absorption band shapes for O2-O2 and O2-N2",
+        "year": 2023,
+        "doi": "10.1016/j.jqsrt.2023.108732",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2023.108732",
+        "verified": true,
+        "ref": 58
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "baranov2005",
+        "authors": [
+          "Yu.I. Baranov",
+          "W.J. Lafferty",
+          "G.T. Fraser"
+        ],
+        "title": "Investigation of collision-induced absorption in the vibrational fundamental bands of O2 and N2 at elevated temperatures",
+        "year": 2005,
+        "doi": "10.1016/j.jms.2005.06.008",
+        "source_url": "https://doi.org/10.1016/j.jms.2005.06.008",
+        "verified": true,
+        "ref": 2
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "finkenzeller2022",
+        "authors": [
+          "Henning Finkenzeller",
+          "Rainer Volkamer"
+        ],
+        "title": "O2-O2 CIA in the gas phase: Cross-section of weak bands, and continuum absorption between 297-500 nm",
+        "year": 2022,
+        "doi": "10.1016/j.jqsrt.2021.108063",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2021.108063",
+        "verified": true,
+        "ref": 54
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "karman2018",
+        "authors": [
+          "Tijs Karman",
+          "Mark A. J. Koenis",
+          "Agniva Banerjee",
+          "David H. Parker",
+          "Iouli E. Gordon",
+          "Ad van der Avoird",
+          "Wim J. van der Zande",
+          "Gerrit C. Groenenboom"
+        ],
+        "title": "O2-O2 and O2-N2 collision-induced absorption mechanisms unravelled",
+        "year": 2018,
+        "doi": "10.1038/s41557-018-0015-x",
+        "source_url": "https://doi.org/10.1038/s41557-018-0015-x",
+        "verified": true,
+        "ref": 27
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "kassi2021",
+        "authors": [
+          "S. Kassi",
+          "S. Guessoum",
+          "J. C. Acosta Abanto",
+          "H. Tran",
+          "A. Campargue",
+          "D. Mondelain"
+        ],
+        "title": "Temperature Dependence of the Collision-Induced Absorption Band of O2 Near 1.27 µm",
+        "year": 2021,
+        "doi": "10.1029/2021JD034860",
+        "source_url": "https://doi.org/10.1029/2021JD034860",
+        "verified": true,
+        "ref": 53
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "mondelain2018",
+        "authors": [
+          "D. Mondelain",
+          "S. Kassi",
+          "A. Campargue"
+        ],
+        "title": "Accurate Laboratory Measurement of the O2 Collision-Induced Absorption Band Near 1.27 μm",
+        "year": 2018,
+        "doi": "10.1029/2018JD029317",
+        "source_url": "https://doi.org/10.1029/2018JD029317",
+        "verified": true,
+        "ref": 53
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "spiering2011",
+        "authors": [
+          "Frans R. Spiering",
+          "Maria B. Kiseleva",
+          "Nikolay N. Filippov",
+          "Line van Kesteren",
+          "Wim J. van der Zande"
+        ],
+        "title": "Collision-induced absorption in the O2 B-band region near 670 nm",
+        "year": 2011,
+        "doi": "10.1039/C1CP20403C",
+        "source_url": "https://doi.org/10.1039/c1cp20403c",
+        "verified": true,
+        "ref": 30
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "spiering2012",
+        "authors": [
+          "Frans R. Spiering",
+          "Wim J. van der Zande"
+        ],
+        "title": "Collision induced absorption in the a¹Δ(ν=2) ← X³Σ⁻g(ν=0) band of molecular oxygen",
+        "year": 2012,
+        "doi": "10.1039/c2cp40961e",
+        "source_url": "https://doi.org/10.1039/c2cp40961e",
+        "verified": true,
+        "ref": 29
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "thalman2013",
+        "authors": [
+          "Ryan Thalman",
+          "Rainer Volkamer"
+        ],
+        "title": "Temperature dependent absorption cross-sections of O2-O2 collision pairs between 340 and 630 nm and at atmospherically relevant pressure",
+        "year": 2013,
+        "doi": "10.1039/c3cp50968k",
+        "source_url": "https://doi.org/10.1039/c3cp50968k",
+        "verified": true,
+        "ref": 32
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "tran2006",
+        "authors": [
+          "H. Tran",
+          "C. Boulet",
+          "J.-M. Hartmann"
+        ],
+        "title": "Line mixing and collision-induced absorption by oxygen in the A-band: Laboratory measurements, model, and tools for atmospheric spectra computations",
+        "year": 2006,
+        "doi": "10.1029/2005JD006869",
+        "source_url": "https://doi.org/10.1029/2005JD006869",
+        "verified": true,
+        "ref": 4
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "hitran_cia_repository",
+        "authors": [
+          "HITRAN CIA Team"
+        ],
+        "title": "HITRAN online data: Collision Induced Absorption",
+        "year": 2024,
+        "doi": null,
+        "source_url": "https://hitran.org/cia/",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "terragni_hitran",
+        "authors": [
+          "J. Terragni",
+          "I.E. Gordon",
+          "E.M. Adkins",
+          "C. Boulet",
+          "A. Campargue",
+          "D. Chistikov",
+          "A. Finenko",
+          "H. Finkenzeller",
+          "H. Fleurbaey",
+          "R.J. Hargreaves",
+          "R.K. Hanson",
+          "J.-M. Hartmann",
+          "A. Klingberg",
+          "E. Kohler",
+          "A.O. Koroleva",
+          "D. Mondelain",
+          "G. Piccioni",
+          "S. Stefani",
+          "C.L. Strand",
+          "H. Tran",
+          "M. Turbet",
+          "A. Vigasin",
+          "F. Vitali",
+          "R. Volkamer",
+          "C. Wei"
+        ],
+        "title": "Collision induced absorption in HITRAN2024: Enhanced and improved data for atmospheric and planetary studies",
+        "year": 2025,
+        "doi": "10.1016/j.jqsrt.2025.109631",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2025.109631",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "gordon2026_hitran",
+        "authors": [
+          "I.E. Gordon",
+          "L.S. Rothman",
+          "R.J. Hargreaves",
+          "F.M. Gomez",
+          "T. Bertin",
+          "C. Hill",
+          "R.V. Kochanov",
+          "Y. Tan",
+          "P. Wcisło",
+          "V. Yu. Makhnev",
+          "P.F. Bernath",
+          "M. Birk",
+          "V. Boudon",
+          "A. Campargue",
+          "A. Coustenis",
+          "B.J. Drouin",
+          "R.R. Gamache",
+          "J.T. Hodges",
+          "D. Jacquemart",
+          "E.J. Mlawer",
+          "A.V. Nikitin",
+          "V.I. Perevalov",
+          "M. Rotger",
+          "S. Robert",
+          "J. Tennyson",
+          "G.C. Toon",
+          "H. Tran",
+          "V.G. Tyuterev",
+          "E.M. Adkins",
+          "A. Barbe",
+          "D.M. Bailey",
+          "K. Bielska",
+          "L. Bizzocchi",
+          "T.A. Blake",
+          "C.A. Bowesman",
+          "P. Cacciani",
+          "P. Čermák",
+          "A.G. Császár",
+          "L. Denis",
+          "S.C. Egbert",
+          "O. Egorov",
+          "A. Yu. Ermilov",
+          "A.J. Fleisher",
+          "H. Fleurbaey",
+          "A. Foltynowicz",
+          "T. Furtenbacher",
+          "M. Germann",
+          "E.R. Guest",
+          "J.J. Harrison",
+          "J.-M. Hartmann",
+          "A. Hjältén",
+          "S.-M. Hu",
+          "X. Huang",
+          "T.J. Johnson",
+          "H. Jóźwiak",
+          "S. Kassi",
+          "M.V. Khan",
+          "F. Kwabia-Tchana",
+          "T.J. Lee",
+          "D. Lisak",
+          "A.-W. Liu",
+          "O.M. Lyulin",
+          "N.A. Malarich",
+          "L. Manceron",
+          "A.A. Marinina",
+          "S.T. Massie",
+          "J. Mascio",
+          "E.S. Medvedev",
+          "V.V. Meshkov",
+          "G. Ch. Mellau",
+          "M. Melosso",
+          "S.N. Mikhailenko",
+          "D. Mondelain",
+          "H.S.P. Müller",
+          "M. O'Donnell",
+          "A. Owens",
+          "A. Perrin",
+          "O.L. Polyansky",
+          "P.L. Raston",
+          "Z.D. Reed",
+          "M. Rey",
+          "C. Richard",
+          "G.B. Rieker",
+          "C. Röske",
+          "S.W. Sharpe",
+          "E. Starikova",
+          "N. Stolarczyk",
+          "A.V. Stolyarov",
+          "K. Sung",
+          "F. Tamassia",
+          "J. Terragni",
+          "V.G. Ushakov",
+          "S. Vasilchenko",
+          "B. Vispoel",
+          "K.L. Vodopyanov",
+          "G. Wagner",
+          "S. Wójtewicz",
+          "S.N. Yurchenko",
+          "N.F. Zobov"
+        ],
+        "title": "The HITRAN2024 molecular spectroscopic database",
+        "year": 2026,
+        "doi": "10.1016/j.jqsrt.2026.109807",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2026.109807",
+        "verified": true,
+        "ref": null
+      }
+    ],
+    "repository": {
+      "name": "HITRAN CIA",
+      "version": "2024",
+      "collection": "main",
+      "original_files": [
+        "main/O2-O2_2024.cia.txt"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 193.4,
+      "max_temperature": 353.4,
+      "min_wavenumber": 1150.0,
+      "max_wavenumber": 33670.0,
+      "units": {
+        "temperature": "K",
+        "wavenumber_resolution": "cm-1"
+      },
+      "column_schemas": {
+        "standard": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^5 molecule^-2"
+          }
+        ]
+      },
+      "default_column_schema": "standard",
+      "files": [
+        {
+          "temperature": 193.4,
+          "wavenumber_resolution": 0.5,
+          "npoints": 4002,
+          "filename": "O2-O2_hitran2024-main_1150_1950_193.4.cia",
+          "citation_keys": [
+            "baranov2005"
+          ],
+          "reference_number": 2
+        },
+        {
+          "temperature": 203.0,
+          "wavenumber_resolution": null,
+          "npoints": 1375,
+          "filename": "O2-O2_hitran2024-main_15290_16664_203.cia",
+          "citation_keys": [
+            "thalman2013"
+          ],
+          "reference_number": 32
+        },
+        {
+          "temperature": 203.0,
+          "wavenumber_resolution": null,
+          "npoints": 13091,
+          "filename": "O2-O2_hitran2024-main_16658_29748_203.cia",
+          "citation_keys": [
+            "thalman2013"
+          ],
+          "reference_number": 32
+        },
+        {
+          "temperature": 206.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 773,
+          "filename": "O2-O2_hitran2024-main_7583_8355_206.cia",
+          "citation_keys": [
+            "adkins2023"
+          ],
+          "reference_number": 58
+        },
+        {
+          "temperature": 206.8,
+          "wavenumber_resolution": 0.5,
+          "npoints": 4002,
+          "filename": "O2-O2_hitran2024-main_1150_1950_206.8.cia",
+          "citation_keys": [
+            "baranov2005"
+          ],
+          "reference_number": 2
+        },
+        {
+          "temperature": 216.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 773,
+          "filename": "O2-O2_hitran2024-main_7583_8355_216.cia",
+          "citation_keys": [
+            "adkins2023"
+          ],
+          "reference_number": 58
+        },
+        {
+          "temperature": 218.6,
+          "wavenumber_resolution": 0.5,
+          "npoints": 4002,
+          "filename": "O2-O2_hitran2024-main_1150_1950_218.6.cia",
+          "citation_keys": [
+            "baranov2005"
+          ],
+          "reference_number": 2
+        },
+        {
+          "temperature": 220.8,
+          "wavenumber_resolution": 0.5,
+          "npoints": 4002,
+          "filename": "O2-O2_hitran2024-main_1150_1950_220.8.cia",
+          "citation_keys": [
+            "baranov2005"
+          ],
+          "reference_number": 2
+        },
+        {
+          "temperature": 223.0,
+          "wavenumber_resolution": null,
+          "npoints": 13671,
+          "filename": "O2-O2_hitran2024-main_20000_33670_223.cia",
+          "citation_keys": [
+            "finkenzeller2022"
+          ],
+          "reference_number": 54
+        },
+        {
+          "temperature": 226.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 773,
+          "filename": "O2-O2_hitran2024-main_7583_8355_226.cia",
+          "citation_keys": [
+            "adkins2023"
+          ],
+          "reference_number": 58
+        },
+        {
+          "temperature": 229.4,
+          "wavenumber_resolution": 0.5,
+          "npoints": 4002,
+          "filename": "O2-O2_hitran2024-main_1150_1950_229.4.cia",
+          "citation_keys": [
+            "baranov2005"
+          ],
+          "reference_number": 2
+        },
+        {
+          "temperature": 229.6,
+          "wavenumber_resolution": 0.5,
+          "npoints": 4002,
+          "filename": "O2-O2_hitran2024-main_1150_1950_229.6.cia",
+          "citation_keys": [
+            "baranov2005"
+          ],
+          "reference_number": 2
+        },
+        {
+          "temperature": 233.0,
+          "wavenumber_resolution": null,
+          "npoints": 1375,
+          "filename": "O2-O2_hitran2024-main_15290_16664_233.cia",
+          "citation_keys": [
+            "thalman2013"
+          ],
+          "reference_number": 32
+        },
+        {
+          "temperature": 233.0,
+          "wavenumber_resolution": null,
+          "npoints": 12978,
+          "filename": "O2-O2_hitran2024-main_16780_29757_233.cia",
+          "citation_keys": [
+            "thalman2013"
+          ],
+          "reference_number": 32
+        },
+        {
+          "temperature": 236.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 773,
+          "filename": "O2-O2_hitran2024-main_7583_8355_236.cia",
+          "citation_keys": [
+            "adkins2023"
+          ],
+          "reference_number": 58
+        },
+        {
+          "temperature": 240.0,
+          "wavenumber_resolution": 0.5,
+          "npoints": 4002,
+          "filename": "O2-O2_hitran2024-main_1150_1950_240.cia",
+          "citation_keys": [
+            "baranov2005"
+          ],
+          "reference_number": 2
+        },
+        {
+          "temperature": 246.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 811,
+          "filename": "O2-O2_hitran2024-main_7545_8355_246.cia",
+          "citation_keys": [
+            "kassi2021",
+            "mondelain2018"
+          ],
+          "reference_number": 53
+        },
+        {
+          "temperature": 249.4,
+          "wavenumber_resolution": 0.5,
+          "npoints": 4002,
+          "filename": "O2-O2_hitran2024-main_1150_1950_249.4.cia",
+          "citation_keys": [
+            "baranov2005"
+          ],
+          "reference_number": 2
+        },
+        {
+          "temperature": 253.0,
+          "wavenumber_resolution": null,
+          "npoints": 1373,
+          "filename": "O2-O2_hitran2024-main_15292_16664_253.cia",
+          "citation_keys": [
+            "thalman2013"
+          ],
+          "reference_number": 32
+        },
+        {
+          "temperature": 253.0,
+          "wavenumber_resolution": null,
+          "npoints": 13047,
+          "filename": "O2-O2_hitran2024-main_16791_29837_253.cia",
+          "citation_keys": [
+            "thalman2013"
+          ],
+          "reference_number": 32
+        },
+        {
+          "temperature": 256.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 811,
+          "filename": "O2-O2_hitran2024-main_7545_8355_256.cia",
+          "citation_keys": [
+            "kassi2021",
+            "mondelain2018"
+          ],
+          "reference_number": 53
+        },
+        {
+          "temperature": 263.0,
+          "wavenumber_resolution": null,
+          "npoints": 13671,
+          "filename": "O2-O2_hitran2024-main_20000_33670_263.cia",
+          "citation_keys": [
+            "finkenzeller2022"
+          ],
+          "reference_number": 54
+        },
+        {
+          "temperature": 266.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 811,
+          "filename": "O2-O2_hitran2024-main_7545_8355_266.cia",
+          "citation_keys": [
+            "kassi2021",
+            "mondelain2018"
+          ],
+          "reference_number": 53
+        },
+        {
+          "temperature": 270.7,
+          "wavenumber_resolution": 0.5,
+          "npoints": 4002,
+          "filename": "O2-O2_hitran2024-main_1150_1950_270.7.cia",
+          "citation_keys": [
+            "baranov2005"
+          ],
+          "reference_number": 2
+        },
+        {
+          "temperature": 273.0,
+          "wavenumber_resolution": null,
+          "npoints": 13135,
+          "filename": "O2-O2_hitran2024-main_16668_29802_273.cia",
+          "citation_keys": [
+            "thalman2013"
+          ],
+          "reference_number": 32
+        },
+        {
+          "temperature": 276.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 811,
+          "filename": "O2-O2_hitran2024-main_7545_8355_276.cia",
+          "citation_keys": [
+            "kassi2021",
+            "mondelain2018"
+          ],
+          "reference_number": 53
+        },
+        {
+          "temperature": 286.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 811,
+          "filename": "O2-O2_hitran2024-main_7545_8355_286.cia",
+          "citation_keys": [
+            "kassi2021",
+            "mondelain2018"
+          ],
+          "reference_number": 53
+        },
+        {
+          "temperature": 287.0,
+          "wavenumber_resolution": null,
+          "npoints": 1375,
+          "filename": "O2-O2_hitran2024-main_15290_16664_287.cia",
+          "citation_keys": [
+            "thalman2013"
+          ],
+          "reference_number": 32
+        },
+        {
+          "temperature": 293.0,
+          "wavenumber_resolution": null,
+          "npoints": 506,
+          "filename": "O2-O2_hitran2024-main_9091_9596_293.cia",
+          "citation_keys": [
+            "karman2018"
+          ],
+          "reference_number": 27
+        },
+        {
+          "temperature": 293.0,
+          "wavenumber_resolution": null,
+          "npoints": 717,
+          "filename": "O2-O2_hitran2024-main_10512_11228_293.cia",
+          "citation_keys": [
+            "spiering2012"
+          ],
+          "reference_number": 29
+        },
+        {
+          "temperature": 293.0,
+          "wavenumber_resolution": null,
+          "npoints": 693,
+          "filename": "O2-O2_hitran2024-main_14206_14898_293.cia",
+          "citation_keys": [
+            "spiering2011"
+          ],
+          "reference_number": 30
+        },
+        {
+          "temperature": 293.0,
+          "wavenumber_resolution": null,
+          "npoints": 13140,
+          "filename": "O2-O2_hitran2024-main_16645_29784_293.cia",
+          "citation_keys": [
+            "thalman2013"
+          ],
+          "reference_number": 32
+        },
+        {
+          "temperature": 293.0,
+          "wavenumber_resolution": null,
+          "npoints": 13671,
+          "filename": "O2-O2_hitran2024-main_20000_33670_293.cia",
+          "citation_keys": [
+            "finkenzeller2022"
+          ],
+          "reference_number": 54
+        },
+        {
+          "temperature": 296.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 811,
+          "filename": "O2-O2_hitran2024-main_7545_8355_296.cia",
+          "citation_keys": [
+            "kassi2021",
+            "mondelain2018"
+          ],
+          "reference_number": 53
+        },
+        {
+          "temperature": 296.0,
+          "wavenumber_resolution": 0.5,
+          "npoints": 2572,
+          "filename": "O2-O2_hitran2024-main_12600_13840_296.cia",
+          "citation_keys": [
+            "tran2006"
+          ],
+          "reference_number": 4
+        },
+        {
+          "temperature": 297.5,
+          "wavenumber_resolution": 0.5,
+          "npoints": 4002,
+          "filename": "O2-O2_hitran2024-main_1150_1950_297.5.cia",
+          "citation_keys": [
+            "baranov2005"
+          ],
+          "reference_number": 2
+        },
+        {
+          "temperature": 297.8,
+          "wavenumber_resolution": 0.5,
+          "npoints": 4002,
+          "filename": "O2-O2_hitran2024-main_1150_1950_297.8.cia",
+          "citation_keys": [
+            "baranov2005"
+          ],
+          "reference_number": 2
+        },
+        {
+          "temperature": 306.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 811,
+          "filename": "O2-O2_hitran2024-main_7545_8355_306.cia",
+          "citation_keys": [
+            "kassi2021",
+            "mondelain2018"
+          ],
+          "reference_number": 53
+        },
+        {
+          "temperature": 316.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 811,
+          "filename": "O2-O2_hitran2024-main_7545_8355_316.cia",
+          "citation_keys": [
+            "kassi2021",
+            "mondelain2018"
+          ],
+          "reference_number": 53
+        },
+        {
+          "temperature": 320.5,
+          "wavenumber_resolution": 0.5,
+          "npoints": 4002,
+          "filename": "O2-O2_hitran2024-main_1150_1950_320.5.cia",
+          "citation_keys": [
+            "baranov2005"
+          ],
+          "reference_number": 2
+        },
+        {
+          "temperature": 326.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 811,
+          "filename": "O2-O2_hitran2024-main_7545_8355_326.cia",
+          "citation_keys": [
+            "kassi2021",
+            "mondelain2018"
+          ],
+          "reference_number": 53
+        },
+        {
+          "temperature": 330.8,
+          "wavenumber_resolution": 0.5,
+          "npoints": 4002,
+          "filename": "O2-O2_hitran2024-main_1150_1950_330.8.cia",
+          "citation_keys": [
+            "baranov2005"
+          ],
+          "reference_number": 2
+        },
+        {
+          "temperature": 336.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 811,
+          "filename": "O2-O2_hitran2024-main_7545_8355_336.cia",
+          "citation_keys": [
+            "kassi2021",
+            "mondelain2018"
+          ],
+          "reference_number": 53
+        },
+        {
+          "temperature": 344.9,
+          "wavenumber_resolution": 0.5,
+          "npoints": 4002,
+          "filename": "O2-O2_hitran2024-main_1150_1950_344.9.cia",
+          "citation_keys": [
+            "baranov2005"
+          ],
+          "reference_number": 2
+        },
+        {
+          "temperature": 346.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 811,
+          "filename": "O2-O2_hitran2024-main_7545_8355_346.cia",
+          "citation_keys": [
+            "kassi2021",
+            "mondelain2018"
+          ],
+          "reference_number": 53
+        },
+        {
+          "temperature": 353.4,
+          "wavenumber_resolution": 0.5,
+          "npoints": 4002,
+          "filename": "O2-O2_hitran2024-main_1150_1950_353.4.cia",
+          "citation_keys": [
+            "baranov2005"
+          ],
+          "reference_number": 2
+        }
+      ]
+    }
+  }
+}

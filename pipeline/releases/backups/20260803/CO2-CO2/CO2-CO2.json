@@ -1,0 +1,35 @@
+{
+  "collision_pair": {
+    "formula": "CO2-CO2",
+    "slug": "co2-co2",
+    "active_species_status": "unique",
+    "active_species": "co2",
+    "collider": "co2",
+    "components": [
+      {
+        "formula": "CO2",
+        "slug": "co2",
+        "cas_registry_number": "124-38-9"
+      },
+      {
+        "formula": "CO2",
+        "slug": "co2",
+        "cas_registry_number": "124-38-9"
+      }
+    ]
+  },
+  "version": "20260803",
+  "recommended_dataset": "hitran2024-main",
+  "datasets": [
+    {
+      "dataset_id": "hitran2024-main",
+      "dataset_version": "20260803",
+      "metadata_file": "CO2-CO2_hitran2024-main_1_4500_192_800.json"
+    },
+    {
+      "dataset_id": "gruszka1997",
+      "dataset_version": "20260803",
+      "metadata_file": "CO2-CO2_gruszka1997_1_250_200_800.json"
+    }
+  ]
+}

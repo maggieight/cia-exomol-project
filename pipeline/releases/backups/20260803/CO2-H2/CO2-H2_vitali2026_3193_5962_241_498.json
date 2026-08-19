@@ -1,0 +1,253 @@
+{
+  "collision_pair": {
+    "formula": "CO2-H2",
+    "slug": "co2-h2",
+    "active_species_status": "unique",
+    "active_species": "co2",
+    "collider": "h2",
+    "components": [
+      {
+        "formula": "CO2",
+        "slug": "co2",
+        "cas_registry_number": "124-38-9"
+      },
+      {
+        "formula": "H2",
+        "slug": "h2",
+        "cas_registry_number": "1333-74-0"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "vitali2026",
+    "version": "20260803",
+    "sources": [
+      {
+        "repository": "Icarus",
+        "citation_key": "vitali2026",
+        "authors": [
+          "F. Vitali",
+          "S. Stefani",
+          "G. Piccioni",
+          "H. Tran",
+          "M. Snels",
+          "D. Grassi",
+          "C. Boulet",
+          "D. Biondi",
+          "A. Boccaccini"
+        ],
+        "title": "New experimental measurements of the H2-CO2 Collision-Induced Absorption in the [3907, 4770] cm⁻¹ spectral range from 241 to 498 K",
+        "year": 2026,
+        "doi": "10.1016/j.icarus.2026.117103",
+        "source_url": "https://doi.org/10.1016/j.icarus.2026.117103",
+        "verified": true,
+        "ref": null
+      }
+    ],
+    "repository": {
+      "name": "Icarus supplementary material",
+      "version": null,
+      "collection": "vitali2026",
+      "original_files": [
+        "BAC_CIA_CO2_H2_241K.txt",
+        "BAC_CIA_CO2_H2_294K.txt",
+        "BAC_CIA_CO2_H2_349K.txt",
+        "BAC_CIA_CO2_H2_399K.txt",
+        "BAC_CIA_CO2_H2_451K.txt",
+        "BAC_CIA_CO2_H2_498K.txt"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 241.0,
+      "max_temperature": 498.0,
+      "min_wavenumber": 3193.0,
+      "max_wavenumber": 5962.0,
+      "wavenumber_resolution": 1,
+      "nominal_wavenumber_step": 1,
+      "units": {
+        "temperature": "K",
+        "wavenumber": "cm^-1",
+        "wavenumber_resolution": "cm^-1",
+        "nominal_wavenumber_step": "cm^-1"
+      },
+      "column_schemas": {
+        "with_systematic_absolute_uncertainty": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^5 molecule^-2"
+          },
+          {
+            "name": "uncertainty",
+            "units": "cm^5 molecule^-2",
+            "uncertainty_type": "absolute",
+            "uncertainty_category": "systematic",
+            "applies_to": "cia_coefficient"
+          }
+        ]
+      },
+      "default_column_schema": "with_systematic_absolute_uncertainty",
+      "files": [
+        {
+          "temperature": 241.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 1320,
+          "filename": "CO2-H2_vitali2026_3193_5962_241.cia",
+          "citation_keys": [
+            "vitali2026"
+          ],
+          "spectral_regions": [
+            {
+              "min_wavenumber": 3193.0,
+              "max_wavenumber": 3284.0,
+              "npoints": 92
+            },
+            {
+              "min_wavenumber": 3906.0,
+              "max_wavenumber": 4769.0,
+              "npoints": 864
+            },
+            {
+              "min_wavenumber": 5599.0,
+              "max_wavenumber": 5962.0,
+              "npoints": 364
+            }
+          ]
+        },
+        {
+          "temperature": 294.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 1277,
+          "filename": "CO2-H2_vitali2026_3193_5962_294.cia",
+          "citation_keys": [
+            "vitali2026"
+          ],
+          "spectral_regions": [
+            {
+              "min_wavenumber": 3193.0,
+              "max_wavenumber": 3284.0,
+              "npoints": 92
+            },
+            {
+              "min_wavenumber": 3949.0,
+              "max_wavenumber": 4769.0,
+              "npoints": 821
+            },
+            {
+              "min_wavenumber": 5599.0,
+              "max_wavenumber": 5962.0,
+              "npoints": 364
+            }
+          ]
+        },
+        {
+          "temperature": 349.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 1277,
+          "filename": "CO2-H2_vitali2026_3193_5962_349.cia",
+          "citation_keys": [
+            "vitali2026"
+          ],
+          "spectral_regions": [
+            {
+              "min_wavenumber": 3193.0,
+              "max_wavenumber": 3284.0,
+              "npoints": 92
+            },
+            {
+              "min_wavenumber": 3949.0,
+              "max_wavenumber": 4769.0,
+              "npoints": 821
+            },
+            {
+              "min_wavenumber": 5599.0,
+              "max_wavenumber": 5962.0,
+              "npoints": 364
+            }
+          ]
+        },
+        {
+          "temperature": 399.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 1249,
+          "filename": "CO2-H2_vitali2026_3193_5962_399.cia",
+          "citation_keys": [
+            "vitali2026"
+          ],
+          "spectral_regions": [
+            {
+              "min_wavenumber": 3193.0,
+              "max_wavenumber": 3284.0,
+              "npoints": 92
+            },
+            {
+              "min_wavenumber": 3977.0,
+              "max_wavenumber": 4769.0,
+              "npoints": 793
+            },
+            {
+              "min_wavenumber": 5599.0,
+              "max_wavenumber": 5962.0,
+              "npoints": 364
+            }
+          ]
+        },
+        {
+          "temperature": 451.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 1230,
+          "filename": "CO2-H2_vitali2026_3193_5962_451.cia",
+          "citation_keys": [
+            "vitali2026"
+          ],
+          "spectral_regions": [
+            {
+              "min_wavenumber": 3193.0,
+              "max_wavenumber": 3284.0,
+              "npoints": 92
+            },
+            {
+              "min_wavenumber": 3996.0,
+              "max_wavenumber": 4769.0,
+              "npoints": 774
+            },
+            {
+              "min_wavenumber": 5599.0,
+              "max_wavenumber": 5962.0,
+              "npoints": 364
+            }
+          ]
+        },
+        {
+          "temperature": 498.0,
+          "wavenumber_resolution": 1.0,
+          "npoints": 1230,
+          "filename": "CO2-H2_vitali2026_3193_5962_498.cia",
+          "citation_keys": [
+            "vitali2026"
+          ],
+          "spectral_regions": [
+            {
+              "min_wavenumber": 3193.0,
+              "max_wavenumber": 3284.0,
+              "npoints": 92
+            },
+            {
+              "min_wavenumber": 3996.0,
+              "max_wavenumber": 4769.0,
+              "npoints": 774
+            },
+            {
+              "min_wavenumber": 5599.0,
+              "max_wavenumber": 5962.0,
+              "npoints": 364
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

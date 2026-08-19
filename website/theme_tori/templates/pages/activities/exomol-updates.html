@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load pages_tags mezzanine_tags i18n static %}
+
+{% block main %}
+
+<h2>Update Announcements</h2>
+{% for update_announcement in update_announcements %}
+<div class="panel panel-info" id="news-{{ update_announcement.pk }}">
+<div class="panel-heading">{{ update_announcement.date|date:"d M Y" }}
+</div><div class="panel-body">
+<h4>{{ update_announcement.headline|safe }}</h4>
+{{ update_announcement.content|richtext_filters|safe }}
+<p>DataSet affected: {{ update_announcement.dataset }}</p>
+</div>
+</div>
+{% endfor %}
+
+{% endblock main %}
+

@@ -1,0 +1,35 @@
+{
+  "collision_pair": {
+    "formula": "O2-N2",
+    "slug": "o2-n2",
+    "active_species_status": "unique",
+    "active_species": "o2",
+    "collider": "n2",
+    "components": [
+      {
+        "formula": "O2",
+        "slug": "o2",
+        "cas_registry_number": "7782-44-7"
+      },
+      {
+        "formula": "N2",
+        "slug": "n2",
+        "cas_registry_number": "7727-37-9"
+      }
+    ]
+  },
+  "version": "20260817",
+  "recommended_dataset": "hitran2024-main",
+  "datasets": [
+    {
+      "dataset_id": "hitran2024-main",
+      "dataset_version": "20260817",
+      "metadata_file": "O2-N2_hitran2024-main_1300_13840_193_363.json"
+    },
+    {
+      "dataset_id": "karman2018",
+      "dataset_version": "20260817",
+      "metadata_file": "O2-N2_karman2018_7583_13402_206_346.json"
+    }
+  ]
+}

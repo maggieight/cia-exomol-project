@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}ExoMol Bibliography Upload Summary{% endblock %}
+
+{% block content %}
+
+<p>The file you uploaded (or didn't) is {{ filename }}</p>
+
+{{ biblines|safe }}
+
+{% endblock %}
+
+
+
+
+
+

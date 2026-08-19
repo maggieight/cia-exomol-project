@@ -1,0 +1,1874 @@
+(1H)2(16O)
+     BT2 : other States files
+         10.1111/j.1365-2966.2006.10184.x
+     BT2 : line list
+         10.1111/j.1365-2966.2006.10184.x
+     VT : partition function
+         10.1063/1.1321769
+     BT2 : partition function
+         10.1111/j.1365-2966.2006.10184.x
+     BT2 : broadening coefficients
+         10.1016/j.jqsrt.2010.05.015
+         10.1134/S1024856012010150
+         10.1016/j.jqsrt.2016.10.024
+         10.1134/S0030400X08070035
+         10.1080/00268970802698655
+         10.1016/j.jqsrt.2013.06.021
+         10.1080/00268976.2012.663939
+         10.1016/j.jms.2016.01.009
+     VT : broadening coefficients
+         10.1016/j.jqsrt.2010.05.015
+         10.1134/S1024856012010150
+         10.1016/j.jqsrt.2016.10.024
+         None
+     BT2 : cross section
+         10.1111/j.1365-2966.2006.10184.x
+         10.1016/j.jqsrt.2016.10.024
+     POKAZATEL : line list
+         10.1093/mnras/sty1877
+     POKAZATEL : partition function
+         10.1093/mnras/sty1877
+     xsec-POKAZATEL : cross section
+         10.1093/mnras/sty1877
+     POKAZATEL : super-line
+         10.1093/mnras/sty1877
+     xsec-VUV-DTU : VUV cross sections
+         None
+     POKAZATEL : opacity
+         10.1093/mnras/sty1877
+         10.1051/0004-6361/202038350
+     CKYKKY : line list
+         10.1103/PhysRevResearch.2.023091
+     CKYKKY : partition function
+         10.1103/PhysRevResearch.2.023091
+     BT2 : Specific heat - heat capacity
+         10.1063/1.4967723
+     WAT-UV296 : line list
+         10.5194/acp-2020-286
+     WAT-UV296 : partition function
+         10.5194/acp-2020-286
+(1H)2(18O)
+     HotWat78 : line list
+         10.1093/mnras/stw3125
+     HotWat78 : partition function
+         10.1093/mnras/stw3125
+(1H)2(17O)
+     HotWat78 : line list
+         10.1093/mnras/stw3125
+     HotWat78 : partition function
+         10.1093/mnras/stw3125
+(1H)(2H)(16O)
+     Hewitt : partition function
+         10.1111/j.1365-2966.2004.08559.x
+     Janka : line list
+         10.1016/S0022-2852(03)00015-8
+     VTT : line list
+         10.1111/j.1365-2966.2009.15904.x
+     xsec-VTT : cross section
+         10.1016/j.icarus.2012.07.028
+         10.1111/j.1365-2966.2012.21440.x
+         10.1111/j.1365-2966.2009.15904.x
+     VTT : partition function
+         10.1111/j.1365-2966.2009.15904.x
+(1H)(2H)(18O)
+(1H)(2H)(17O)
+(12C)(16O)2
+     CDSD-4000 : line list
+         10.1016/j.jqsrt.2011.03.005
+     xsec-UCL-4000 : cross section
+         10.1016/j.icarus.2012.07.028
+         10.1111/j.1365-2966.2012.21440.x
+         10.1093/mnras/staa1874
+     HITEMP : partition function
+         10.1016/j.jqsrt.2010.05.001
+     Venot : line list
+         10.1051/0004-6361/201220945
+     AMES : program
+         10.1063/1.3697540
+     Ames-2016 : line list
+         10.1016/j.jqsrt.2013.05.018
+         10.1016/j.jqsrt.2017.04.026
+     Zak-16-12-16 : line list
+         10.1016/j.jqsrt.2015.12.022
+     xsec-VUV-DTU : VUV cross sections
+         None
+     AMES : broadening coefficients
+         10.1016/0022-4073(92)90119-o
+     xsec-VUV-Venot-2018 : VUV cross sections
+         10.1051/0004-6361/201731295
+     UCL-4000 : line list
+         10.1093/mnras/staa1874
+     UCL-4000 : partition function
+         10.1093/mnras/staa1874
+     UCL-4000 : opacity
+         10.1051/0004-6361/202038350
+         10.1093/mnras/staa1874
+(13C)(16O)2
+     HITEMP : partition function
+         10.1016/j.jqsrt.2010.05.001
+     Zak : line list
+         10.1016/j.jqsrt.2015.12.022
+(16O)(12C)(18O)
+     Zak : line list
+         10.1016/j.jqsrt.2015.12.022
+(16O)(12C)(17O)
+     Zak : line list
+         10.1016/j.jqsrt.2015.12.022
+(16O)(13C)(18O)
+     Zak : line list
+         10.1016/j.jqsrt.2015.12.022
+(16O)(13C)(17O)
+     Zak : line list
+         10.1016/j.jqsrt.2015.12.022
+(12C)(18O)2
+     Zak : line list
+         10.1016/j.jqsrt.2015.12.022
+(17O)(12C)(18O)
+     Zak : partition function
+         10.1016/j.jqsrt.2015.12.022
+(13C)(18O)2
+     Zak : line list
+         10.1016/j.jqsrt.2015.12.022
+(16O)3
+(16O)(16O)(18O)
+(16O)(18O)(16O)
+(16O)(16O)(17O)
+(16O)(17O)(16O)
+(14N)2(16O)
+     NOSD-1000 : line list
+         10.1016/j.jqsrt.2015.11.014
+(14N)(15N)(16O)
+(15N)(14N)(16O)
+(14N)2(18O)
+(14N)2(17O)
+(12C)(16O)
+     Faure : broadening coefficients
+         10.1016/j.jqsrt.2012.09.015
+         10.1016/j.jqsrt.2017.06.038
+     HITEMP : line list
+         10.1016/j.jqsrt.2010.05.001
+     HITEMP : partition function
+         10.1016/j.jqsrt.2010.05.001
+     Li : line list
+     Li2015 : line list
+         10.1088/0067-0049/216/1/15
+     Li2015 : partition function
+         10.1088/0067-0049/216/1/15
+     xsec-Li2015 : cross section
+         10.1088/0067-0049/216/1/15
+     Li2015 : opacity
+         10.1051/0004-6361/202038350
+         10.1088/0067-0049/216/1/15
+     xsec-VUV-DTU : VUV cross sections
+         None
+(13C)(16O)
+     HITEMP : line list
+         10.1016/j.jqsrt.2010.05.001
+     Li : line list
+     Li2015 : line list
+         10.1088/0067-0049/216/1/15
+     Li2015 : partition function
+         10.1088/0067-0049/216/1/15
+     Li2015 : opacity
+         10.1088/0067-0049/216/1/15
+         10.1051/0004-6361/202038350
+(12C)(18O)
+     HITEMP : line list
+         10.1016/j.jqsrt.2010.05.001
+     Li : line list
+     Li2015 : line list
+         10.1088/0067-0049/216/1/15
+     Li2015 : partition function
+         10.1088/0067-0049/216/1/15
+(12C)(17O)
+     HITEMP : line list
+         10.1016/j.jqsrt.2010.05.001
+     Li : line list
+     Li2015 : line list
+         10.1088/0067-0049/216/1/15
+     Li2015 : partition function
+         10.1088/0067-0049/216/1/15
+(13C)(18O)
+     HITEMP : line list
+         10.1016/j.jqsrt.2010.05.001
+     Li : line list
+     Li2015 : line list
+         10.1088/0067-0049/216/1/15
+     Li2015 : partition function
+         10.1088/0067-0049/216/1/15
+(13C)(17O)
+     HITEMP : line list
+         10.1016/j.jqsrt.2010.05.001
+     Li : line list
+     Li2015 : line list
+         10.1088/0067-0049/216/1/15
+     Li2015 : partition function
+         10.1088/0067-0049/216/1/15
+(12C)(1H)4
+     xsec-YT10to10 : cross section
+         10.1016/j.icarus.2012.07.028
+         10.1111/j.1365-2966.2012.21440.x
+     YT10to10 : partition function
+         10.1093/mnras/stu326
+     YT10to10 : program
+         10.1016/j.jms.2013.05.014
+     YT10to10 : program
+         10.1016/j.jms.2013.05.014
+     YT10to10 : line list
+         10.1016/j.jms.2013.05.014
+         10.1093/mnras/stu326
+     YT10to10 : broadening coefficients
+         10.1016/0022-4073(90)90060-J
+         10.1063/1.463943
+         10.1016/0022-4073(88)90092-1
+         10.1016/0022-4073(72)90073-8
+         10.1016/0022-4073(89)90062-9
+         10.1016/S0022-4073(00)00076-5
+         10.1016/j.jms.2004.02.023
+         10.1016/j.jqsrt.2017.01.035
+         10.1016/j.jms.2018.12.004
+         https://doi.org/10.1016/j.jqsrt.2014.05.027
+         https://doi.org/10.1016/j.jms.2014.01.006
+     YT10to10 : Specific heat - heat capacity
+         10.1093/mnras/stu326
+     YT10to10 : cooling function
+         10.1093/mnras/stu326
+         10.1088/0953-4075/49/4/044002
+     YT34to10 : line list
+         10.1093/mnras/stu326
+         10.1051/0004-6361/201731026
+     YT34to10 : partition function
+         10.1093/mnras/stu326
+         10.1051/0004-6361/201731026
+     YT34to10 : opacity
+         10.1051/0004-6361/201731026
+         10.1051/0004-6361/202038350
+(13C)(1H)4
+(12C)(1H)3(2H)
+(13C)(1H)3(2H)
+(16O)2
+     HITRAN : opacity
+         10.1016/j.jqsrt.2017.06.038
+         10.1051/0004-6361/202038350
+(16O)(18O)
+(16O)(17O)
+(14N)(16O)
+     HITEMP : line list
+         10.1016/j.jqsrt.2010.05.001
+     HITEMP : partition function
+         10.1016/j.jqsrt.2010.05.001
+     NOname : line list
+         10.1093/mnras/stx1211
+     NOname : partition function
+         10.1093/mnras/stx1211
+     NOname : broadening coefficients
+         10.1093/mnras/stx1211
+     xsec-XABC : cross section
+         10.1093/mnras/stx1211
+     HITEMP : opacity
+         10.1016/j.jqsrt.2010.05.001
+         10.1051/0004-6361/202038350
+     XABC : line list
+         None
+     XABC : partition function
+         10.1093/mnras/stx1211
+         None
+(15N)(16O)
+     NOname : line list
+         10.1093/mnras/stx1211
+     NOname : partition function
+         10.1093/mnras/stx1211
+(14N)(18O)
+     NOname : line list
+         10.1093/mnras/stx1211
+     NOname : partition function
+         10.1093/mnras/stx1211
+(32S)(16O)2
+     ExoAmes : line list
+         10.1093/mnras/stw849
+     ExoAmes : partition function
+         10.1093/mnras/stw849
+     ExoAmes : broadening coefficients
+         10.1093/mnras/stw849
+         10.1016/j.jqsrt.2013.07.002
+     xsec-ExoAmes : cross section
+         10.1093/mnras/stw849
+     ExoAmes : broadening coefficients
+         10.1016/j.jqsrt.2013.07.002
+         10.1016/j.jqsrt.2015.09.003
+     xsec-VUV-DTU : VUV cross sections
+         None
+     ExoAmes : opacity
+         10.1093/mnras/stw849
+         10.1051/0004-6361/202038350
+(34S)(16O)2
+(14N)(16O)2
+(14N)(1H)3
+     BYTe : line list
+         10.1111/j.1365-2966.2011.18261.x
+     xsec-BYTe : cross section
+         10.1016/j.icarus.2012.07.028
+         10.1111/j.1365-2966.2012.21440.x
+         10.1111/j.1365-2966.2011.18261.x
+     BYTe : partition function
+         10.1111/j.1365-2966.2011.18261.x
+     BYTe : broadening coefficients
+     C2018 : line list
+         10.1016/j.jqsrt.2018.07.022
+     xsec-VUV-DTU : VUV cross sections
+         None
+     CoYuTe : line list
+         10.1016/j.jqsrt.2015.03.034
+         10.1093/mnras/stz2778
+     CoYuTe : partition function
+         10.1093/mnras/stz2778
+     CoYuTe : super-line
+         10.1093/mnras/stz2778
+     CoYuTe : ExoCross input file
+         10.1093/mnras/stz2778
+     CoYuTe : opacity
+         10.1093/mnras/stz2778
+         10.1051/0004-6361/202038350
+     CoYuTe : other States files
+         10.1093/mnras/stz2778
+(15N)(1H)3
+     BYTe-15 : line list
+         10.1016/j.jqsrt.2014.10.023
+     BYTe-15 : partition function
+         10.1016/j.jqsrt.2014.10.023
+     BYTe-15 : program
+         10.1016/j.jqsrt.2014.10.023
+(1H)(14N)(16O)3
+     AIJS : line list
+         10.1093/mnras/stv1376
+     AIJS : partition function
+         10.1093/mnras/stv1376
+     xsec-AIJS : cross section
+         10.1093/mnras/stv1376
+     AIJS : opacity
+         10.1093/mnras/stv1376
+         10.1051/0004-6361/202038350
+(16O)(1H)
+     HITEMP : line list
+         10.1016/j.jqsrt.2010.05.001
+     xsec-HITEMP : cross section
+         10.1016/j.icarus.2012.07.028
+         10.1111/j.1365-2966.2012.21440.x
+         10.1016/j.jqsrt.2010.05.001
+     HITEMP : partition function
+         10.1016/j.jqsrt.2010.05.001
+     MoLLIST : line list
+         10.1016/j.jqsrt.2015.07.021
+         10.1016/j.jqsrt.2018.06.016
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1016/j.jqsrt.2018.06.016
+     MoLLIST : opacity
+         10.1016/j.jqsrt.2015.07.021
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+(18O)(1H)
+(16O)(2H)
+(1H)(19F)
+     broadening-HITRAN : broadening coefficients
+         10.1016/j.jqsrt.2015.09.003
+     Coxon-Hajig : line list
+         10.1016/j.jqsrt.2013.02.005
+         10.1016/j.jqsrt.2014.08.028
+     Coxon-Hajig : partition function
+         10.1016/j.jqsrt.2013.02.005
+         10.1016/j.jqsrt.2014.08.028
+     xsec-Coxon-Hajig : cross section
+         10.1016/j.icarus.2012.07.028
+         10.1016/j.jqsrt.2013.02.005
+         10.1016/j.jqsrt.2014.08.028
+(2H)(19F)
+     broadening-HITRAN : broadening coefficients
+         10.1016/j.jqsrt.2015.09.003
+(1H)(35Cl)
+     xsec-HITRAN : cross section
+         10.1016/j.jqsrt.2011.03.014
+     HITRAN : broadening coefficients
+         10.1016/j.jqsrt.2015.09.003
+     HITRAN : line list
+         10.1016/j.jqsrt.2017.06.038
+     HITRAN : partition function
+         10.1016/j.jqsrt.2017.06.038
+(1H)(37Cl)
+     HITRAN : line list
+         10.1016/j.jqsrt.2017.06.038
+     HITRAN : partition function
+         10.1016/j.jqsrt.2017.06.038
+(2H)(35Cl)
+     broadening-HITRAN : broadening coefficients
+         10.1016/j.jqsrt.2015.09.003
+     HITRAN : line list
+         10.1016/j.jqsrt.2017.06.038
+     HITRAN : partition function
+         10.1016/j.jqsrt.2017.06.038
+(2H)(37Cl)
+     HITRAN : line list
+         10.1016/j.jqsrt.2017.06.038
+     HITRAN : partition function
+         10.1016/j.jqsrt.2017.06.038
+(1H)(79Br)
+(1H)(81Br)
+(2H)(79Br)
+(2H)(81Br)
+(1H)(127I)
+(2H)(127I)
+(35Cl)(16O)
+(37Cl)(16O)
+(16O)(12C)(32S)
+     broadening-HITRAN : broadening coefficients
+         10.1016/j.jqsrt.2015.09.003
+(16O)(12C)(34S)
+(16O)(13C)(32S)
+(16O)(12C)(33S)
+(18O)(12C)(32S)
+(1H)2(12C)(16O)
+     AYTY : line list
+         10.1093/mnras/stv091
+         None
+     AYTY : partition function
+         10.1093/mnras/stv091
+     xsec-AYTY : cross section
+         10.1016/j.icarus.2012.07.028
+         10.1093/mnras/stv091
+     AYTY : broadening coefficients
+         10.1016/0022-2852(75)90225-8
+     xsec-VUV-DTU : VUV cross sections
+         None
+     AYTY : opacity
+         10.1093/mnras/stv091
+         10.1051/0004-6361/202038350
+     AYTY : other States files
+         10.1093/mnras/stv091
+(1H)2(13C)(16O)
+(1H)2(12C)(18O)
+(1H)(16O)(35Cl)
+(1H)(16O)(37Cl)
+(14N)2
+     WCCRMT : line list
+         10.1016/j.jqsrt.2018.07.017
+         doi:10.1016/j.jqsrt.2016.04.010
+         10.1063/1.1672058
+     WCCRMT : partition function
+         10.1051/0004-6361/201526961
+(1H)(12C)(14N)
+     Harris : line list
+         10.1111/j.1365-2966.2005.09960.x
+         10.1093/mnras/stt2011
+     xsec-Harris : cross section
+         10.1016/j.icarus.2012.07.028
+         10.1111/j.1365-2966.2012.21440.x
+         10.1111/j.1365-2966.2005.09960.x
+         10.1093/mnras/stt2011
+     Harris : partition function
+         10.1111/j.1365-2966.2005.09960.x
+         10.1093/mnras/stt2011
+     Harris : broadening coefficients
+         10.1016/0301-0104(85)85053-9
+         10.1063/1.1679224
+         10.1063/1.440354
+     Harris : opacity
+         10.1093/mnras/stt2011
+         10.1051/0004-6361/202038350
+(1H)(13C)(14N)
+     Larner : line list
+         10.1111/j.1365-2966.2008.13642.x
+     xsec-Larner : cross section
+         10.1016/j.icarus.2012.07.028
+         10.1111/j.1365-2966.2012.21440.x
+         10.1111/j.1365-2966.2008.13642.x
+     Larner : partition function
+         10.1111/j.1365-2966.2008.13642.x
+(1H)(12C)(15N)
+(12C)(1H)3(35Cl)
+     xsec-OYT : cross section
+         10.1093/mnras/sty1542
+     OYT : line list
+         10.1093/mnras/sty1542
+     OYT : partition function
+         10.1093/mnras/sty1542
+     OYT : super-line
+         10.1093/mnras/sty1542
+     OYT : opacity
+         10.1093/mnras/sty1542
+         10.1051/0004-6361/202038350
+(12C)(1H)3(37Cl)
+     xsec-OYT : cross section
+         10.1093/mnras/sty1542
+     OYT : line list
+         10.1093/mnras/sty1542
+     OYT : partition function
+         10.1093/mnras/sty1542
+     OYT : super-line
+         10.1093/mnras/sty1542
+(1H)2(16O)2
+     AlR : line list
+         10.1016/j.jms.2015.10.004
+     APTY : line list
+         10.1093/mnras/stw1295
+     xsec-APTY : cross section
+         10.1093/mnras/stw1295
+     APTY : partition function
+         10.1093/mnras/stw1295
+     broadening-HITRAN : broadening coefficients
+         10.1016/j.jqsrt.2013.07.002
+     APTY : opacity
+         10.1093/mnras/stw1295
+         10.1051/0004-6361/202038350
+(12C)2(1H)2
+     broadening-HITRAN : broadening coefficients
+         10.1016/j.jqsrt.2015.09.003
+         10.1016/j.jqsrt.2017.06.038
+     aCeTY : line list
+         10.1093/mnras/staa229
+     aCeTY : partition function
+         10.1093/mnras/staa229
+     xsec-aCeTY : cross section
+         10.1093/mnras/staa229
+     aCeTY : super-line
+         10.1093/mnras/staa229
+     broadening-HITRAN : broadening coefficients
+         10.1016/j.jqsrt.2017.06.038
+     aCeTY : opacity
+         10.1093/mnras/staa229
+         10.1051/0004-6361/202038350
+(12C)(13C)(1H)2
+(12C)2(1H)(2H)
+(12C)2(1H)6
+(12C)(1H)3(13C)(1H)3
+(31P)(1H)3
+     SAlTY : line list
+         10.1093/mnras/stu2246
+     SAlTY : partition function
+         10.1093/mnras/stu2246
+     SYT : line list
+         10.1016/j.jqsrt.2014.03.012
+         10.1016/j.jms.2013.04.002
+     SYT : partition function
+         10.1016/j.jqsrt.2014.03.012
+         10.1016/j.jms.2013.04.002
+     xsec-SAlTY : cross section
+         10.1016/j.icarus.2012.07.028
+         10.1093/mnras/stu2246
+     SAlTY : broadening coefficients
+         10.1016/S0022-4073(03)00159-6
+         10.1006/jmsp.1993.1014
+         10.1016/0022-2852(88)90107-5
+         10.1016/j.jms.2004.06.015
+         10.1016/j.jms.2005.04.014
+     SAlTY : opacity
+         10.1093/mnras/stu2246
+         10.1051/0004-6361/202038350
+(12C)(16O)(19F)2
+(1H)2(32S)
+     AYT2 : line list
+         10.1093/mnras/stw1133
+     AYT2 : partition function
+     xsec-AYT2 : cross section
+         10.1093/mnras/stw1133
+     AYT2 : opacity
+         10.1093/mnras/stw1133
+         10.1051/0004-6361/202038350
+(1H)2(34S)
+(1H)2(33S)
+(1H)(12C)(16O)(16O)(1H)
+(1H)(16O)2
+(14N)(16O)+
+(1H)(16O)(79Br)
+(1H)(16O)(81Br)
+(12C)2(1H)4
+     MaYTY : line list
+         10.1093/mnras/sty1239
+     MaYTY : partition function
+         10.1093/mnras/sty1239
+     MaYTY : documentation
+         10.1093/mnras/sty1239
+     MaYTY : program
+         10.1093/mnras/sty1239
+     xsec-MaYTY : cross section
+         10.1093/mnras/sty1239
+     MaYTY : super-line
+         10.1093/mnras/sty1239
+     xsec-VUV-DTU : VUV cross sections
+         None
+     MaYTY : opacity
+         10.1093/mnras/sty1239
+         10.1051/0004-6361/202038350
+(12C)(1H)2(13C)(1H)2
+(12C)(1H)3(16O)(1H)
+(12C)(1H)3(79Br)
+(12C)(1H)3(81Br)
+(12C)(1H)3(12C)(14N)
+(12C)(19F)4
+(1H)(12C)3(14N)
+(12C)(32S)
+     JnK : line list
+         10.1093/mnras/stv1543
+     JnK : partition function
+         10.1093/mnras/stv1543
+     JnK : cross section
+         10.1016/j.icarus.2012.07.028
+         10.1093/mnras/stv1543
+     JnK : broadening coefficients
+         10.1016/j.jqsrt.2013.07.002
+     xsec-JnK : cross section
+         10.1093/mnras/stv1543
+     JnK : opacity
+         10.1093/mnras/stv1543
+         10.1051/0004-6361/202038350
+(12C)(34S)
+     JnK : line list
+         10.1093/mnras/stv1543
+     JnK : partition function
+         10.1093/mnras/stv1543
+(13C)(32S)
+     JnK : line list
+         10.1093/mnras/stv1543
+     JnK : partition function
+         10.1093/mnras/stv1543
+(12C)(33S)
+     JnK : line list
+         10.1093/mnras/stv1543
+     JnK : partition function
+         10.1093/mnras/stv1543
+(1H)3+
+     NMT : line list
+         10.1086/177341
+     NT : partition function
+         10.1086/309789
+     xsec-MiZATeP : cross section
+         10.1093/mnras/stx502
+     MiZATeP : line list
+         10.1093/mnras/stx502
+     MiZATeP : partition function
+         10.1093/mnras/stx502
+     MiZATeP : opacity
+         10.1093/mnras/stx502
+         10.1051/0004-6361/202038350
+(1H)2(2H)+
+     ST : line list
+         10.1111/j.1365-2966.2010.16665.x
+     ST : partition function
+         10.1111/j.1365-2966.2010.16665.x
+(1H)(14N)(12C)
+(1H)(14N)(13C)
+(4He)(1H)+
+     Engel : partition function
+         10.1111/j.1365-2966.2005.08611.x
+     Engel : cooling function
+         10.1111/j.1365-2966.2005.08611.x
+     Engel : line list
+         10.1111/j.1365-2966.2005.08611.x
+     ADJSAAM : line list
+         10.3847/1538-4357/ab1f65
+     ADJSAAM : partition function
+         10.3847/1538-4357/ab1f65
+     ADJSAAM : opacity
+         10.3847/1538-4357/ab1f65
+         10.1051/0004-6361/202038350
+(3He)(1H)+
+     Engel : partition function
+         10.1111/j.1365-2966.2005.08611.x
+     Engel : cooling function
+         10.1111/j.1365-2966.2005.08611.x
+     Engel : line list
+         10.1111/j.1365-2966.2005.08611.x
+     ADJSAAM : line list
+         10.3847/1538-4357/ab1f65
+     ADJSAAM : partition function
+         10.3847/1538-4357/ab1f65
+(4He)(2H)+
+     Engel : partition function
+         10.1111/j.1365-2966.2005.08611.x
+     Engel : cooling function
+         10.1111/j.1365-2966.2005.08611.x
+     Engel : line list
+         10.1111/j.1365-2966.2005.08611.x
+     ADJSAAM : line list
+         10.3847/1538-4357/ab1f65
+     ADJSAAM : partition function
+         10.3847/1538-4357/ab1f65
+(3He)(2H)+
+     Engel : partition function
+         10.1111/j.1365-2966.2005.08611.x
+     Engel : cooling function
+         10.1111/j.1365-2966.2005.08611.x
+     Engel : line list
+         10.1111/j.1365-2966.2005.08611.x
+     ADJSAAM : line list
+         10.3847/1538-4357/ab1f65
+     ADJSAAM : partition function
+         10.3847/1538-4357/ab1f65
+(1H)2
+     RACPPK : line list
+         10.1051/0004-6361/201936249
+         
+     RACPPK : partition function
+         10.1051/0004-6361/201936249
+     xsec-RACPPK : cross section
+         10.1051/0004-6361/201936249
+         
+(1H)(2H)
+     CLT : cooling function
+         10.1111/j.1365-2966.2011.18723.x
+     ADJSAAM : line list
+         10.3847/1538-4357/ab1f65
+     ADJSAAM : partition function
+         10.3847/1538-4357/ab1f65
+(1H)2+
+(1H)(2H)+
+     CLT : line list
+         10.1111/j.1365-2966.2011.18723.x
+     CLT : cooling function
+         10.1111/j.1365-2966.2011.18723.x
+     ADJSAAM : line list
+         10.3847/1538-4357/ab1f65
+     ADJSAAM : partition function
+         10.3847/1538-4357/ab1f65
+     ADJSAAM : opacity
+         10.3847/1538-4357/ab1f65
+         10.1051/0004-6361/202038350
+(7Li)(1H)
+     CLT : line list
+         10.1111/j.1365-2966.2011.18723.x
+     CLT : cooling function
+         10.1111/j.1365-2966.2011.18723.x
+     xsec-CLT : cross section
+         10.1111/j.1365-2966.2011.18723.x
+     CLT : partition function
+         10.1111/j.1365-2966.2011.18723.x
+     CLT : opacity
+         10.1111/j.1365-2966.2011.18723.x
+         10.1051/0004-6361/202038350
+(7Li)(1H)+
+     CLT : line list
+         10.1111/j.1365-2966.2011.18723.x
+     CLT : cooling function
+         10.1111/j.1365-2966.2011.18723.x
+     CLT : opacity
+         10.1111/j.1365-2966.2011.18723.x
+         10.1051/0004-6361/202038350
+(56Fe)(1H)
+     Bernath : line list
+         
+     MoLLIST : line list
+         10.1086/376791
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1016/j.jqsrt.2019.106687
+     CDRR : line list
+         10.1016/j.jms.2014.07.005
+     xsec-MoLLIST : cross section
+         10.1088/0004-6256/140/4/919
+         10.1051/0004-6361/201015220
+         10.1086/376791
+     MoLLIST : opacity
+         10.1051/0004-6361/201015220
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+(48Ti)(1H)
+     xsec-MoLLIST : cross section
+         10.1016/j.icarus.2012.07.028
+         10.1111/j.1365-2966.2012.21440.x
+         10.1086/429366
+     MoLLIST : line list
+         10.1086/429366
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1086/429366
+     MoLLIST : opacity
+         10.1086/429366
+         10.1051/0004-6361/202038350
+(9Be)(1H)
+     Yadin-BeH : line list
+         10.1111/j.1365-2966.2012.21367.x
+     Yadin-BeH : partition function
+         10.1111/j.1365-2966.2012.21367.x
+     Darby-Lewis : line list
+         10.1088/1361-6455/aad6d0
+     Darby-Lewis : partition function
+         
+     xsec-Darby : cross section
+         
+     Darby-Lewis : opacity
+         10.1088/1361-6455/aad6d0
+         10.1051/0004-6361/202038350
+(12C)2
+     MoLLIST-C2 : line list
+         10.1016/j.jqsrt.2013.02.025
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST-C2 : partition function
+         10.1016/j.jqsrt.2013.02.025
+     8states : line list
+         10.1093/mnras/sty2050
+         10.1093/mnras/staa1954
+     8states : partition function
+         10.1093/mnras/sty2050
+     xsec-8states : cross section
+         10.1093/mnras/sty1542
+     8states : opacity
+         10.1093/mnras/sty2050
+         10.1051/0004-6361/202038350
+     Yueqi : line list
+         10.1093/mnras/sty2050
+         10.1093/mnras/staa1954
+     Yueqi : partition function
+         10.1093/mnras/sty2050
+(40Ca)(1H)
+     Yadin : line list
+         10.1111/j.1365-2966.2012.21367.x
+     UGAMOP : line list
+         
+     Yadin : partition function
+         10.1111/j.1365-2966.2012.21367.x
+     MoLLIST : line list
+         10.1016/j.jqsrt.2011.09.010
+         10.1016/j.molstruc.2003.11.001
+         10.1093/mnras/stx2681
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1016/j.jqsrt.2011.09.010
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : opacity
+         10.1016/j.jqsrt.2011.09.010
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+(12C)(14N)
+     MoLLIST-CN : line list
+         10.1088/0067-0049/210/2/23
+         10.1016/j.jqsrt.2019.106687
+         10.1093/mnras/staa2791
+     MoLLIST-CN : partition function
+         10.1016/j.jqsrt.2019.106687
+     xsec-MoLLIST : cross section
+         10.1088/0067-0049/210/2/23
+     MoLLIST-CN : opacity
+         10.1088/0067-0049/210/2/23
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+     MoLLIST-CN : other States files
+         10.1016/j.jqsrt.2019.106687
+     Trihybrid : partition function
+         10.1093/mnras/stab1551
+     Trihybrid : line list
+         10.1088/0067-0049/210/2/23
+         10.1093/mnras/staa2791
+         10.1093/mnras/stab1551
+(52Cr)(1H)
+     MoLLIST : line list
+         
+     MoLLIST : line list
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1016/j.jqsrt.2019.106687
+     xsec-MoLLIST : cross section
+         10.1063/1.1377892
+     MoLLIST : opacity
+         10.1086/342242
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+(28Si)(1H)
+     Kurucz : line list
+         
+     SiGHTLY : line list
+         10.1093/mnras/stx2738
+     SiGHTLY : partition function
+         10.1093/mnras/stx2738
+     xsec-SiGHTLY : cross section
+         10.1093/mnras/stx2738
+     SiGHTLY : opacity
+         10.1093/mnras/stx2738
+         10.1051/0004-6361/202038350
+(24Mg)(1H)
+     Yadin : line list
+         10.1111/j.1365-2966.2012.21367.x
+     UGAMOP : other States files
+         
+     Yadin : partition function
+         10.1111/j.1365-2966.2012.21367.x
+     MoLLIST : line list
+         10.1093/mnras/stt510
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1093/mnras/stt510
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : opacity
+         10.1093/mnras/stt510
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+(25Mg)(1H)
+     Yadin : line list
+         10.1111/j.1365-2966.2012.21367.x
+     Yadin : partition function
+         10.1111/j.1365-2966.2012.21367.x
+(26Mg)(1H)
+     Yadin : line list
+         10.1111/j.1365-2966.2012.21367.x
+     Yadin : partition function
+         10.1111/j.1365-2966.2012.21367.x
+(24Mg)(2H)
+(25Mg)(2H)
+(26Mg)(2H)
+(28Si)(16O)
+     EBJT : line list
+         10.1093/mnras/stt1105
+     EBJT : partition function
+         10.1093/mnras/stt1105
+     xsec-Kurucz-SiO : cross section
+         10.1016/j.icarus.2012.07.028
+         10.1111/j.1365-2966.2012.21440.x
+         10.1093/mnras/stt1105
+     Kurucz-SiO : line list
+         
+     Kurucz-SiO : partition function
+         10.1051/0004-6361/201526961
+     EBJT : opacity
+         10.1093/mnras/stt1105
+         10.1051/0004-6361/202038350
+(28Si)(17O)
+     EBJT : line list
+         10.1093/mnras/stt1105
+     EBJT : partition function
+         10.1093/mnras/stt1105
+(28Si)(18O)
+     EBJT : line list
+         10.1093/mnras/stt1105
+     EBJT : partition function
+         10.1093/mnras/stt1105
+(29Si)(16O)
+     EBJT : line list
+         10.1093/mnras/stt1105
+     EBJT : partition function
+         10.1093/mnras/stt1105
+(30Si)(16O)
+     EBJT : line list
+         10.1093/mnras/stt1105
+     EBJT : partition function
+         10.1093/mnras/stt1105
+(49Ti)(16O)
+     Kurucz : line list
+         
+     xsec-Schwenke : cross section
+         10.1016/j.icarus.2012.07.028
+         10.1111/j.1365-2966.2012.21440.x
+         10.1039/a800070k
+     Kurucz : line list
+         
+         10.1039/a800070k
+     Kurucz : partition function
+         
+         10.1039/a800070k
+     Toto : line list
+         10.1093/mnras/stz1818
+     Toto : partition function
+         10.1093/mnras/stz1818
+(12C)(1H)
+     MoLLIST : line list
+         10.1051/0004-6361/201423956
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1051/0004-6361/201423956
+     MoLLIST : opacity
+         10.1051/0004-6361/201423956
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+     Villanueva : line list
+         10.1051/0004-6361/201423956
+         10.1016/j.jqsrt.2019.106687
+     Villanueva : partition function
+         10.1051/0004-6361/201423956
+         10.1051/0004-6361/201526961
+(7Li)(35Cl)
+     UGAMOP : line list
+         
+     MoLLIST : line list
+         10.3847/1538-4365/aa9846
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1086/190980
+     MoLLIST : opacity
+         10.3847/1538-4365/aa9846
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+(7Li)(37Cl)
+     UGAMOP : line list
+         
+     MoLLIST : line list
+         10.3847/1538-4365/aa9846
+     MoLLIST : partition function
+         10.1086/190980
+(23Na)(35Cl)
+     Barton : line list
+         10.1093/mnras/stu944
+     Barton : partition function
+         10.1093/mnras/stu944
+     xsec-Barton : cross section
+         10.1093/mnras/stu944
+     Barton : opacity
+         10.1093/mnras/stu944
+         10.1051/0004-6361/202038350
+(23Na)(37Cl)
+     Barton : line list
+         10.1093/mnras/stu944
+     Barton : partition function
+         10.1093/mnras/stu944
+(14N)(1H)
+     MoLLIST : line list
+         10.1063/1.4891468
+         10.1016/j.jqsrt.2018.05.021
+         10.1063/1.4923422
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1086/190980
+     MoLLIST : opacity
+         10.1063/1.4891468
+         10.1063/1.4923422
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+(32S)(16O)3
+     UYT : line list
+         10.1063/1.4815853
+         10.1039/C3CP50303H
+     UYT2 : line list
+         10.1093/mnras/stw1828
+     xsec-UYT2 : cross section
+         10.1093/mnras/stw1828
+     UYT2 : partition function
+         10.1093/mnras/stw1828
+     UYT2 : opacity
+         10.1093/mnras/stw1828
+         10.1051/0004-6361/202038350
+(89Y)(16O)
+     SSYT : line list
+         10.1039/C9CP03208H
+     SSYT : partition function
+         10.1039/C9CP03208H
+     SSYT : opacity
+         10.1051/0004-6361/202038350
+         10.1039/C9CP03208H
+(51V)(16O)
+     VOMYT : partition function
+         10.1093/mnras/stw1969
+     VOMYT : line list
+         10.1093/mnras/stw1969
+     xsec-VOMYT : cross section
+         10.1093/mnras/stw1969
+     VOMYT : opacity
+         10.1093/mnras/stw1969
+         10.1051/0004-6361/202038350
+(12C)(13C)
+     8states : line list
+         10.1093/mnras/sty2050
+         10.1093/mnras/staa1954
+     8states : partition function
+         10.1093/mnras/sty2050
+     xsec-8states : cross section
+         10.1093/mnras/sty1542
+(13C)2
+     8states : line list
+         10.1093/mnras/sty2050
+         10.1093/mnras/staa1954
+     8states : partition function
+         10.1093/mnras/sty2050
+     xsec-8states : cross section
+         10.1093/mnras/sty1542
+(14C)2
+(27Al)(1H)
+     AlHambra : line list
+         10.1093/mnras/sty1542
+     AlHambra : partition function
+         10.1093/mnras/sty1542
+     xsec-AlHambra : cross section
+         10.1093/mnras/sty1542
+(27Al)(16O)
+     ATP : line list
+         10.1093/mnras/stv507
+         None
+     ATP : partition function
+         10.1093/mnras/stv507
+     xsec-ATP : cross section
+         10.1093/mnras/stv507
+         10.1063/1.4897484
+     ATP : other States files
+         10.1093/mnras/stv507
+     ATP : opacity
+         10.1093/mnras/stv507
+(24Mg)(16O)
+     LiTY : line list
+         10.1093/mnras/stz912
+     LiTY : partition function
+         10.1093/mnras/stz912
+     xsec-LiTY : cross section
+         10.1093/mnras/stz912
+     LiTY : opacity
+         10.1093/mnras/stz912
+         10.1051/0004-6361/202038350
+(25Mg)(16O)
+     LiTY : line list
+         10.1093/mnras/stz912
+     LiTY : partition function
+         10.1093/mnras/stz912
+(26Mg)(16O)
+     LiTY : line list
+         10.1093/mnras/stz912
+     LiTY : partition function
+         10.1093/mnras/stz912
+(58Ni)(1H)
+     HRV : line list
+         10.1016/j.jms.2013.09.005
+         10.1088/0004-637X/696/1/172
+(60Ni)(1H)
+     HRV : line list
+         10.1088/0004-637X/696/1/172
+(61Ni)(1H)
+(62Ni)(1H)
+     HRV : line list
+         10.1088/0004-637X/696/1/172
+(64Ni)(1H)
+(45Sc)(1H)
+     LYT : line list
+     LYT : partition function
+     xsec-LYT : cross section
+         10.1080/00268976.2015.1029996
+     LYT : opacity
+         10.1080/00268976.2015.1029996
+         10.1051/0004-6361/202038350
+(2H)2(16O)
+     Hewitt : partition function
+         10.1111/j.1365-2966.2004.08559.x
+(39K)(35Cl)
+     Barton : line list
+         10.1093/mnras/stu944
+     Barton : partition function
+         10.1093/mnras/stu944
+     xsec-Barton : cross section
+         10.1093/mnras/stu944
+     Barton : opacity
+         10.1093/mnras/stu944
+         10.1051/0004-6361/202038350
+(39K)(37Cl)
+     Barton : line list
+         10.1093/mnras/stu944
+     Barton : partition function
+         10.1093/mnras/stu944
+(32S)(16O)
+(41K)(35Cl)
+     Barton : line list
+         10.1093/mnras/stu944
+     Barton : partition function
+         10.1093/mnras/stu944
+(41K)(37Cl)
+     Barton : line list
+         10.1093/mnras/stu944
+     Barton : partition function
+         10.1093/mnras/stu944
+(12C)(31P)
+     MoLLIST : line list
+         10.1016/j.jqsrt.2014.01.030
+         10.1016/j.jqsrt.2019.106687
+         10.1016/j.jqsrt.2020.107352
+     MoLLIST : partition function
+         10.1016/j.jqsrt.2014.01.030
+         10.1016/j.jqsrt.2019.106687
+         10.1016/j.jqsrt.2020.107352
+     xsec-MoLLIST : cross section
+         10.1016/j.jqsrt.2014.01.030
+     MoLLIST : opacity
+         10.1016/j.jqsrt.2014.01.030
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+(31P)(14N)
+     YYLT : line list
+         10.1093/mnras/stu1854
+     YYLT : partition function
+         10.1093/mnras/stu1854
+     YYLT : program
+         10.1093/mnras/stu1854
+     xsec-YYLT : cross section
+         10.1093/mnras/stu1854
+     YYLT : opacity
+         10.1093/mnras/stu1854
+         10.1051/0004-6361/202038350
+(31P)(15N)
+     YYLT : line list
+         10.1093/mnras/stu1854
+     YYLT : partition function
+         10.1093/mnras/stu1854
+(12C)(36S)
+     JnK : line list
+         10.1093/mnras/stv1543
+     JnK : partition function
+         10.1093/mnras/stv1543
+(13C)(33S)
+     JnK : line list
+         10.1093/mnras/stv1543
+     JnK : partition function
+         10.1093/mnras/stv1543
+(13C)(34S)
+     JnK : line list
+         10.1093/mnras/stv1543
+     JnK : partition function
+         10.1093/mnras/stv1543
+(13C)(36S)
+     JnK : line list
+         10.1093/mnras/stv1543
+     JnK : partition function
+         10.1093/mnras/stv1543
+(13C)(1H)
+     MoLLIST : line list
+         10.1051/0004-6361/201423956
+     MoLLIST : partition function
+         10.1051/0004-6361/201423956
+(14C)(16O)
+     Li : line list
+(14C)(17O)
+     Li : line list
+(14C)(18O)
+     Li : line list
+(26Al)(16O)
+     ATP : line list
+         10.1093/mnras/stv507
+     ATP : partition function
+         10.1093/mnras/stv507
+     ATP : opacity
+         10.1093/mnras/stv507
+         10.1051/0004-6361/202038350
+     ATP : other States files
+         10.1093/mnras/stv507
+(27Al)(17O)
+     ATP : line list
+         10.1093/mnras/stv507
+     ATP : partition function
+         10.1093/mnras/stv507
+     ATP : other States files
+         10.1093/mnras/stv507
+(27Al)(18O)
+     ATP : line list
+         10.1093/mnras/stv507
+     ATP : partition function
+         10.1093/mnras/stv507
+     ATP : other States files
+         10.1093/mnras/stv507
+(23Na)(1H)
+     Rivlin : line list
+         10.1093/mnras/stv979
+     Rivlin : partition function
+         10.1093/mnras/stv979
+     Rivlin : opacity
+         10.1093/mnras/stv979
+         10.1051/0004-6361/202038350
+(23Na)(2H)
+     Rivlin : line list
+         10.1093/mnras/stv979
+     Rivlin : partition function
+         10.1093/mnras/stv979
+(40Ca)(16O)
+     VBATHY : line list
+         10.1093/mnras/stv2858
+     VBATHY : partition function
+         10.1093/mnras/stv2858
+     VBATHY : program
+         10.1093/mnras/stv2858
+     xsec-VBATHY : cross section
+         10.1093/mnras/stv2858
+     VBATHY : opacity
+         10.1093/mnras/stv2858
+         10.1051/0004-6361/202038350
+(31P)(16O)
+     POPS : other States files
+         10.1093/mnras/stx2229
+     POPS : line list
+         10.1093/mnras/stx2229
+     POPS : partition function
+         10.1093/mnras/stx2229
+     xsec-POPS : cross section
+         10.1093/mnras/stx2229
+     POPS : opacity
+         10.1093/mnras/stx2229
+         10.1051/0004-6361/202038350
+(31P)(17O)
+(31P)(18O)
+(15N)(18O)
+     NOname : line list
+         10.1093/mnras/stx1211
+     NOname : partition function
+         10.1093/mnras/stx1211
+     NOname : program
+         10.1093/mnras/stx1211
+(14N)(17O)
+     NOname : partition function
+         10.1093/mnras/stx1211
+     NOname : line list
+         10.1093/mnras/stx1211
+(15N)(17O)
+     NOname : line list
+         10.1093/mnras/stx1211
+     NOname : partition function
+         10.1093/mnras/stx1211
+(28Si)(1H)4
+     OY2T : other States files
+         10.1093/mnras/stx1952
+     OY2T : line list
+         10.1093/mnras/stx1952
+     OY2T : partition function
+         10.1093/mnras/stx1952
+     xsec-OY2T : cross section
+         10.1093/mnras/stx1952
+     OY2T : opacity
+         10.1093/mnras/stx1952
+         10.1051/0004-6361/202038350
+(31P)(32S)
+     POPS : other States files
+         10.1093/mnras/stx2229
+     POPS : line list
+         10.1093/mnras/stx2229
+     POPS : partition function
+         10.1093/mnras/stx2229
+     xsec-POPS : cross section
+         10.1093/mnras/stx2229
+     POPS : opacity
+         10.1093/mnras/stx2229
+         10.1051/0004-6361/202038350
+(29Si)(1H)
+     SiGHTLY : line list
+         10.1093/mnras/stx2738
+     SiGHTLY : partition function
+         10.1093/mnras/stx2738
+(30Si)(1H)
+     SiGHTLY : line list
+         10.1093/mnras/stx2738
+     SiGHTLY : partition function
+         10.1093/mnras/stx2738
+(28Si)(2H)
+     SiGHTLY : line list
+         10.1093/mnras/stx2738
+     SiGHTLY : partition function
+         10.1093/mnras/stx2738
+(32S)(1H)
+     SNaSH-SH : line list
+         10.1093/mnras/sty939
+     SNaSH-SH : partition function
+         10.1093/mnras/sty939
+     xsec-GYT : cross section
+         10.1093/mnras/stz2517
+     GYT : line list
+         10.1093/mnras/stz2517
+     GYT : partition function
+         10.1093/mnras/stz2517
+     GYT : opacity
+         10.1093/mnras/stz2517
+         10.1051/0004-6361/202038350
+(33S)(1H)
+     SNaSH-SH : line list
+         10.1093/mnras/sty939
+     SNaSH-SH : partition function
+         10.1093/mnras/sty939
+     GYT : line list
+         10.1093/mnras/stz2517
+     GYT : partition function
+         10.1093/mnras/stz2517
+(34S)(1H)
+     SNaSH-SH : line list
+         10.1093/mnras/sty939
+     SNaSH-SH : partition function
+         10.1093/mnras/sty939
+     GYT : line list
+         10.1093/mnras/stz2517
+     GYT : partition function
+         10.1093/mnras/stz2517
+(36S)(1H)
+     SNaSH-SH : line list
+         10.1093/mnras/sty939
+     SNaSH-SH : partition function
+         10.1093/mnras/sty939
+     GYT : line list
+         10.1093/mnras/stz2517
+     GYT : partition function
+         10.1093/mnras/stz2517
+(32S)(2H)
+     SNaSH-SH : line list
+         10.1093/mnras/sty939
+     SNaSH-SH : partition function
+         10.1093/mnras/sty939
+     GYT : line list
+         10.1093/mnras/stz2517
+     GYT : partition function
+         10.1093/mnras/stz2517
+(14N)(32S)
+     SNaSH : line list
+         10.1093/mnras/sty939
+     SNaSH : partition function
+         10.1093/mnras/sty939
+     xsec-SNaSH : cross section
+         10.1093/mnras/sty939
+     SNaSH : opacity
+         10.1093/mnras/sty939
+         10.1051/0004-6361/202038350
+(15N)(32S)
+     SNaSH : line list
+         10.1093/mnras/sty939
+     SNaSH : partition function
+         10.1093/mnras/sty939
+(14N)(33S)
+     SNaSH : line list
+         10.1093/mnras/sty939
+     SNaSH : partition function
+         10.1093/mnras/sty939
+(14N)(34S)
+     SNaSH : line list
+         10.1093/mnras/sty939
+     SNaSH : partition function
+         10.1093/mnras/sty939
+(14N)(36S)
+     SNaSH : line list
+         10.1093/mnras/sty939
+     SNaSH : partition function
+         10.1093/mnras/sty939
+(9Be)(2H)
+     Darby-Lewis : line list
+         
+     Darby-Lewis : partition function
+         
+(9Be)(3H)
+     Darby-Lewis : line list
+         
+     Darby-Lewis : partition function
+         
+     Darby-Lewis : partition function
+         
+(12C)(17O)2
+     Zak : line list
+         10.1016/j.jqsrt.2015.12.022
+(13C)(17O)2
+     Zak : line list
+         10.1016/j.jqsrt.2015.12.022
+(14C)(16O)2
+     Zak : line list
+         10.1016/j.jqsrt.2015.12.022
+(12C)(1H)3(19F)
+     OYKYT : line list
+         10.1039/c8cp01721b
+     OYKYT : partition function
+         10.1039/c8cp01721b
+     OYKYT : opacity
+         10.1039/c8cp01721b
+         10.1051/0004-6361/202038350
+(27Al)(2H)
+     AlHambra : line list
+         10.1093/mnras/sty1542
+     AlHambra : partition function
+         10.1093/mnras/sty1542
+     xsec-AlHambra : cross section
+         10.1093/mnras/sty1542
+(26Al)(1H)
+     AlHambra : line list
+         10.1093/mnras/sty1542
+     AlHambra : partition function
+         10.1093/mnras/sty1542
+     xsec-AlHambra : cross section
+         10.1093/mnras/sty1542
+     AlHambra : opacity
+         10.1093/mnras/sty1542
+         10.1051/0004-6361/202038350
+(28Si)(32S)
+     UCTY : line list
+         10.1093/mnras/sty998
+     UCTY : line list
+         10.1093/mnras/sty998
+     UCTY : partition function
+         10.1093/mnras/sty998
+     xsec-UCTY : cross section
+         10.1093/mnras/sty998
+     UCTY : opacity
+         10.1093/mnras/sty998
+         10.1051/0004-6361/202038350
+(28Si)(33S)
+     UCTY : line list
+         10.1093/mnras/sty998
+     UCTY : partition function
+         10.1093/mnras/sty998
+(28Si)(34S)
+     UCTY : line list
+         10.1093/mnras/sty998
+     UCTY : partition function
+         10.1093/mnras/sty998
+(28Si)(36S)
+     UCTY : line list
+         10.1093/mnras/sty998
+     UCTY : partition function
+         10.1093/mnras/sty998
+(29Si)(32S)
+     UCTY : line list
+         10.1093/mnras/sty998
+     UCTY : partition function
+         10.1093/mnras/sty998
+(29Si)(34S)
+     UCTY : line list
+         10.1093/mnras/sty998
+     UCTY : partition function
+         10.1093/mnras/sty998
+(29Si)(36S)
+     UCTY : line list
+         10.1093/mnras/sty998
+     UCTY : partition function
+         10.1093/mnras/sty998
+     UCTY : partition function
+         10.1093/mnras/sty998
+(30Si)(32S)
+     UCTY : line list
+         10.1093/mnras/sty998
+     UCTY : partition function
+         10.1093/mnras/sty998
+(30Si)(33S)
+     UCTY : line list
+         10.1093/mnras/sty998
+     UCTY : partition function
+         10.1093/mnras/sty998
+(30Si)(34S)
+     UCTY : line list
+         10.1093/mnras/sty998
+     UCTY : partition function
+         10.1093/mnras/sty998
+(30Si)(36S)
+     UCTY : line list
+         10.1093/mnras/sty998
+     UCTY : partition function
+         10.1093/mnras/sty998
+(29Si)(33S)
+     UCTY : line list
+         10.1093/mnras/sty998
+     UCTY : partition function
+         10.1093/mnras/sty998
+(7Li)(19F)
+     MoLLIST : line list
+         10.3847/1538-4365/aa9846
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1086/190980
+     MoLLIST : opacity
+         10.3847/1538-4365/aa9846
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+(6Li)(19F)
+     MoLLIST : line list
+         10.3847/1538-4365/aa9846
+     MoLLIST : partition function
+         10.1086/190980
+(6Li)(35Cl)
+     MoLLIST : line list
+         10.3847/1538-4365/aa9846
+     MoLLIST : partition function
+         10.1086/190980
+(6Li)(37Cl)
+     MoLLIST : line list
+         10.3847/1538-4365/aa9846
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1086/190980
+(23Na)(19F)
+     MoLLIST : line list
+         10.1016/j.jqsrt.2015.10.004
+     MoLLIST : partition function
+         10.1086/190980
+     MoLLIST : opacity
+         10.1016/j.jqsrt.2015.10.004
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+(39K)(19F)
+     MoLLIST : line list
+         10.1016/j.jqsrt.2015.10.004
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1086/190980
+     MoLLIST : opacity
+         10.1016/j.jqsrt.2015.10.004
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+(41K)(19F)
+     MoLLIST : line list
+         10.1016/j.jqsrt.2015.10.004
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1086/190980
+(27Al)(35Cl)
+     MoLLIST : line list
+         10.3847/1538-4365/aacc6a
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1086/190980
+     MoLLIST : opacity
+         10.3847/1538-4365/aacc6a
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+(27Al)(37Cl)
+     MoLLIST : line list
+         10.3847/1538-4365/aacc6a
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1086/190980
+(27Al)(19F)
+     MoLLIST : line list
+         10.3847/1538-4365/aacc6a
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1086/190980
+     MoLLIST : opacity
+         10.3847/1538-4365/aacc6a
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+(40Ca)(19F)
+     MoLLIST : line list
+         10.1016/j.jqsrt.2018.02.011
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1086/190980
+     MoLLIST : opacity
+         10.1016/j.jqsrt.2018.02.011
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+(42Ca)(19F)
+     MoLLIST : line list
+         10.1016/j.jqsrt.2018.02.011
+     MoLLIST : partition function
+         10.1086/190980
+(43Ca)(19F)
+     MoLLIST : line list
+         10.1016/j.jqsrt.2018.02.011
+     MoLLIST : partition function
+         10.1086/190980
+(44Ca)(19F)
+     MoLLIST : line list
+         10.1016/j.jqsrt.2018.02.011
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1086/190980
+(46Ca)(19F)
+     MoLLIST : line list
+         10.1016/j.jqsrt.2018.02.011
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1086/190980
+(48Ca)(19F)
+     MoLLIST : line list
+         10.1016/j.jqsrt.2018.02.011
+     MoLLIST : partition function
+         10.1086/190980
+(24Mg)(19F)
+     MoLLIST : line list
+         10.1016/j.jqsrt.2017.03.019
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1086/190980
+(25Mg)(19F)
+     MoLLIST : line list
+         10.1016/j.jqsrt.2017.03.019
+     MoLLIST : partition function
+         10.1086/190980
+(26Mg)(19F)
+     MoLLIST : line list
+         10.1016/j.jqsrt.2017.03.019
+     MoLLIST : partition function
+         10.1086/190980
+(16O)(1H)+
+     MoLLIST : line list
+         
+         10.1016/j.jqsrt.2019.106687
+     MoLLIST : partition function
+         10.1086/190980
+     MoLLIST : opacity
+         
+         10.1016/j.jqsrt.2019.106687
+         10.1051/0004-6361/202038350
+(17O)(13C)(18O)
+     Zak : line list
+         10.1016/j.jqsrt.2015.12.022
+(48Ti)(16O)
+     Kurucz : line list
+         
+         10.1039/a800070k
+     Kurucz : partition function
+         
+         10.1039/a800070k
+     Toto : line list
+         10.1093/mnras/stz1818
+     Toto : partition function
+         10.1093/mnras/stz1818
+     xsec-Toto : cross section
+         10.1093/mnras/stz1818
+     Toto : opacity
+         10.1093/mnras/stz1818
+         10.1051/0004-6361/202038350
+(47Ti)(16O)
+     Kurucz : line list
+         
+         10.1039/a800070k
+     Kurucz : partition function
+         
+         10.1039/a800070k
+     Toto : line list
+         10.1093/mnras/stz1818
+     Toto : partition function
+         10.1093/mnras/stz1818
+(50Ti)(16O)
+     Kurucz : line list
+         
+         10.1039/a800070k
+     Kurucz : partition function
+         
+         10.1039/a800070k
+     Toto : line list
+         10.1093/mnras/stz1818
+     Toto : partition function
+         10.1093/mnras/stz1818
+(46Ti)(16O)
+     Kurucz : line list
+         
+         10.1039/a800070k
+     Kurucz : partition function
+         
+         10.1039/a800070k
+     Toto : line list
+         10.1093/mnras/stz1818
+     Toto : partition function
+         10.1093/mnras/stz1818
+(75As)(1H)3
+     CYT18 : line list
+         10.1039/C8CP07110A
+     CYT18 : partition function
+         10.1039/C8CP07110A
+     CYT18 : opacity
+         10.1039/C8CP07110A
+         10.1051/0004-6361/202038350
+trans-(31P)2(1H)(2H)
+     OY-Trans : line list
+         10.1063/1.5092767
+     OY-Trans : partition function
+         10.1063/1.5092767
+(31P)(19F)3
+     MCYTY : line list
+         10.1080/00268976.2019.1581951
+     MCYTY : partition function
+         10.1080/00268976.2019.1581951
+(24Mg)(17O)
+     LiTY : line list
+         10.1093/mnras/stz912
+     LiTY : partition function
+         10.1093/mnras/stz912
+(24Mg)(18O)
+     LiTY : line list
+         10.1093/mnras/stz912
+     LiTY : partition function
+         10.1093/mnras/stz912
+(31P)(1H)
+     LaTY : line list
+         10.1093/mnras/stz1856
+     LaTY : partition function
+         10.1093/mnras/stz1856
+     LaTY : opacity
+         10.1093/mnras/stz1856
+         10.1051/0004-6361/202038350
+(12C)(1H)3
+     AYYJ : line list
+         10.1021/acs.jpca.9b02919
+     AYYJ : partition function
+         10.1021/acs.jpca.9b02919
+     xsec-AYYJ : cross section
+         10.1021/acs.jpca.9b02919
+     AYYJ : opacity
+         10.1021/acs.jpca.9b02919
+         10.1051/0004-6361/202038350
+(28Si)(1H)2
+     CATS : partition function
+         
+     CATS : line list
+         
+     xsec-CATS : cross section
+         
+     CATS : opacity
+         
+         10.1051/0004-6361/202038350
+(28Si)(16O)2
+     OYT3 : line list
+         10.1093/mnras/staa1287
+     OYT3 : partition function
+         10.1093/mnras/staa1287
+     xsec-OYT3 : cross section
+         10.1093/mnras/staa1287
+     OYT3 : super-line
+         10.1093/mnras/staa1287
+     OYT3 : opacity
+         10.1093/mnras/staa1287
+         10.1051/0004-6361/202038350
+cis-(31P)2(1H)2
+     OY-Cis : line list
+         10.1063/1.5092767
+     OY-Cis : partition function
+         10.1063/1.5092767
+     xsec-Cis : cross section
+         10.1063/1.5092767
+     OY-Cis : opacity
+         10.1063/1.5092767
+         10.1051/0004-6361/202038350
+trans-(31P)2(1H)2
+     OY-Trans : line list
+         10.1063/1.5092767
+     OY-Trans : partition function
+         10.1063/1.5092767
+     xsec-Trans : cross section
+         10.1063/1.5092767
+     OY-Trans : opacity
+         10.1063/1.5092767
+         10.1051/0004-6361/202038350
+(1H)3(16O)+
+     eXeL : line list
+         None
+     eXeL : partition function
+         None
+     eXeL : super-line
+         None
+     xsec-eXeL : cross section
+         None
+     eXeL : opacity
+         10.1051/0004-6361/202038350
+         None
+(39K)(16O)(1H)
+     OYT4 : line list
+         10.1093/mnras/staa4041
+     OYT4 : partition function
+         10.1093/mnras/staa4041
+     xsec-OYT4 : cross section
+         10.1093/mnras/staa4041
+     OYT4 : super-line
+         10.1093/mnras/staa4041
+(23Na)(16O)(1H)
+     OYT5 : line list
+         10.1093/mnras/staa4041
+     OYT5 : partition function
+         10.1093/mnras/staa4041
+     xsec-OYT5 : cross section
+         10.1093/mnras/staa4041
+     OYT5 : opacity
+         10.1051/0004-6361/202038350
+         10.1093/mnras/staa4041
+(12C)(15N)
+     Trihybrid : line list
+         10.1088/0067-0049/210/2/23
+         10.1093/mnras/stab1551
+     Trihybrid : partition function
+         10.1093/mnras/stab1551
+(13C)(14N)
+     Trihybrid : line list
+         10.1088/0067-0049/210/2/23
+         10.1093/mnras/stab1551
+     Trihybrid : partition function
+         10.1093/mnras/stab1551
+(13C)(15N)
+     Trihybrid : line list
+         10.1088/0067-0049/210/2/23
+         10.1093/mnras/stab1551
+     Trihybrid : partition function
+         10.1093/mnras/stab1551

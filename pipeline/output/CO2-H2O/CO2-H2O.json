@@ -1,0 +1,30 @@
+{
+  "collision_pair": {
+    "formula": "CO2-H2O",
+    "slug": "co2-h2o",
+    "active_species_status": "unique",
+    "active_species": "co2",
+    "collider": "h2o",
+    "components": [
+      {
+        "formula": "CO2",
+        "slug": "co2",
+        "cas_registry_number": "124-38-9"
+      },
+      {
+        "formula": "H2O",
+        "slug": "h2o",
+        "cas_registry_number": "7732-18-5"
+      }
+    ]
+  },
+  "version": "20260817",
+  "recommended_dataset": "fleurbaey2022",
+  "datasets": [
+    {
+      "dataset_id": "fleurbaey2022",
+      "dataset_version": "20260817",
+      "metadata_file": "CO2-H2O_fleurbaey2022_5700_6300_296_296.json"
+    }
+  ]
+}

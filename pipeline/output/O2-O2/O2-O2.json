@@ -1,0 +1,50 @@
+{
+  "collision_pair": {
+    "formula": "O2-O2",
+    "slug": "o2-o2",
+    "active_species_status": "unique",
+    "active_species": "o2",
+    "collider": "o2",
+    "components": [
+      {
+        "formula": "O2",
+        "slug": "o2",
+        "cas_registry_number": "7782-44-7"
+      },
+      {
+        "formula": "O2",
+        "slug": "o2",
+        "cas_registry_number": "7782-44-7"
+      }
+    ]
+  },
+  "version": "20260817",
+  "recommended_dataset": "hitran2024-main",
+  "datasets": [
+    {
+      "dataset_id": "hitran2024-main",
+      "dataset_version": "20260817",
+      "metadata_file": "O2-O2_hitran2024-main_1150_33670_193_354.json"
+    },
+    {
+      "dataset_id": "dong2026",
+      "dataset_version": "20260817",
+      "metadata_file": "O2-O2_dong2026_9120_9820_296_296.json"
+    },
+    {
+      "dataset_id": "karman2018",
+      "dataset_version": "20260817",
+      "metadata_file": "O2-O2_karman2018_7583_14806_206_346.json"
+    },
+    {
+      "dataset_id": "orlando1991",
+      "dataset_version": "20260817",
+      "metadata_file": "O2-O2_orlando1991_1360_1804_356_356.json"
+    },
+    {
+      "dataset_id": "thibault1997",
+      "dataset_version": "20260817",
+      "metadata_file": "O2-O2_thibault1997_1300_1850_193_293.json"
+    }
+  ]
+}

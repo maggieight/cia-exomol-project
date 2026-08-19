@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+{% if isotopologues %}
+<h2>Isotopologues of {{ molecule.ordinary_formula_html|safe }} with {{ data_type.description }}</h2>
+
+<div class="well" style="width: 200px;">
+<div class="list-group">
+{% for isotopologue in isotopologues %}
+    <a href="{{ isotopologue.slug }}" class="list-group-item link-list-group-item">{{ isotopologue.ordinary_formula_html|safe }}</a>
+{% endfor %}
+</div>
+</div>
+{% endif %}
+
+{% if broadening_collection %}
+{% include "pages/data/broadening_coefficients.html" %} 
+{% endif %}
+
+{% endblock main %}
+

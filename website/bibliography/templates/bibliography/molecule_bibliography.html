@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="panel panel-primary">
+<div class="panel-heading">{% if lineshapes %}Lineshapes {% endif %}Bibliography for {{ molecule.ordinary_formula_html|safe }}</div>
+<div class="panel-body">
+<div class="list-group bibliography">
+
+<p>There {{ sources.count|pluralize:"is,are" }} {{ sources.count }} reference{{ sources.count|pluralize:"s" }}
+{% if lineshapes %}
+concerning lineshapes
+{% else %}
+in total
+{% endif %}
+for {{ molecule.ordinary_formula_html|safe }}.
+</p>
+{% if lineshapes %}
+<p><a href="{% url 'bibliography:molecule_bibliography' molecule.slug %}">See all references for {{ molecule.ordinary_formula_html|safe }}</a>.</p>
+{% endif %}
+
+{% if lineshape_sources and not lineshapes %}
+<p><a href="{% url 'bibliography:molecule_bibliography' molecule.slug %}/lineshapes">To filter for references concerning line shapes for {{ molecule.ordinary_formula_html|safe }} click here</a>.</p>
+{% endif %}
+
+{% if sources.count > 0 %}
+<ol>
+{% for source in sources %}
+<li>{{ source.html|safe }}</li>
+{% endfor %}
+</ol>
+{% else %}
+<p>No references found for this molecule.</p>
+{% endif %}
+
+<p class="caption pull-right">The ExoMol bibliometrician is Olga Yurchenko</p>
+</div>
+</div>
+</div>
+</div>
+
+
+{% endblock main %}
+

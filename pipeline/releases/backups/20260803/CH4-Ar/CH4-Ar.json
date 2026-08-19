@@ -1,0 +1,30 @@
+{
+  "collision_pair": {
+    "formula": "CH4-Ar",
+    "slug": "ch4-ar",
+    "active_species_status": "unique",
+    "active_species": "ch4",
+    "collider": "ar",
+    "components": [
+      {
+        "formula": "CH4",
+        "slug": "ch4",
+        "cas_registry_number": "74-82-8"
+      },
+      {
+        "formula": "Ar",
+        "slug": "ar",
+        "cas_registry_number": "7440-37-1"
+      }
+    ]
+  },
+  "version": "20260803",
+  "recommended_dataset": null,
+  "datasets": [
+    {
+      "dataset_id": "samuelson1997",
+      "dataset_version": "20260803",
+      "metadata_file": "CH4-Ar_samuelson1997_1_697_70_296.json"
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "dataset_id_policy": {
+    "single_citation": "<citation_key>",
+    "single_citation_with_variant": "<citation_key>-<variant>",
+    "multiple_citations": "hitran<repository_version>-<collection>",
+    "multiple_citations_with_variant": "hitran<repository_version>-<collection>-<variant>"
+  },
+  "files": {
+    "extra/finenko2026/CO2-CH4.csv": {
+      "pair": "CO2-CH4",
+      "active_species_status": "unique",
+      "active_species": "co2",
+      "collider": "ch4",
+      "components": [
+        "co2",
+        "ch4"
+      ]
+    },
+    "extra/dong2026/O2-O2.csv": {
+      "pair": "O2-O2",
+      "active_species_status": "unique",
+      "active_species": "o2",
+      "collider": "o2",
+      "components": [
+        "o2",
+        "o2"
+      ]
+    },
+    "extra/chandran2025/Ar-He.csv": {
+      "pair": "Ar-He",
+      "active_species_status": "no_unique_active_species",
+      "active_species": null,
+      "collider": null,
+      "components": [
+        "ar",
+        "he"
+      ]
+    },
+    "extra/chandran2025/Ar-Ne.csv": {
+      "pair": "Ar-Ne",
+      "active_species_status": "no_unique_active_species",
+      "active_species": null,
+      "collider": null,
+      "components": [
+        "ar",
+        "ne"
+      ]
+    },
+    "extra/chandran2025/He-Ne.csv": {
+      "pair": "He-Ne",
+      "active_species_status": "no_unique_active_species",
+      "active_species": null,
+      "collider": null,
+      "components": [
+        "he",
+        "ne"
+      ]
+    },
+    "extra/ptashnik2011/H2O-H2O.csv": {
+      "pair": "H2O-H2O",
+      "active_species_status": "no_unique_active_species",
+      "active_species": null,
+      "collider": null,
+      "components": [
+        "h2o",
+        "h2o"
+      ]
+    },
+    "extra/vitali2026/CO2-H2.csv": {
+      "pair": "CO2-H2",
+      "active_species_status": "unique",
+      "active_species": "co2",
+      "collider": "h2",
+      "components": [
+        "co2",
+        "h2"
+      ]
+    },
+    "main/CH4-He_2018.cia.txt": {
+      "pair": "CH4-He",
+      "active_species_status": "unique",
+      "active_species": "ch4",
+      "collider": "he"
+    },
+    "main/CO2-Ar_2021.cia.txt": {
+      "pair": "CO2-Ar",
+      "active_species_status": "unique",
+      "active_species": "co2",
+      "collider": "ar"
+    },
+    "main/CO2-CH4_2024.cia.txt": {
+      "pair": "CO2-CH4",
+      "active_species_status": "unique",
+      "active_species": "co2",
+      "collider": "ch4"
+    },
+    "main/CO2-CO2_2024.cia.txt": {
+      "pair": "CO2-CO2",
+      "active_species_status": "unique",
+      "active_species": "co2",
+      "collider": "co2"
+    },
+    "main/CO2-H2_2024.cia.txt": {
+      "pair": "CO2-H2",
+      "active_species_status": "unique",
+      "active_species": "co2",
+      "collider": "h2"
+    },
+    "main/CO2-H2O_2024.cia.txt": {
+      "pair": "CO2-H2O",
+      "active_species_status": "unique",
+      "active_species": "co2",
+      "collider": "h2o"
+    },
+    "main/CO2-He_2018.cia.txt": {
+      "pair": "CO2-He",
+      "active_species_status": "unique",
+      "active_species": "co2",
+      "collider": "he"
+    },
+    "main/H2-CH4_eq_2011.cia.txt": {
+      "pair": "H2-CH4",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "ch4",
+      "variant": "equilibrium"
+    },
+    "main/H2-CH4_norm_2011.cia.txt": {
+      "pair": "H2-CH4",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "ch4",
+      "variant": "normal"
+    },
+    "main/H2-H_2011.cia.txt": {
+      "pair": "H2-H",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "h"
+    },
+    "main/H2-H2_2011.cia.txt": {
+      "pair": "H2-H2",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "h2"
+    },
+    "main/H2-He_2011.cia.txt": {
+      "pair": "H2-He",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "he"
+    },
+    "main/He-H_2011.cia.txt": {
+      "pair": "H-He",
+      "active_species_status": "no_unique_active_species",
+      "active_species": null,
+      "collider": null,
+      "components": [
+        "h",
+        "he"
+      ]
+    },
+    "main/N2-air_2018.cia.txt": {
+      "pair": "N2-Air",
+      "active_species_status": "unique",
+      "active_species": "n2",
+      "collider": "air"
+    },
+    "main/N2-Ar_2024.cia.txt": {
+      "pair": "N2-Ar",
+      "active_species_status": "unique",
+      "active_species": "n2",
+      "collider": "ar"
+    },
+    "main/N2-CH4_2024.cia.txt": {
+      "pair": "N2-CH4",
+      "active_species_status": "unique",
+      "active_species": "n2",
+      "collider": "ch4"
+    },
+    "main/N2-H2_2024.cia.txt": {
+      "pair": "N2-H2",
+      "active_species_status": "unique",
+      "active_species": "n2",
+      "collider": "h2"
+    },
+    "main/N2-H2O_2018.cia.txt": {
+      "pair": "N2-H2O",
+      "active_species_status": "unique",
+      "active_species": "n2",
+      "collider": "h2o"
+    },
+    "main/N2-He_2018.cia.txt": {
+      "pair": "N2-He",
+      "active_species_status": "unique",
+      "active_species": "n2",
+      "collider": "he"
+    },
+    "main/N2-N2_2021.cia.txt": {
+      "pair": "N2-N2",
+      "active_species_status": "unique",
+      "active_species": "n2",
+      "collider": "n2"
+    },
+    "main/O2-air_2024.cia.txt": {
+      "pair": "O2-Air",
+      "active_species_status": "unique",
+      "active_species": "o2",
+      "collider": "air"
+    },
+    "main/O2-CO2_2024.cia.txt": {
+      "pair": "O2-CO2",
+      "active_species_status": "unique",
+      "active_species": "o2",
+      "collider": "co2"
+    },
+    "main/O2-N2_2024.cia.txt": {
+      "pair": "O2-N2",
+      "active_species_status": "unique",
+      "active_species": "o2",
+      "collider": "n2"
+    },
+    "main/O2-O2_2024.cia.txt": {
+      "pair": "O2-O2",
+      "active_species_status": "unique",
+      "active_species": "o2",
+      "collider": "o2"
+    },
+    "sup/CH4-Ar_2011.cia.txt": {
+      "pair": "CH4-Ar",
+      "active_species_status": "unique",
+      "active_species": "ch4",
+      "collider": "ar"
+    },
+    "sup/CH4-CH4_2011.cia.txt": {
+      "pair": "CH4-CH4",
+      "active_species_status": "unique",
+      "active_species": "ch4",
+      "collider": "ch4"
+    },
+    "sup/CO2-CH4_2024.cia.txt": {
+      "pair": "CO2-CH4",
+      "active_species_status": "unique",
+      "active_species": "co2",
+      "collider": "ch4"
+    },
+    "sup/CO2-CO2_2011.cia.txt": {
+      "pair": "CO2-CO2",
+      "active_species_status": "unique",
+      "active_species": "co2",
+      "collider": "co2"
+    },
+    "sup/CO2-H2_2018.cia.txt": {
+      "pair": "CO2-H2",
+      "active_species_status": "unique",
+      "active_species": "co2",
+      "collider": "h2"
+    },
+    "sup/H2-H2_eq_2018.cia.txt": {
+      "pair": "H2-H2",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "h2",
+      "variant": "equilibrium"
+    },
+    "sup/H2-H2_exp_2024.cia.txt": {
+      "pair": "H2-H2",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "h2",
+      "variant": "experimental"
+    },
+    "sup/H2-H2_fp0.3_2018.cia.txt": {
+      "pair": "H2-H2",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "h2",
+      "variant": "fp0.3"
+    },
+    "sup/H2-H2_fp0.7_2018.cia.txt": {
+      "pair": "H2-H2",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "h2",
+      "variant": "fp0.7"
+    },
+    "sup/H2-H2_fp0.8_2018.cia.txt": {
+      "pair": "H2-H2",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "h2",
+      "variant": "fp0.8"
+    },
+    "sup/H2-H2_fp0.9_2018.cia.txt": {
+      "pair": "H2-H2",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "h2",
+      "variant": "fp0.9"
+    },
+    "sup/H2-H2_fp0.35_2018.cia.txt": {
+      "pair": "H2-H2",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "h2",
+      "variant": "fp0.35"
+    },
+    "sup/H2-H2_fp0.41_2018.cia.txt": {
+      "pair": "H2-H2",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "h2",
+      "variant": "fp0.41"
+    },
+    "sup/H2-H2_fp0.47_2018.cia.txt": {
+      "pair": "H2-H2",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "h2",
+      "variant": "fp0.47"
+    },
+    "sup/H2-H2_fp0.54_2018.cia.txt": {
+      "pair": "H2-H2",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "h2",
+      "variant": "fp0.54"
+    },
+    "sup/H2-H2_fp0.62_2018.cia.txt": {
+      "pair": "H2-H2",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "h2",
+      "variant": "fp0.62"
+    },
+    "sup/H2-H2_fp1_2018.cia.txt": {
+      "pair": "H2-H2",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "h2",
+      "variant": "fp1"
+    },
+    "sup/H2-H2_norm_2018.cia.txt": {
+      "pair": "H2-H2",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "h2",
+      "variant": "normal"
+    },
+    "sup/H2-He_eq_2011.cia.txt": {
+      "pair": "H2-He",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "he",
+      "variant": "equilibrium"
+    },
+    "sup/H2-He_exp_2024.cia.txt": {
+      "pair": "H2-He",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "he",
+      "variant": "experimental"
+    },
+    "sup/H2-He_norm_2011.cia.txt": {
+      "pair": "H2-He",
+      "active_species_status": "unique",
+      "active_species": "h2",
+      "collider": "he",
+      "variant": "normal"
+    },
+    "sup/N2-Ar_2024.cia.txt": {
+      "pair": "N2-Ar",
+      "active_species_status": "unique",
+      "active_species": "n2",
+      "collider": "ar"
+    },
+    "sup/N2-CH4_2011.cia.txt": {
+      "pair": "N2-CH4",
+      "active_species_status": "unique",
+      "active_species": "n2",
+      "collider": "ch4"
+    },
+    "sup/N2-N2_lowT_2018.cia.txt": {
+      "pair": "N2-N2",
+      "active_species_status": "unique",
+      "active_species": "n2",
+      "collider": "n2",
+      "variant": "low-temperature"
+    },
+    "sup/O2-Air_altern_2016.cia.txt": {
+      "pair": "O2-Air",
+      "active_species_status": "unique",
+      "active_species": "o2",
+      "collider": "air",
+      "variant": "alternate"
+    },
+    "sup/O2-Air_theory_temp_2018.cia.txt": {
+      "pair": "O2-Air",
+      "active_species_status": "unique",
+      "active_species": "o2",
+      "collider": "air",
+      "variant": "theory-temperature"
+    },
+    "sup/O2-N2_theory_temp_2018.cia.txt": {
+      "pair": "O2-N2",
+      "active_species_status": "unique",
+      "active_species": "o2",
+      "collider": "n2",
+      "variant": "theory-temperature"
+    },
+    "sup/O2-O2_exp_2021.cia.txt": {
+      "pair": "O2-O2",
+      "active_species_status": "unique",
+      "active_species": "o2",
+      "collider": "o2",
+      "variant": "experimental"
+    },
+    "sup/O2-O2_theory_temp_2018.cia.txt": {
+      "pair": "O2-O2",
+      "active_species_status": "unique",
+      "active_species": "o2",
+      "collider": "o2",
+      "variant": "theory-temperature"
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "collision_pair": {
+    "formula": "H2O-H2O",
+    "slug": "h2o-h2o",
+    "active_species_status": "no_unique_active_species",
+    "active_species": null,
+    "collider": null,
+    "components": [
+      {
+        "formula": "H2O",
+        "slug": "h2o",
+        "cas_registry_number": "7732-18-5"
+      },
+      {
+        "formula": "H2O",
+        "slug": "h2o",
+        "cas_registry_number": "7732-18-5"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "ptashnik2011",
+    "version": "20260803",
+    "sources": [
+      {
+        "repository": "JGR supplementary material",
+        "citation_key": "ptashnik2011",
+        "authors": [
+          "Igor V. Ptashnik",
+          "Robert A. McPheat",
+          "Keith P. Shine",
+          "Kevin M. Smith",
+          "R. Gary Williams"
+        ],
+        "title": "Water vapor self-continuum absorption in near-infrared windows derived from laboratory measurements",
+        "year": 2011,
+        "doi": "10.1029/2011JD015603",
+        "source_url": "https://doi.org/10.1029/2011JD015603",
+        "verified": true,
+        "ref": null
+      }
+    ],
+    "repository": {
+      "name": "JGR supplementary material",
+      "version": null,
+      "collection": "ptashnik2011",
+      "original_files": [
+        "water-data.doc"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 293.0,
+      "max_temperature": 472.0,
+      "min_wavenumber": 2010.0,
+      "max_wavenumber": 9590.0,
+      "spectral_averaging_width": 20,
+      "nominal_wavenumber_step": 10,
+      "units": {
+        "temperature": "K",
+        "wavenumber": "cm^-1",
+        "spectral_averaging_width": "cm^-1",
+        "nominal_wavenumber_step": "cm^-1"
+      },
+      "column_schemas": {
+        "self_continuum_with_absolute_uncertainty": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "self_continuum_cross_section",
+            "units": "cm^2 molecule^-1 atm^-1"
+          },
+          {
+            "name": "uncertainty",
+            "units": "cm^2 molecule^-1 atm^-1",
+            "uncertainty_type": "absolute",
+            "applies_to": "self_continuum_cross_section"
+          }
+        ]
+      },
+      "default_column_schema": "self_continuum_with_absolute_uncertainty",
+      "files": [
+        {
+          "temperature": 293.0,
+          "wavenumber_resolution": null,
+          "npoints": 295,
+          "filename": "H2O-H2O_ptashnik2011_2010_5610_293.cia",
+          "citation_keys": [
+            "ptashnik2011"
+          ],
+          "spectral_regions": [
+            {
+              "min_wavenumber": 2010.0,
+              "max_wavenumber": 3530.0,
+              "npoints": 153
+            },
+            {
+              "min_wavenumber": 3920.0,
+              "max_wavenumber": 5190.0,
+              "npoints": 128
+            },
+            {
+              "min_wavenumber": 5480.0,
+              "max_wavenumber": 5610.0,
+              "npoints": 14
+            }
+          ]
+        },
+        {
+          "temperature": 350.0,
+          "wavenumber_resolution": null,
+          "npoints": 381,
+          "filename": "H2O-H2O_ptashnik2011_2010_9080_350.cia",
+          "citation_keys": [
+            "ptashnik2011"
+          ],
+          "spectral_regions": [
+            {
+              "min_wavenumber": 2010.0,
+              "max_wavenumber": 3530.0,
+              "npoints": 153
+            },
+            {
+              "min_wavenumber": 3920.0,
+              "max_wavenumber": 5190.0,
+              "npoints": 128
+            },
+            {
+              "min_wavenumber": 5480.0,
+              "max_wavenumber": 5680.0,
+              "npoints": 21
+            },
+            {
+              "min_wavenumber": 6690.0,
+              "max_wavenumber": 7080.0,
+              "npoints": 40
+            },
+            {
+              "min_wavenumber": 7380.0,
+              "max_wavenumber": 7580.0,
+              "npoints": 21
+            },
+            {
+              "min_wavenumber": 8560.0,
+              "max_wavenumber": 8620.0,
+              "npoints": 7
+            },
+            {
+              "min_wavenumber": 8980.0,
+              "max_wavenumber": 9080.0,
+              "npoints": 11
+            }
+          ]
+        },
+        {
+          "temperature": 374.0,
+          "wavenumber_resolution": null,
+          "npoints": 527,
+          "filename": "H2O-H2O_ptashnik2011_2010_9080_374.cia",
+          "citation_keys": [
+            "ptashnik2011"
+          ],
+          "spectral_regions": [
+            {
+              "min_wavenumber": 2010.0,
+              "max_wavenumber": 3450.0,
+              "npoints": 145
+            },
+            {
+              "min_wavenumber": 4070.0,
+              "max_wavenumber": 5120.0,
+              "npoints": 106
+            },
+            {
+              "min_wavenumber": 5620.0,
+              "max_wavenumber": 7080.0,
+              "npoints": 147
+            },
+            {
+              "min_wavenumber": 7450.0,
+              "max_wavenumber": 8620.0,
+              "npoints": 118
+            },
+            {
+              "min_wavenumber": 8980.0,
+              "max_wavenumber": 9080.0,
+              "npoints": 11
+            }
+          ]
+        },
+        {
+          "temperature": 402.0,
+          "wavenumber_resolution": null,
+          "npoints": 516,
+          "filename": "H2O-H2O_ptashnik2011_2010_9130_402.cia",
+          "citation_keys": [
+            "ptashnik2011"
+          ],
+          "spectral_regions": [
+            {
+              "min_wavenumber": 2010.0,
+              "max_wavenumber": 3400.0,
+              "npoints": 140
+            },
+            {
+              "min_wavenumber": 4000.0,
+              "max_wavenumber": 5040.0,
+              "npoints": 105
+            },
+            {
+              "min_wavenumber": 5560.0,
+              "max_wavenumber": 7080.0,
+              "npoints": 153
+            },
+            {
+              "min_wavenumber": 7490.0,
+              "max_wavenumber": 8620.0,
+              "npoints": 114
+            },
+            {
+              "min_wavenumber": 9100.0,
+              "max_wavenumber": 9130.0,
+              "npoints": 4
+            }
+          ]
+        },
+        {
+          "temperature": 431.0,
+          "wavenumber_resolution": null,
+          "npoints": 543,
+          "filename": "H2O-H2O_ptashnik2011_2010_9590_431.cia",
+          "citation_keys": [
+            "ptashnik2011"
+          ],
+          "spectral_regions": [
+            {
+              "min_wavenumber": 2010.0,
+              "max_wavenumber": 3300.0,
+              "npoints": 130
+            },
+            {
+              "min_wavenumber": 3330.0,
+              "max_wavenumber": 3340.0,
+              "npoints": 2
+            },
+            {
+              "min_wavenumber": 4050.0,
+              "max_wavenumber": 5040.0,
+              "npoints": 100
+            },
+            {
+              "min_wavenumber": 5640.0,
+              "max_wavenumber": 7070.0,
+              "npoints": 144
+            },
+            {
+              "min_wavenumber": 7490.0,
+              "max_wavenumber": 8620.0,
+              "npoints": 114
+            },
+            {
+              "min_wavenumber": 9070.0,
+              "max_wavenumber": 9590.0,
+              "npoints": 53
+            }
+          ]
+        },
+        {
+          "temperature": 472.0,
+          "wavenumber_resolution": null,
+          "npoints": 509,
+          "filename": "H2O-H2O_ptashnik2011_2010_9590_472.cia",
+          "citation_keys": [
+            "ptashnik2011"
+          ],
+          "spectral_regions": [
+            {
+              "min_wavenumber": 2010.0,
+              "max_wavenumber": 3400.0,
+              "npoints": 140
+            },
+            {
+              "min_wavenumber": 4050.0,
+              "max_wavenumber": 5040.0,
+              "npoints": 100
+            },
+            {
+              "min_wavenumber": 5650.0,
+              "max_wavenumber": 6690.0,
+              "npoints": 105
+            },
+            {
+              "min_wavenumber": 7490.0,
+              "max_wavenumber": 8590.0,
+              "npoints": 111
+            },
+            {
+              "min_wavenumber": 9070.0,
+              "max_wavenumber": 9590.0,
+              "npoints": 53
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

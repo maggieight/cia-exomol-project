@@ -1,0 +1,67 @@
+{
+  "collision_pair": {
+    "formula": "CO2-CH4",
+    "slug": "co2-ch4",
+    "active_species_status": "unique",
+    "active_species": "co2",
+    "collider": "ch4",
+    "components": [
+      {
+        "formula": "CO2",
+        "slug": "co2",
+        "cas_registry_number": "124-38-9"
+      },
+      {
+        "formula": "CH4",
+        "slug": "ch4",
+        "cas_registry_number": "74-82-8"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "finenko2026",
+    "recommendation_status": "supplementary",
+    "repository": {
+      "name": "JQSRT supplementary data",
+      "version": null,
+      "collection": "finenko2026",
+      "original_files": [
+        "CH4-CO2-D3.cia",
+        "CH4-CO2-D4a.cia"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 70.0,
+      "max_temperature": 400.0,
+      "min_wavenumber": 0.0,
+      "max_wavenumber": 1000.0,
+      "wavenumber_resolution": 0.1,
+      "units": {
+        "temperature": "K",
+        "wavenumber": "cm^-1",
+        "wavenumber_resolution": "cm^-1"
+      },
+      "variant_descriptions": {
+        "d3-schofield": "Schofield procedure",
+        "d4a-frommhold": "Frommhold procedure"
+      },
+      "column_schemas": {
+        "standard": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^5 molecule^-2"
+          }
+        ]
+      },
+      "default_column_schema": "standard",
+      "data_file": "CO2-CH4.csv"
+    },
+    "sources": [
+      "finenko2026"
+    ]
+  }
+}

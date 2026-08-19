@@ -1,0 +1,53 @@
+12K	data/H2O/1H2-16O/VT
+24K	data/H2O/1H2-16O/Faure
+3.7G	data/H2O/1H2-16O/BT2
+3.7G	data/H2O/1H2-16O
+12K	data/H2O/2H2-16O/Hewitt
+16K	data/H2O/2H2-16O
+76K	data/H2O/1H2-17O/Shirin
+80K	data/H2O/1H2-17O
+76K	data/H2O/1H2-18O/Shirin
+80K	data/H2O/1H2-18O
+2.4M	data/H2O/1H-2H-16O/Janka
+12K	data/H2O/1H-2H-16O/Hewitt
+4.6G	data/H2O/1H-2H-16O/VTT
+4.6G	data/H2O/1H-2H-16O
+8.2G	data/H2O
+
+58G	data/HNO3/1H-14N-16O3/AIJS
+58G	data/HNO3/1H-14N-16O3
+58G	data/HNO3
+
+711M	data/xsecs/48Ti-16O
+474M	data/xsecs/12C-1H4
+606M	data/xsecs/1H-12C-14N
+483M	data/xsecs/14N-1H3
+514M	data/xsecs/12C-16O2
+131M	data/xsecs/14N-16O
+790M	data/xsecs/16O-1H
+1.2G	data/xsecs/1H2-16O
+1.3G	data/xsecs/48Ti-1H
+1010M	data/xsecs/28Si-16O
+242M	data/xsecs/31P-1H3
+1.2G	data/xsecs/40Ca-16O
+790M	data/xsecs/1H-2H-16O
+242M	data/xsecs/1H2-12C-16O
+606M	data/xsecs/1H3_p
+580M	data/xsecs/1H-13C-14N
+401M	data/xsecs/12C-16O
+12G	data/xsecs
+
+1.9G	data/PH3/31P-1H3/SYT
+145G	data/PH3/31P-1H3/SAlTY
+147G	data/PH3/31P-1H3
+147G	data/PH3
+
+82G	data/CH4/12C-1H4/YT10to10
+82G	data/CH4/12C-1H4
+82G	data/CH4
+
+112G	data/H2CO/1H2-12C-16O/AYTY
+112G	data/H2CO/1H2-12C-16O
+112G	data/H2CO
+
+481G	data/

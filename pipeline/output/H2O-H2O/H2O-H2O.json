@@ -1,0 +1,30 @@
+{
+  "collision_pair": {
+    "formula": "H2O-H2O",
+    "slug": "h2o-h2o",
+    "active_species_status": "no_unique_active_species",
+    "active_species": null,
+    "collider": null,
+    "components": [
+      {
+        "formula": "H2O",
+        "slug": "h2o",
+        "cas_registry_number": "7732-18-5"
+      },
+      {
+        "formula": "H2O",
+        "slug": "h2o",
+        "cas_registry_number": "7732-18-5"
+      }
+    ]
+  },
+  "version": "20260817",
+  "recommended_dataset": null,
+  "datasets": [
+    {
+      "dataset_id": "ptashnik2011",
+      "dataset_version": "20260817",
+      "metadata_file": "H2O-H2O_ptashnik2011_2010_9590_293_472.json"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{% load pages_tags mezzanine_tags i18n static %}
+
+<div class="panel panel-{% if profile.current %}info{% else %}default{% endif %} group-member-profile">
+<div class="panel-heading" id="user{{ profile.user.id }}">{{ profile.user.first_name }} {{ profile.user.last_name }}{% if profile.get_role_display %}: {{ profile.get_role_display }}{% endif %}</div></a>
+<div class="panel-body">
+{% if profile.picture %}<img src="{{ profile.picture.url }}" width="200px" height="200px" class="pull-left"/>{% endif %}
+<div style="pull-right">
+<h4>{{ profile.user.first_name }} {{ profile.user.last_name }}</h4>
+<p><a href="mailto:{{ profile.user.email }}">email</a>{% if profile.www %} | <a href="{{ profile.www }}">www</a>{% endif %}{% if profile.twitter_handle %} | <a href="https://twitter.com/{{ profile.twitter_handle }}">@{{ profile.twitter_handle }}</a>{% endif %}</p>
+{{ profile.biog|richtext_filters|safe }}
+</div>
+</div>
+</div>
+

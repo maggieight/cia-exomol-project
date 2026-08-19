@@ -1,0 +1,62 @@
+{
+  "collision_pair": {
+    "formula": "H2O-H2O",
+    "slug": "h2o-h2o",
+    "active_species_status": "no_unique_active_species",
+    "active_species": null,
+    "collider": null,
+    "components": [
+      {
+        "formula": "H2O",
+        "slug": "h2o",
+        "cas_registry_number": "7732-18-5"
+      },
+      {
+        "formula": "H2O",
+        "slug": "h2o",
+        "cas_registry_number": "7732-18-5"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "ptashnik2011",
+    "recommendation_status": "supplementary",
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 293,
+      "max_temperature": 472,
+      "min_wavenumber": 2010,
+      "max_wavenumber": 9590,
+      "spectral_averaging_width": 20,
+      "nominal_wavenumber_step": 10,
+      "units": {
+        "temperature": "K",
+        "wavenumber": "cm^-1",
+        "spectral_averaging_width": "cm^-1",
+        "nominal_wavenumber_step": "cm^-1"
+      },
+      "column_schemas": {
+        "self_continuum_with_absolute_uncertainty": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "self_continuum_cross_section",
+            "units": "cm^2 molecule^-1 atm^-1"
+          },
+          {
+            "name": "uncertainty",
+            "units": "cm^2 molecule^-1 atm^-1",
+            "uncertainty_type": "absolute",
+            "applies_to": "self_continuum_cross_section"
+          }
+        ]
+      },
+      "default_column_schema": "self_continuum_with_absolute_uncertainty",
+      "data_file": "H2O-H2O.csv"
+    },
+    "sources": [
+      "ptashnik2011"
+    ]
+  }
+}

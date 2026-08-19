@@ -1,0 +1,1021 @@
+{ 
+  "hitran_cia_repository": {
+    "repository": "HITRAN CIA",
+    "citation_key": "hitran_cia_repository",
+    "authors": ["HITRAN CIA Team"],
+    "title": "HITRAN online data: Collision Induced Absorption",
+    "year": 2024,
+    "doi": null,
+    "source_url": "https://hitran.org/cia/",
+    "verified": true,
+    "ref": null
+  },
+  "terragni_hitran": {
+    "repository": "HITRAN CIA",
+    "citation_key": "terragni_hitran",
+    "authors": [
+      "J. Terragni", "I.E. Gordon", "E.M. Adkins", "C. Boulet", "A. Campargue", 
+      "D. Chistikov", "A. Finenko", "H. Finkenzeller", "H. Fleurbaey", "R.J. Hargreaves", 
+      "R.K. Hanson", "J.-M. Hartmann", "A. Klingberg", "E. Kohler", "A.O. Koroleva", 
+      "D. Mondelain", "G. Piccioni", "S. Stefani","C.L. Strand", "H. Tran", 
+      "M. Turbet", "A. Vigasin", "F. Vitali","R. Volkamer", "C. Wei"
+    ],
+    "title": "Collision induced absorption in HITRAN2024: Enhanced and improved data for atmospheric and planetary studies",
+    "year": 2025,
+    "doi": "10.1016/j.jqsrt.2025.109631",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2025.109631",
+    "verified": true,
+    "ref": null
+  },
+  "gordon2026_hitran": {
+    "repository": "HITRAN CIA",
+    "citation_key": "gordon2026_hitran",
+    "authors": [
+      "I.E. Gordon","L.S. Rothman","R.J. Hargreaves","F.M. Gomez","T. Bertin","C. Hill","R.V. Kochanov","Y. Tan","P. Wcisło",
+      "V. Yu. Makhnev","P.F. Bernath","M. Birk","V. Boudon","A. Campargue","A. Coustenis","B.J. Drouin","R.R. Gamache",
+      "J.T. Hodges","D. Jacquemart","E.J. Mlawer","A.V. Nikitin","V.I. Perevalov","M. Rotger","S. Robert","J. Tennyson",
+      "G.C. Toon","H. Tran","V.G. Tyuterev","E.M. Adkins","A. Barbe","D.M. Bailey","K. Bielska","L. Bizzocchi","T.A. Blake",
+      "C.A. Bowesman","P. Cacciani","P. Čermák","A.G. Császár","L. Denis","S.C. Egbert","O. Egorov","A. Yu. Ermilov",
+      "A.J. Fleisher","H. Fleurbaey","A. Foltynowicz","T. Furtenbacher","M. Germann","E.R. Guest","J.J. Harrison","J.-M. Hartmann",
+      "A. Hjältén","S.-M. Hu","X. Huang","T.J. Johnson","H. Jóźwiak","S. Kassi","M.V. Khan","F. Kwabia-Tchana","T.J. Lee",
+      "D. Lisak","A.-W. Liu","O.M. Lyulin","N.A. Malarich","L. Manceron","A.A. Marinina","S.T. Massie","J. Mascio","E.S. Medvedev",
+      "V.V. Meshkov","G. Ch. Mellau","M. Melosso","S.N. Mikhailenko","D. Mondelain","H.S.P. Müller","M. O'Donnell","A. Owens","A. Perrin",
+      "O.L. Polyansky","P.L. Raston","Z.D. Reed","M. Rey","C. Richard","G.B. Rieker","C. Röske","S.W. Sharpe","E. Starikova",
+      "N. Stolarczyk","A.V. Stolyarov","K. Sung","F. Tamassia","J. Terragni","V.G. Ushakov","S. Vasilchenko","B. Vispoel",
+      "K.L. Vodopyanov","G. Wagner","S. Wójtewicz","S.N. Yurchenko","N.F. Zobov"
+    ],
+    "title": "The HITRAN2024 molecular spectroscopic database",
+    "year": 2026,
+    "doi": "10.1016/j.jqsrt.2026.109807",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2026.109807",
+    "verified": true,
+    "ref": null
+  },
+
+  "samuelson1997": {
+    "repository": "HITRAN CIA",
+    "citation_key": "samuelson1997",
+    "authors": [
+      "Robert E. Samuelson", 
+      "Nitya R. Nath", 
+      "Aleksandra Borysow"
+    ],
+    "title": "Gaseous abundances and methane supersaturation in Titan's troposphere",
+    "year": 1997,
+    "doi": "10.1016/S0032-0633(97)00090-1",
+    "source_url": "https://doi.org/10.1016/S0032-0633(97)00090-1",
+    "verified": true,
+    "ref": 21
+  },
+  
+  "borysow1987": {
+    "repository": "HITRAN CIA",
+    "citation_key": "borysow1987",
+    "authors": [
+      "Borysow Aleksandra", 
+      "Frommhold Lothar"
+    ],
+    "title": "Collision-induced rototranslational absorption spectra of CH4-CH4 pairs at temperatures from 50 to 300 K",
+    "year": 1987,
+    "doi": "10.1086/165426",
+    "source_url": "https://doi.org/10.1086/165426",
+    "verified": true,
+    "ref": 19
+  },
+
+  "taylor1988": {
+    "repository": "HITRAN CIA",
+    "citation_key": "taylor1988",
+    "authors": [
+      "Roger H. Taylor", 
+      "Aleksandra Borysow", 
+      "Lothar Frommhold"
+    ],
+    "title": "Concerning the rototranslational absorption spectra of He-CH4 pairs,",
+    "year": 1988,
+    "doi": "10.1016/0022-2852(88)90257-3",
+    "source_url": "https://doi.org/10.1016/0022-2852(88)90257-3",
+    "verified": true,
+    "ref": 25
+  },
+
+  "odintsova2021": {
+    "repository": "HITRAN CIA",
+    "citation_key": "odintsova2021",
+    "authors": [
+      "T. A. Odintsova",
+      "E. A. Serov",
+      "A. A. Balashov",
+      "M. A. Koshelev",
+      "A. O. Koroleva",
+      "A. A. Simonova",
+      "M. Yu. Tretyakov",
+      "N. N. Filippov",
+      "D. N. Chistikov",
+      "A. A. Finenko",
+      "S. E. Lokshtanov",
+      "S. V. Petrov",
+      "A. A. Vigasin"
+    ],
+    "title": "CO2-CO2 and CO2-Ar continua at millimeter wavelengths",
+    "year": 2021,
+    "doi": "10.1016/j.jqsrt.2020.107400",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2020.107400",
+    "verified": true,
+    "ref": 41
+  },
+
+  "fakhardji2022": {
+    "repository": "HITRAN CIA",
+    "citation_key": "fakhardji2022",
+    "authors": [
+      "Wissam Fakhardji",
+      "Christian Boulet",
+      "Ha Tran",
+      "Jean-Michel Hartmann"
+    ],
+    "title": "Direct calculations of the CH4+CO2 far infrared collision-induced absorption",
+    "year": 2022,
+    "doi": "10.1016/j.jqsrt.2022.108148",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2022.108148",
+    "verified": true,
+    "ref": 47
+  },
+  "wordsworth2017": {
+    "repository": "HITRAN CIA",
+    "citation_key": "wordsworth2017",
+    "authors": [
+      "R. Wordsworth", 
+      "Y. Kalugina", 
+      "S. Lokshtanov", 
+      "A. Vigasin", 
+      "B. Ehlmann", 
+      "J. Head", 
+      "C. Sanders", 
+      "H. Wang"
+    ],
+    "title": "Transient reducing greenhouse warming on early Mars",
+    "year": 2017,
+    "doi": "10.1002/2016GL071766",
+    "source_url": " https://doi.org/10.1002/2016GL071766",
+    "verified": true,
+    "ref": 28
+  },
+  "turbet2020": {
+    "repository": "HITRAN CIA",
+    "citation_key": "turbet2020",
+    "authors": [
+      "Martin Turbet", 
+      "Christian Boulet", 
+      "Tijs Karman"
+    ],
+    "title": "Measurements and semi-empirical calculations of CO2+CH4 and CO2+H2 collision-induced absorption across a wide range of wavelengths and temperatures. Application for the prediction of early Mars surface temperature",
+    "year": 2020,
+    "doi": "10.1016/j.icarus.2020.113762",
+    "source_url": "https://doi.org/10.1016/j.icarus.2020.113762",
+    "verified": true,
+    "ref": 46
+  },
+
+  "gruszka1997": {
+    "repository": "HITRAN CIA",
+    "citation_key": "gruszka1997",
+    "authors": [
+      "Marcin Gruszka",
+      "Aleksandra Borysow"
+    ],
+    "title": "Roto-Translational collision-induced absorption of CO2 for the atmosphere of Venus at frequencies from 0 to 250 cm⁻¹, at temperatures from 200 to 800 K",
+    "year": 1997,
+    "doi": "10.1006/icar.1997.5773",
+    "source_url": "https://doi.org/10.1006/icar.1997.5773",
+    "verified": true,
+    "ref": 20
+  },
+  "terragni2025": {
+    "repository": "HITRAN CIA",
+    "citation_key": "terragni2025",
+    "authors": [
+      "Jacopo Terragni",
+      "Erika Kohler",
+      "Vincent Kofman",
+      "Seamus Anderson", 
+      "Geronimo L. Villanueva", 
+      "Sara Faggi" 
+    ],
+    "title": "New measurements of high-temperature CO2-CO2 collision-induced absorption in the 1100-1800 cm⁻¹ range",
+    "year": 2025,
+    "doi": "10.1016/j.jqsrt.2025.109595",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2025.109595",
+    "verified": true,
+    "ref": 57
+  },
+  "baranov2004": {
+    "repository": "HITRAN CIA",
+    "citation_key": "baranov2004",
+    "authors": [
+      "Yuri I. Baranov",
+      "W.J. Lafferty",
+      "G.T. Fraser"
+    ],
+    "title": "Infrared spectrum of the continuum and dimer absorption in the vicinity of the O2 vibrational fundamental in O2/CO2 mixtures",
+    "year": 2004,
+    "doi": "10.1016/j.jms.2004.04.010",
+    "source_url": "https://doi.org/10.1016/j.jms.2004.04.010",
+    "verified": true,
+    "ref": 23
+  },
+  "baranov2003": {
+    "repository": "HITRAN CIA",
+    "citation_key": "baranov2003",
+    "authors": [
+      "Y. I. Baranov",
+      "Gerald T. Fraser",
+      "W. J. Lafferty",
+      "A. A. Vigasin"
+    ],
+    "title": "Collision-induced absorption in the CO2 fermi triad for temperatures from 211K to 296 K. In: Camy-Peyret, C., Vigasin, A.A. (Eds), Weakly Interacting Molecular Pairs: Unconventional Absorbers of Radiation in the Atmosphere",
+    "year": 2003,
+    "doi": "10.1007/978-94-010-0025-3_12",
+    "source_url": "https://doi.org/10.1007/978-94-010-0025-3_12",
+    "verified": true,
+    "ref": 38
+  },
+  "baranov2018": {
+    "repository": "HITRAN CIA",
+    "citation_key": "baranov2018",
+    "authors": [
+      "Yu. I. Baranov"
+    ],
+    "title": "Collision-induced absorption in the region of the \u03bd2+\u03bd3 band of carbon dioxide",
+    "year": 2018,
+    "doi": "10.1016/j.jms.2017.11.005",
+    "source_url": "https://doi.org/10.1016/j.jms.2017.11.005",
+    "verified": true,
+    "ref": 39
+  },
+  "tran2024": {
+    "repository": "HITRAN CIA",
+    "citation_key": "tran2024",
+    "authors": [
+      "H. Tran", 
+      "J.M. Hartmann", 
+      "E. Rambinison",
+      "M. Turbet"
+    ],
+    "title": "Collision-induced absorptions by pure CO2 in the infrared: New measurements in the 1150-4500 cm⁻¹ spectral range and empirical modeling for applications",
+    "year": 2024,
+    "doi": "10.1016/j.icarus.2024.116265",
+    "source_url": "https://doi.org/10.1016/j.icarus.2024.116265",
+    "verified": true,
+    "ref": 49
+  },
+
+  "fleurbaey2022": {
+    "repository": "HITRAN CIA",
+    "citation_key": "fleurbaey2022",
+    "authors": [
+      "H. Fleurbaey",
+      "D. Mondelain",
+      "W. Fakhardji",
+      "J.M. Hartmann", 
+      "A. Campargue"
+    ],
+    "title": "Simultaneous collision-induced transitions in H2O+CO2 gas mixtures",
+    "year": 2022,
+    "doi": "10.1016/j.jqsrt.2022.108162",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2022.108162",
+    "verified": true,
+    "ref": 48
+  },
+
+  "barziv1972": {
+    "repository": "HITRAN CIA",
+    "citation_key": "barziv1972",
+    "authors": [
+      "Ezra Bar-Ziv",
+      "Shmuel Weiss"
+    ],
+    "title": "Translational Spectra Due to Collision-Induced Overlap Moments in Mixtures of He with CO2, N2, CH4, and C2H6",
+    "year": 1972,
+    "doi": "10.1063/1.1677970",
+    "source_url": "https://doi.org/10.1063/1.1677970",
+    "verified": true,
+    "ref": 26
+  },
+
+  "borysow1986": {
+    "repository": "HITRAN CIA",
+    "citation_key": "borysow1986",
+    "authors": [
+      "A. Borysow",
+      "L. Frommhold"
+    ],
+    "title": "Theoretical Collision-induced Rototranslational Absorption Spectra for the Outer Planets: H2-CH4 Pairs",
+    "year": 1986,
+    "doi": "10.1086/164221",
+    "source_url": "https://doi.org/10.1086/164221",
+    "verified": true,
+    "ref": 16
+  },
+
+  "gustafsson2003": {
+    "repository": "HITRAN CIA",
+    "citation_key": "gustafsson2003",
+    "authors": [
+      "M. Gustafsson",
+      "L. Frommhold"
+    ],
+    "title": "The H2-H infrared absorption bands at temperatures from 1000 K to 2500 K",
+    "year": 2003,
+    "doi": "10.1051/0004-6361:20030100",
+    "source_url": "https://doi.org/10.1051/0004-6361:20030100",
+    "verified": true,
+    "ref": 17
+  },
+
+  "abel2011": {
+    "repository": "HITRAN CIA",
+    "citation_key": "abel2011",
+    "authors": [
+      "Martin Abel",  
+      "Lothar Frommhold",
+      "Xiaoping Li",  
+      "Katharine L. C. Hunt"
+    ],
+    "title": "Collision-induced absorption by H2 pairs: From hundreds to thousands of Kelvin",
+    "year": 2011,
+    "doi": "10.1021/jp109441f",
+    "source_url": "https://doi.org/10.1021/jp109441f",
+    "verified": true,
+    "ref": 6
+  },
+  "fletcher2018": {
+    "repository": "HITRAN CIA",
+    "citation_key": "fletcher2018",
+    "authors": [
+      "Leigh N. Fletcher", 
+      "Magnus Gustafsson", 
+      "Glenn S. Orton"
+    ],
+    "title": "Hydrogen Dimers in Giant-planet Infrared Spectra",
+    "year": 2018,
+    "doi": "10.3847/1538-4365/aaa07a",
+    "source_url": "https://doi.org/10.3847/1538-4365/aaa07a",
+    "verified": true,
+    "ref": 34
+  },
+  "vitali2025": {
+    "repository": "HITRAN CIA",
+    "citation_key": "vitali2025",
+    "authors": [
+      "Francesca Vitali",
+      "Stefania Stefani",
+      "Giuseppe Piccioni",
+      "Marcel Snels",
+      "Davide Grassi",
+      "David Biondi",
+      "Angelo Boccaccini"
+    ],
+    "title": "New experimental measurements of the Collision Induced Absorptions of H2-H2 and H2-He in the 3600-5500 cm⁻¹ spectral range from 120 to 500 K",
+    "year": 2025,
+    "doi": "10.1016/j.jqsrt.2024.109255",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2024.109255",
+    "verified": true,
+    "ref": 44
+  },
+  "koroleva2024": {
+    "repository": "HITRAN CIA",
+    "citation_key": "koroleva2024",
+    "authors": [
+      "A.O. Koroleva", 
+      "S. Kassi", 
+      "H. Fleurbaey",
+      "A. Campargue" 
+    ],
+    "title": "The collision-induced absorption of H2 near 1.20 µm: Subatmospheric measurements and validation tests of calculations",
+    "year": 2024,
+    "doi": "10.1016/j.jqsrt.2024.108948",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2024.108948",
+    "verified": true,
+    "ref": 45
+  },
+
+  "abel2012": {
+    "repository": "HITRAN CIA",
+    "citation_key": "abel2012",
+    "authors": [
+      "Martin Abel",  
+      "Lothar Frommhold",
+      "Xiaoping Li",  
+      "Katharine L. C. Hunt"
+    ],
+    "title": "Infrared absorption by collisional H2-He complexes at temperatures up to 9000 K and frequencies from 0 to 20000 cm⁻¹",
+    "year": 2012,
+    "doi": "10.1063/1.3676405",
+    "source_url": "https://doi.org/10.1063/1.3676405",
+    "verified": true,
+    "ref": 7
+  },
+  "borysow1988": {
+    "repository": "HITRAN CIA",
+    "citation_key": "borysow1988",
+    "authors": [
+      "Jacek Borysow", 
+      "Lothar Frommhold", 
+      "George Birnbaum"
+    ],
+    "title": "Collision-induced Rototranslational Absorption Spectra of H2-He Pairs at Temperatures from 40 to 3000 K",
+    "year": 1988,
+    "doi": "10.1086/166112",
+    "source_url": "https://doi.org/10.1086/166112",
+    "verified": true,
+    "ref": 14
+  },
+
+  "gustafsson2001": {
+    "repository": "HITRAN CIA",
+    "citation_key": "gustafsson2001",
+    "authors": [
+      "Magnus Gustafsson",
+      "Lothar Frommhold"
+    ],
+    "title": "Infrared Absorption Spectra of Collisionally Interacting He and H Atoms",
+    "year": 2001,
+    "doi": "10.1086/318311",
+    "source_url": "https://doi.org/10.1086/318311",
+    "verified": true,
+    "ref": 18
+  }, 
+  
+  "baranov2005": {
+    "repository": "HITRAN CIA",
+    "citation_key": "baranov2005",
+    "authors": [
+      "Yu.I. Baranov", 
+      "W.J. Lafferty", 
+      "G.T. Fraser"
+    ],
+    "title": "Investigation of collision-induced absorption in the vibrational fundamental bands of O2 and N2 at elevated temperatures",
+    "year": 2005,
+    "doi": "10.1016/j.jms.2005.06.008",
+    "source_url": "https://doi.org/10.1016/j.jms.2005.06.008",
+    "verified": true,
+    "ref": 2
+  },
+  "menoux1993": {
+    "repository": "HITRAN CIA",
+    "citation_key": "menoux1993",
+    "authors": [
+      "V. Menoux",
+      "R. Le Doucen", 
+      "C. Boulet", 
+      "A. Roblin",
+      "A. M. Bouchardy"
+    ],
+    "title": "Collision-induced absorption in the fundamental band of N2: temperature dependence of the absorption for N2-N2 and N2-O2 pairs",
+    "year": 1993,
+    "doi": "10.1364/AO.32.000263",
+    "source_url": "https://doi.org/10.1364/AO.32.000263",
+    "verified": true,
+    "ref": 33
+  },
+  "lafferty1996": {
+    "repository": "HITRAN CIA",
+    "citation_key": "lafferty1996",
+    "authors": [
+      "Walter J. Lafferty", 
+      "Alexander M. Solodov", 
+      "Alfons Weber", 
+      "Wm. Bruce Olson", 
+      "Jean-Michel Hartmann"
+    ],
+    "title": "Infrared collision-induced absorption by N2 near 4.3 μm for atmospheric applications: measurements and empirical modeling",
+    "year": 1996,
+    "doi": "10.1364/AO.35.005911",
+    "source_url": "https://doi.org/10.1364/AO.35.005911",
+    "verified": true,
+    "ref": 3
+  },
+  "hartmann2017": {
+    "repository": "HITRAN CIA",
+    "citation_key": "hartmann2017",
+    "authors": [
+      "J.-M. Hartmann", 
+      "C. Boulet", 
+      "G. C. Toon"
+    ],
+    "title": "Collision-induced absorption by N2 near 2.16 µm: Calculations, model, and consequences for atmospheric remote sensing",
+    "year": 2017,
+    "doi": "10.1002/2016JD025677",
+    "source_url": "https://doi.org/10.1002/2016JD025677",
+    "verified": true,
+    "ref": 24
+  },
+
+  "serov2024": {
+    "repository": "HITRAN CIA",
+    "citation_key": "serov2024",
+    "authors": [
+      "E.A. Serov",
+      "T.A. Galanina",
+      "A.O. Koroleva",
+      "D.S. Makarov",
+      "I.S. Amerkhanov",
+      "M.A. Koshelev",
+      "M.Yu. Tretyakov",
+      "D.N. Chistikov",
+      "A.A. Finenko",
+      "A.A. Vigasin"
+    ],
+    "title": "Continuum absorption in pure N2 gas and in its mixture with Ar",
+    "year": 2024,
+    "doi": "10.1016/j.jqsrt.2024.109172",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2024.109172",
+    "verified": true,
+    "ref": 51
+  },
+  "moreau1999": {
+    "repository": "HITRAN CIA",
+    "citation_key": "moreau1999",
+    "authors": [
+      "GWENAEL MOREAU"
+    ],
+    "title": "Étude en température et modélisation de l'absorption induite par collision dans les régions des bandes fondamentales pour les mélanges des gaz N2-Ar et O2",
+    "year": 1999,
+    "doi": null,
+    "source_url": "https://theses.fr/1999REN10083",
+    "verified": true,
+    "ref": 52
+  },
+
+  "finenko2022": {
+    "repository": "HITRAN CIA",
+    "citation_key": "finenko2022",
+    "authors": [
+      "Artem A. Finenko",
+      "Bruno Bézard",
+      "Iouli E. Gordon",
+      "Daniil N. Chistikov",
+      "Sergei E. Lokshtanov",
+      "Sergey V. Petrov",
+      "Andrey A. Vigasin"
+    ],
+    "title": "Trajectory-based Simulation of Far-infrared Collision-induced Absorption Profiles of CH4-N2 for Modeling Titan's Atmosphere",
+    "year": 2022,
+    "doi": "10.3847/1538-4365/ac36d3",
+    "source_url": "https://doi.org/10.3847/1538-4365/ac36d3",
+    "verified": true,
+    "ref": 55
+  },
+  "borysow1993": {
+    "repository": "HITRAN CIA",
+    "citation_key": "borysow1993",
+    "authors": [
+      "Aleksandra Borysow",
+      "Chunmei Tang"
+    ],
+    "title": "Far Infrared CIA Spectra of N2-CH4 Pairs for Modeling of Titan's Atmosphere",
+    "year": 1993,
+    "doi": "10.1006/icar.1993.1117",
+    "source_url": "https://doi.org/10.1006/icar.1993.1117",
+    "verified": true,
+    "ref": 13
+  },
+  
+  "borysow1986h2n2": {
+    "repository": "HITRAN CIA",
+    "citation_key": "borysow1986h2n2",
+    "authors": [
+      "A. Borysow", 
+      "L. Frommhold"
+    ],
+    "title": "Theoretical Collision-induced Rototranslational Absorption Spectra for Modeling Titan's Atmosphere: H2-N2 Pairs",
+    "year": 1986,
+    "doi": "10.1086/164096",
+    "source_url": "https://doi.org/10.1086/164096",
+    "verified": true, 
+    "ref":12
+  },
+  "wei2024": {
+    "repository": "HITRAN CIA",
+    "citation_key": "wei2024",
+    "authors": [
+      "Chuyu Wei",
+      "Andrew Klingberg",
+      "Christopher L. Strand",
+      "Ronald K. Hanson"
+    ],
+    "title": "Measurement of hydrogen and nitrogen via collision-induced infrared absorption",
+    "year": 2024,
+    "doi": "10.1016/j.ijhydene.2024.10.318",
+    "source_url": "https://doi.org/10.1016/j.ijhydene.2024.10.318",
+    "verified": true, 
+    "ref": 50
+  },
+
+  "hartmann2018": {
+    "repository": "HITRAN CIA",
+    "citation_key": "hartmann2018",
+    "authors": [
+      "Jean-Michel Hartmann", 
+      "Christian Boulet",
+      "Duc Dung Tran", 
+      "Ha Tran",
+      "Yury Baranov"
+    ],
+    "title": "Effect of humidity on the absorption continua of CO2 and N2 near 4 μm: Calculations, comparisons with measurements, and consequences for atmospheric spectra ",
+    "year": 2018,
+    "doi": "10.1063/1.5019994",
+    "source_url": "https://doi.org/10.1063/1.5019994",
+    "verified": true, 
+    "ref": 35
+  },
+
+  "chistikov2019": {
+    "repository": "HITRAN CIA",
+    "citation_key": "chistikov2019",
+    "authors": [
+      "Daniil N. Chistikov", 
+      "Artem A. Finenko", 
+      "Sergei E. Lokshtanov", 
+      "Sergey V. Petrov", 
+      "Andrey A. Vigasin"
+    ],
+    "title": "Simulation of collision-induced absorption spectra based on classical trajectories and ab initio potential and induced dipole surfaces. I. Case study of N2-N2 rototranslational band",
+    "year": 2019,
+    "doi": "10.1063/1.5125756",
+    "source_url": "https://doi.org/10.1063/1.5125756",
+    "verified": true, 
+    "ref": 40
+  },
+  "wishnow2018": {
+    "repository": "HITRAN CIA",
+    "citation_key": "wishnow2018",
+    "authors": [
+      "E. Wishnow", 
+      "K. Sung,"
+    ],
+    "title": "The far-infrared collision-induced spectrum of nitrogen over the temperature range 78-129 K",
+    "year": 2018,
+    "doi": null,
+    "source_url": null,
+    "verified": true, 
+    "ref": 36
+  },
+
+  "thibault1997": {
+    "repository": "HITRAN CIA",
+    "citation_key": "thibault1997",
+    "authors": [
+      "F. Thibault", 
+      "V. Menoux", 
+      "R. Le Doucen", 
+      "L. Rosenmann", 
+      "J.-M. Hartmann", 
+      "Ch. Boulet"
+    ],
+    "title": "Infrared collision-induced absorption by O2 near 6.4 µm for atmospheric applications: measurements and empirical modeling",
+    "year": 1997,
+    "doi": "10.1364/ao.36.000563",
+    "source_url": "https://doi.org/10.1364/ao.36.000563",
+    "verified": true, 
+    "ref": 42
+  },
+  "orlando1991": {
+    "repository": "HITRAN CIA",
+    "citation_key": "orlando1991",
+    "authors": [
+      "John J. Orlando", 
+      "Geoffrey S. Tyndall", 
+      "Karen E. Nickerson", 
+      "Jack G. Calvert"
+    ],
+    "title": "The temperature dependence of collision-induced absorption by oxygen near 6 μm",
+    "year": 1991,
+    "doi": "10.1029/91JD02042",
+    "source_url": " https://doi.org/10.1029/91JD02042",
+    "verified": true, 
+    "ref": 43
+  },
+  "mondelain2018": {
+    "repository": "HITRAN CIA",
+    "citation_key": "mondelain2018",
+    "authors": [
+      "D. Mondelain", 
+      "S. Kassi", 
+      "A. Campargue"
+    ],
+    "title": "Accurate Laboratory Measurement of the O2 Collision-Induced Absorption Band Near 1.27 μm",
+    "year": 2018,
+    "doi": "10.1029/2018JD029317",
+    "source_url": "https://doi.org/10.1029/2018JD029317",
+    "verified": true, 
+    "ref": 53
+  },
+  "kassi2021": {
+    "repository": "HITRAN CIA",
+    "citation_key": "kassi2021",
+    "authors": [
+      "S. Kassi", 
+      "S. Guessoum", 
+      "J. C. Acosta Abanto", 
+      "H. Tran", 
+      "A. Campargue", 
+      "D. Mondelain"
+    ],
+    "title": "Temperature Dependence of the Collision-Induced Absorption Band of O2 Near 1.27 µm",
+    "year": 2021,
+    "doi": "10.1029/2021JD034860",
+    "source_url": "https://doi.org/10.1029/2021JD034860",
+    "verified": true, 
+    "ref": 53
+  },
+  "adkins2023": {
+    "repository": "HITRAN CIA",
+    "citation_key": "adkins2023",
+    "authors": [
+      "Erin M. Adkins", 
+      "Tijs Karman", 
+      "Alain Campargue", 
+      "Didier Mondelain", 
+      "Joseph T. Hodges"
+    ],
+    "title": "Parameterized model to approximate theoretical collision-induced absorption band shapes for O2-O2 and O2-N2",
+    "year": 2023,
+    "doi": "10.1016/j.jqsrt.2023.108732",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2023.108732",
+    "verified": true, 
+    "ref": 58
+  },
+  "karman2018": {
+    "repository": "HITRAN CIA",
+    "citation_key": "karman2018",
+    "authors": [
+      "Tijs Karman", 
+      "Mark A. J. Koenis", 
+      "Agniva Banerjee", 
+      "David H. Parker", 
+      "Iouli E. Gordon", 
+      "Ad van der Avoird", 
+      "Wim J. van der Zande", 
+      "Gerrit C. Groenenboom"
+    ],
+    "title": "O2-O2 and O2-N2 collision-induced absorption mechanisms unravelled",
+    "year": 2018,
+    "doi": "10.1038/s41557-018-0015-x",
+    "source_url": "https://doi.org/10.1038/s41557-018-0015-x",
+    "verified": true, 
+    "ref": 27
+  },
+  "spiering2012": {
+    "repository": "HITRAN CIA",
+    "citation_key": "spiering2012",
+    "authors": [
+      "Frans R. Spiering", 
+      "Wim J. van der Zande"
+    ],
+    "title": "Collision induced absorption in the a¹Δ(\u03bd=2) ← X³Σ⁻g(\u03bd=0) band of molecular oxygen",
+    "year": 2012,
+    "doi": "10.1039/c2cp40961e",
+    "source_url": "https://doi.org/10.1039/c2cp40961e",
+    "verified": true, 
+    "ref": 29
+  },
+  "tran2006": {
+    "repository": "HITRAN CIA",
+    "citation_key": "tran2006",
+    "authors": [
+      "H. Tran", 
+      "C. Boulet", 
+      "J.-M. Hartmann"
+    ],
+    "title": "Line mixing and collision-induced absorption by oxygen in the A-band: Laboratory measurements, model, and tools for atmospheric spectra computations",
+    "year": 2006,
+    "doi": "10.1029/2005JD006869",
+    "source_url": "https://doi.org/10.1029/2005JD006869",
+    "verified": true, 
+    "ref": 4
+  },
+  "drouin2017": {
+    "repository": "HITRAN CIA",
+    "citation_key": "drouin2017",
+    "authors": [
+      "Brian J. Drouin",
+      "D. Chris Benner",
+      "Linda R. Brown",
+      "Matthew J. Cich",
+      "Timothy J. Crawford",
+      "V. Malathy Devi",
+      "Alexander Guillaume",
+      "Joseph T. Hodges",
+      "Eli J. Mlawer",
+      "David J. Robichaud",
+      "Fabiano Oyafuso",
+      "Vivienne H. Payne",
+      "Keeyoon Sung",
+      "Edward H. Wishnow",
+      "Shanshan Yu"
+    ],
+    "title": "Multispectrum analysis of the oxygen A-band",
+    "year": 2017,
+    "doi": "10.1016/j.jqsrt.2016.03.037",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2016.03.037",
+    "verified": true, 
+    "ref": 22
+  },
+
+  "banerjee2019": {
+    "repository": "HITRAN CIA",
+    "citation_key": "banerjee2019",
+    "authors": [
+      "Agniva Banerjee", 
+      "Julien Mandon", 
+      "Frans Harren", 
+      "David H. Parker"
+    ],
+    "title": "Collision-induced absorption between O2-CO2 for the a¹Δg (v = 1) ← X³Σ⁻g (v = 0) transition of molecular oxygen at 1060 nm",
+    "year": 2019,
+    "doi": "10.1039/C8CP06778C",
+    "source_url": "https://doi.org/10.1039/c8cp06778c",
+    "verified": true, 
+    "ref": 56
+  },
+  "vangvichith2009": {
+    "repository": "HITRAN CIA",
+    "citation_key": "vangvichith2009",
+    "authors": [
+      "M. Vangvichith",
+      "H. Tran", 
+      "J.-M. Hartmann"
+    ],
+    "title": "Line-mixing and collision induced absorption for O2-CO2 mixtures in the oxygen A-band region",
+    "year": 2009,
+    "doi": "10.1016/j.jqsrt.2009.06.002",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2009.06.002",
+    "verified": true, 
+    "ref": 5
+  },
+
+  "spiering2011": {
+    "repository": "HITRAN CIA",
+    "citation_key": "spiering2011",
+    "authors": [
+      "Frans R. Spiering",
+      "Maria B. Kiseleva",
+      "Nikolay N. Filippov",
+      "Line van Kesteren",
+      "Wim J. van der Zande"
+    ],
+    "title": "Collision-induced absorption in the O2 B-band region near 670 nm",
+    "year": 2011,
+    "doi": "10.1039/C1CP20403C",
+    "source_url": "https://doi.org/10.1039/c1cp20403c",
+    "verified": true, 
+    "ref": 30
+  },
+  "thalman2013": {
+    "repository": "HITRAN CIA",
+    "citation_key": "thalman2013",
+    "authors": [
+      "Ryan Thalman",
+      "Rainer Volkamer"
+    ],
+    "title": "Temperature dependent absorption cross-sections of O2-O2 collision pairs between 340 and 630 nm and at atmospherically relevant pressure",
+    "year": 2013,
+    "doi": "10.1039/c3cp50968k",
+    "source_url": "https://doi.org/10.1039/c3cp50968k",
+    "verified": true, 
+    "ref": 32
+  },
+  "finkenzeller2022": {
+    "repository": "HITRAN CIA",
+    "citation_key": "finkenzeller2022",
+    "authors": [
+      "Henning Finkenzeller",
+      "Rainer Volkamer"
+    ],
+    "title": "O2-O2 CIA in the gas phase: Cross-section of weak bands, and continuum absorption between 297-500 nm",
+    "year": 2022,
+    "doi": "10.1016/j.jqsrt.2021.108063",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2021.108063",
+    "verified": true, 
+    "ref": 54
+  },
+
+  "ptashnik2011": {
+    "repository": "JGR supplementary material",
+    "citation_key": "ptashnik2011",
+    "authors": [
+      "Igor V. Ptashnik", 
+      "Robert A. McPheat", 
+      "Keith P. Shine", 
+      "Kevin M. Smith", 
+      "R. Gary Williams"
+    ],
+    "title": "Water vapor self-continuum absorption in near-infrared windows derived from laboratory measurements",
+    "year": 2011,
+    "doi": "10.1029/2011JD015603",
+    "source_url": "https://doi.org/10.1029/2011JD015603",
+    "verified": true, 
+    "ref": null
+  },
+  "anisman2022": {
+    "repository": "JQSRT supplementary material",
+    "citation_key": "anisman2022",
+    "authors": [
+      "Lara O. Anisman",
+      "Katy L. Chubb",
+      "Jonathan Elsey",
+      "Ahmed Al-Refaie",
+      "Quentin Changeat",
+      "Sergei N. Yurchenko",
+      "Jonathan Tennyson",
+      "Giovanna Tinetti"
+    ],
+    "title": "Cross-sections for heavy atmospheres: H2O continuum",
+    "year": 2022,
+    "doi": "10.1016/j.jqsrt.2021.108013",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2021.108013",
+    "verified": true, 
+    "ref": null
+  },
+
+  "chandran2025": {
+    "repository": "JQSRT",
+    "citation_key": "chandran2025",
+    "authors": [
+      "Nikhila A. Chandran",
+      "Tijs Karman"
+    ],
+    "title": "Complete insensitivity to ab initio data — A new perspective on modeling collision-induced absorption of noble gas atoms",
+    "year": 2025,
+    "doi": "10.1016/j.jqsrt.2025.109597",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2025.109597",
+    "verified": true, 
+    "ref": null
+  },
+
+  "dong2026": {
+    "repository": "JQSRT",
+    "citation_key": "dong2026",
+    "authors": [
+      "Hang Dong", 
+      "Honghua Huang",
+      "Tao Yang",
+      "Yuan Meng",
+      "Jun Huang",
+      "Qiang Liu", 
+      "Qiang Zhao", 
+      "Xingji Lu", 
+      "Weiguang Ma", 
+      "Yinbo Huang", 
+      "Zhensong Cao"
+    ],
+    "title": "Quantitative determination of O2 collision-induced absorption near 1.06 μm by cavity ring-down spectroscopy",
+    "year": 2026,
+    "doi": "10.1016/j.jqsrt.2026.109973",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2026.109973",
+    "verified": true, 
+    "ref": null
+  },
+
+  "vitali2026": {
+    "repository": "Icarus",
+    "citation_key": "vitali2026",
+    "authors": [
+      "F. Vitali", 
+      "S. Stefani",
+      "G. Piccioni", 
+      "H. Tran", 
+      "M. Snels", 
+      "D. Grassi", 
+      "C. Boulet", 
+      "D. Biondi",
+      "A. Boccaccini"
+    ],
+    "title": "New experimental measurements of the H2-CO2 Collision-Induced Absorption in the [3907, 4770] cm⁻¹ spectral range from 241 to 498 K",
+    "year": 2026,
+    "doi": "10.1016/j.icarus.2026.117103",
+    "source_url": "https://doi.org/10.1016/j.icarus.2026.117103",
+    "verified": true, 
+    "ref": null
+  },
+
+  "finenko2026": {
+    "repository": "JQSRT",
+    "citation_key": "finenko2026",
+    "authors": [
+      "A.A. Finenko",
+      "D.N. Chistikov",
+      "A.O. Koroleva",
+      "A.A. Vigasin"
+    ],
+    "title": "Trajectory-based far infrared collision-induced absorption spectra of CH4-CO2 in the temperature range from 70 K to 400 K",
+    "year": 2026,
+    "doi": "10.1016/j.jqsrt.2026.109810",
+    "source_url": "https://doi.org/10.1016/j.jqsrt.2026.109810",
+    "verified": true,
+    "ref": null
+  }
+
+}

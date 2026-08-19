@@ -1,0 +1,30 @@
+{
+  "collision_pair": {
+    "formula": "N2-H2O",
+    "slug": "n2-h2o",
+    "active_species_status": "unique",
+    "active_species": "n2",
+    "collider": "h2o",
+    "components": [
+      {
+        "formula": "N2",
+        "slug": "n2",
+        "cas_registry_number": "7727-37-9"
+      },
+      {
+        "formula": "H2O",
+        "slug": "h2o",
+        "cas_registry_number": "7732-18-5"
+      }
+    ]
+  },
+  "version": "20260817",
+  "recommended_dataset": "hartmann2018",
+  "datasets": [
+    {
+      "dataset_id": "hartmann2018",
+      "dataset_version": "20260817",
+      "metadata_file": "N2-H2O_hartmann2018_1930_2830_250_350.json"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}ExoMol Bibliography{% endblock %}
+
+{% block content %}
+
+{% if molecule %}
+<h1>ExoMol Bibliography for {{ molecule.ordinary_formula_html|safe }}</h1>
+{% else %}
+<h1>ExoMol Bibliography</h1>
+{% endif %}
+
+{% if source_tags %}
+<ol>
+{% for source_tag in source_tags %}
+<li>{{ source_tag.source.html|safe }}</li>
+{% endfor %}
+</ol>
+
+{% else %}
+
+<form name="molecule_search_form", method="GET">
+<p>To search for a particular reference by DOI, author name, title words or ExoMol ID, enter a search term here:<br/>
+<input type="text" name="search" style="width: 200px;"/></td><td><input name="search_submit" type="submit" value="Search"/></p>
+
+<p>To retrieve all references for a molecule, please select a molecule below or search for a molecule here:<br/>
+<input type="text" name="molecule_search" style="width: 200px;"/></td><td><input name="molecule_search_submit" type="submit" value="Search"/></p>
+</form>
+
+{% if error %}
+<p class="error">{{ error }}</p>
+{% endif %}
+
+{{ molecule_list_html|safe }}
+<div style="clear: both"></div>
+
+<p style="text-align: right; font-style: italic;">The ExoMol bibliometrician is Olga Yurchenko</p>
+
+{% endif %}
+
+{% endblock %}
+
+
+
+

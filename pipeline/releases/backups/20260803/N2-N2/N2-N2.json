@@ -1,0 +1,35 @@
+{
+  "collision_pair": {
+    "formula": "N2-N2",
+    "slug": "n2-n2",
+    "active_species_status": "unique",
+    "active_species": "n2",
+    "collider": "n2",
+    "components": [
+      {
+        "formula": "N2",
+        "slug": "n2",
+        "cas_registry_number": "7727-37-9"
+      },
+      {
+        "formula": "N2",
+        "slug": "n2",
+        "cas_registry_number": "7727-37-9"
+      }
+    ]
+  },
+  "version": "20260803",
+  "recommended_dataset": "hitran2021-main",
+  "datasets": [
+    {
+      "dataset_id": "hitran2021-main",
+      "dataset_version": "20260803",
+      "metadata_file": "N2-N2_hitran2021-main_0_5000_70_400.json"
+    },
+    {
+      "dataset_id": "wishnow2018",
+      "dataset_version": "20260803",
+      "metadata_file": "N2-N2_wishnow2018_30_300_78_129.json"
+    }
+  ]
+}

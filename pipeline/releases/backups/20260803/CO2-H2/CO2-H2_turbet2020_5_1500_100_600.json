@@ -1,0 +1,296 @@
+{
+  "collision_pair": {
+    "formula": "CO2-H2",
+    "slug": "co2-h2",
+    "active_species_status": "unique",
+    "active_species": "co2",
+    "collider": "h2",
+    "components": [
+      {
+        "formula": "CO2",
+        "slug": "co2",
+        "cas_registry_number": "124-38-9"
+      },
+      {
+        "formula": "H2",
+        "slug": "h2",
+        "cas_registry_number": "1333-74-0"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "turbet2020",
+    "version": "20260803",
+    "sources": [
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "turbet2020",
+        "authors": [
+          "Martin Turbet",
+          "Christian Boulet",
+          "Tijs Karman"
+        ],
+        "title": "Measurements and semi-empirical calculations of CO2+CH4 and CO2+H2 collision-induced absorption across a wide range of wavelengths and temperatures. Application for the prediction of early Mars surface temperature",
+        "year": 2020,
+        "doi": "10.1016/j.icarus.2020.113762",
+        "source_url": "https://doi.org/10.1016/j.icarus.2020.113762",
+        "verified": true,
+        "ref": 46
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "hitran_cia_repository",
+        "authors": [
+          "HITRAN CIA Team"
+        ],
+        "title": "HITRAN online data: Collision Induced Absorption",
+        "year": 2024,
+        "doi": null,
+        "source_url": "https://hitran.org/cia/",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "terragni_hitran",
+        "authors": [
+          "J. Terragni",
+          "I.E. Gordon",
+          "E.M. Adkins",
+          "C. Boulet",
+          "A. Campargue",
+          "D. Chistikov",
+          "A. Finenko",
+          "H. Finkenzeller",
+          "H. Fleurbaey",
+          "R.J. Hargreaves",
+          "R.K. Hanson",
+          "J.-M. Hartmann",
+          "A. Klingberg",
+          "E. Kohler",
+          "A.O. Koroleva",
+          "D. Mondelain",
+          "G. Piccioni",
+          "S. Stefani",
+          "C.L. Strand",
+          "H. Tran",
+          "M. Turbet",
+          "A. Vigasin",
+          "F. Vitali",
+          "R. Volkamer",
+          "C. Wei"
+        ],
+        "title": "Collision induced absorption in HITRAN2024: Enhanced and improved data for atmospheric and planetary studies",
+        "year": 2025,
+        "doi": "10.1016/j.jqsrt.2025.109631",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2025.109631",
+        "verified": true,
+        "ref": null
+      },
+      {
+        "repository": "HITRAN CIA",
+        "citation_key": "gordon2026_hitran",
+        "authors": [
+          "I.E. Gordon",
+          "L.S. Rothman",
+          "R.J. Hargreaves",
+          "F.M. Gomez",
+          "T. Bertin",
+          "C. Hill",
+          "R.V. Kochanov",
+          "Y. Tan",
+          "P. Wcisło",
+          "V. Yu. Makhnev",
+          "P.F. Bernath",
+          "M. Birk",
+          "V. Boudon",
+          "A. Campargue",
+          "A. Coustenis",
+          "B.J. Drouin",
+          "R.R. Gamache",
+          "J.T. Hodges",
+          "D. Jacquemart",
+          "E.J. Mlawer",
+          "A.V. Nikitin",
+          "V.I. Perevalov",
+          "M. Rotger",
+          "S. Robert",
+          "J. Tennyson",
+          "G.C. Toon",
+          "H. Tran",
+          "V.G. Tyuterev",
+          "E.M. Adkins",
+          "A. Barbe",
+          "D.M. Bailey",
+          "K. Bielska",
+          "L. Bizzocchi",
+          "T.A. Blake",
+          "C.A. Bowesman",
+          "P. Cacciani",
+          "P. Čermák",
+          "A.G. Császár",
+          "L. Denis",
+          "S.C. Egbert",
+          "O. Egorov",
+          "A. Yu. Ermilov",
+          "A.J. Fleisher",
+          "H. Fleurbaey",
+          "A. Foltynowicz",
+          "T. Furtenbacher",
+          "M. Germann",
+          "E.R. Guest",
+          "J.J. Harrison",
+          "J.-M. Hartmann",
+          "A. Hjältén",
+          "S.-M. Hu",
+          "X. Huang",
+          "T.J. Johnson",
+          "H. Jóźwiak",
+          "S. Kassi",
+          "M.V. Khan",
+          "F. Kwabia-Tchana",
+          "T.J. Lee",
+          "D. Lisak",
+          "A.-W. Liu",
+          "O.M. Lyulin",
+          "N.A. Malarich",
+          "L. Manceron",
+          "A.A. Marinina",
+          "S.T. Massie",
+          "J. Mascio",
+          "E.S. Medvedev",
+          "V.V. Meshkov",
+          "G. Ch. Mellau",
+          "M. Melosso",
+          "S.N. Mikhailenko",
+          "D. Mondelain",
+          "H.S.P. Müller",
+          "M. O'Donnell",
+          "A. Owens",
+          "A. Perrin",
+          "O.L. Polyansky",
+          "P.L. Raston",
+          "Z.D. Reed",
+          "M. Rey",
+          "C. Richard",
+          "G.B. Rieker",
+          "C. Röske",
+          "S.W. Sharpe",
+          "E. Starikova",
+          "N. Stolarczyk",
+          "A.V. Stolyarov",
+          "K. Sung",
+          "F. Tamassia",
+          "J. Terragni",
+          "V.G. Ushakov",
+          "S. Vasilchenko",
+          "B. Vispoel",
+          "K.L. Vodopyanov",
+          "G. Wagner",
+          "S. Wójtewicz",
+          "S.N. Yurchenko",
+          "N.F. Zobov"
+        ],
+        "title": "The HITRAN2024 molecular spectroscopic database",
+        "year": 2026,
+        "doi": "10.1016/j.jqsrt.2026.109807",
+        "source_url": "https://doi.org/10.1016/j.jqsrt.2026.109807",
+        "verified": true,
+        "ref": null
+      }
+    ],
+    "repository": {
+      "name": "HITRAN CIA",
+      "version": "2024",
+      "collection": "main",
+      "original_files": [
+        "main/CO2-H2_2024.cia.txt"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 100.0,
+      "max_temperature": 600.0,
+      "min_wavenumber": 5.0,
+      "max_wavenumber": 1500.0,
+      "units": {
+        "temperature": "K",
+        "wavenumber_resolution": "cm-1"
+      },
+      "column_schemas": {
+        "standard": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^5 molecule^-2"
+          }
+        ]
+      },
+      "default_column_schema": "standard",
+      "files": [
+        {
+          "temperature": 100.0,
+          "wavenumber_resolution": 5.0,
+          "npoints": 300,
+          "filename": "CO2-H2_turbet2020_5_1500_100.cia",
+          "citation_keys": [
+            "turbet2020"
+          ],
+          "reference_number": 46
+        },
+        {
+          "temperature": 200.0,
+          "wavenumber_resolution": 5.0,
+          "npoints": 300,
+          "filename": "CO2-H2_turbet2020_5_1500_200.cia",
+          "citation_keys": [
+            "turbet2020"
+          ],
+          "reference_number": 46
+        },
+        {
+          "temperature": 300.0,
+          "wavenumber_resolution": 5.0,
+          "npoints": 300,
+          "filename": "CO2-H2_turbet2020_5_1500_300.cia",
+          "citation_keys": [
+            "turbet2020"
+          ],
+          "reference_number": 46
+        },
+        {
+          "temperature": 400.0,
+          "wavenumber_resolution": 5.0,
+          "npoints": 300,
+          "filename": "CO2-H2_turbet2020_5_1500_400.cia",
+          "citation_keys": [
+            "turbet2020"
+          ],
+          "reference_number": 46
+        },
+        {
+          "temperature": 500.0,
+          "wavenumber_resolution": 5.0,
+          "npoints": 300,
+          "filename": "CO2-H2_turbet2020_5_1500_500.cia",
+          "citation_keys": [
+            "turbet2020"
+          ],
+          "reference_number": 46
+        },
+        {
+          "temperature": 600.0,
+          "wavenumber_resolution": 5.0,
+          "npoints": 300,
+          "filename": "CO2-H2_turbet2020_5_1500_600.cia",
+          "citation_keys": [
+            "turbet2020"
+          ],
+          "reference_number": 46
+        }
+      ]
+    }
+  }
+}

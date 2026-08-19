@@ -1,0 +1,76 @@
+{
+  "collision_pair": {
+    "formula": "CO2-H2",
+    "slug": "co2-h2",
+    "active_species_status": "unique",
+    "active_species": "co2",
+    "collider": "h2",
+    "components": [
+      {
+        "formula": "CO2",
+        "slug": "co2",
+        "cas_registry_number": "124-38-9"
+      },
+      {
+        "formula": "H2",
+        "slug": "h2",
+        "cas_registry_number": "1333-74-0"
+      }
+    ]
+  },
+  "dataset": {
+    "id": "vitali2026",
+    "recommendation_status": "supplementary",
+    "repository": {
+      "name": "Icarus supplementary material",
+      "version": null,
+      "collection": "vitali2026",
+      "original_files": [
+        "BAC_CIA_CO2_H2_241K.txt",
+        "BAC_CIA_CO2_H2_294K.txt",
+        "BAC_CIA_CO2_H2_349K.txt",
+        "BAC_CIA_CO2_H2_399K.txt",
+        "BAC_CIA_CO2_H2_451K.txt",
+        "BAC_CIA_CO2_H2_498K.txt"
+      ]
+    },
+    "collision_induced_absorption_xsecs": {
+      "min_temperature": 241,
+      "max_temperature": 498,
+      "min_wavenumber": 3193,
+      "max_wavenumber": 5962,
+      "wavenumber_resolution": 1,
+      "nominal_wavenumber_step": 1,
+      "units": {
+        "temperature": "K",
+        "wavenumber": "cm^-1",
+        "wavenumber_resolution": "cm^-1",
+        "nominal_wavenumber_step": "cm^-1"
+      },
+      "column_schemas": {
+        "with_systematic_absolute_uncertainty": [
+          {
+            "name": "wavenumber",
+            "units": "cm^-1"
+          },
+          {
+            "name": "cia_coefficient",
+            "units": "cm^5 molecule^-2"
+          },
+          {
+            "name": "uncertainty",
+            "units": "cm^5 molecule^-2",
+            "uncertainty_type": "absolute",
+            "uncertainty_category": "systematic",
+            "applies_to": "cia_coefficient"
+          }
+        ]
+      },
+      "default_column_schema": "with_systematic_absolute_uncertainty",
+      "data_file": "CO2-H2.csv"
+    },
+    "sources": [
+      "vitali2026"
+    ]
+  }
+}

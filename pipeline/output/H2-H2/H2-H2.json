@@ -1,0 +1,45 @@
+{
+  "collision_pair": {
+    "formula": "H2-H2",
+    "slug": "h2-h2",
+    "active_species_status": "unique",
+    "active_species": "h2",
+    "collider": "h2",
+    "components": [
+      {
+        "formula": "H2",
+        "slug": "h2",
+        "cas_registry_number": "1333-74-0"
+      },
+      {
+        "formula": "H2",
+        "slug": "h2",
+        "cas_registry_number": "1333-74-0"
+      }
+    ]
+  },
+  "version": "20260817",
+  "recommended_dataset": "abel2011",
+  "datasets": [
+    {
+      "dataset_id": "abel2011",
+      "dataset_version": "20260817",
+      "metadata_file": "H2-H2_abel2011_20_10000_200_3000.json"
+    },
+    {
+      "dataset_id": "fletcher2018",
+      "dataset_version": "20260817",
+      "metadata_file": "H2-H2_fletcher2018_0_2400_40_400.json"
+    },
+    {
+      "dataset_id": "koroleva2024",
+      "dataset_version": "20260817",
+      "metadata_file": "H2-H2_koroleva2024_7974_8650_293_293.json"
+    },
+    {
+      "dataset_id": "vitali2025",
+      "dataset_version": "20260817",
+      "metadata_file": "H2-H2_vitali2025_2400_6000_120_501.json"
+    }
+  ]
+}

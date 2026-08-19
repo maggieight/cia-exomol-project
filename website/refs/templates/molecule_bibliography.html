@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}ExoMol Bibliography for {{ molecule.ordinary_formula }}{% endblock %}
+
+{% block content %}
+
+{% if molecule %}
+<h1>ExoMol Bibliography for {{ molecule.ordinary_formula_html|safe }}</h1>
+{% endif %}
+
+{% if filtered_by %}
+<p>
+Filtered by keyword: <strong>{{ filtered_by }}</strong>
+| <a href="/bibliography/{{ molecule.formula.slug }}">Remove Filter</a>
+</p>
+{% endif %}
+
+{% if error %}
+<p class="error">{{ error }}</p>
+{% endif %}
+
+{% if keywords %}
+<form name="keyword_filter_form" method="GET">
+<p>Filter by keyword:
+<select name="keyword">
+{% for keyword in keywords %}
+    <option value="{{ keyword }}">{{ keyword }}</option>
+{% endfor %}
+</select>
+<input type="submit" value="Filter"/>
+</p>
+</form>
+{% endif %}
+
+{% if sources %}
+<ol>
+{% for source in sources %}
+<li>{{ source.html|safe }}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
+<p style="text-align: right; font-style: italic; margin-top: 10px;">The ExoMol bibliometrician is Olga Yurchenko</p>
+
+{% endblock %}
+
+
+
+
+

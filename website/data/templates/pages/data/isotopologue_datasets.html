@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h2>{% block heading %}Data sets for {{ isotopologue.ordinary_formula_html|safe }}{% endblock %}</h2>
+
+{% regroup data_collections by data_type as data_collections_by_data_type %}
+{% for data_type_collections in data_collections_by_data_type %}
+<h3>{{ data_type_collections.grouper.description }}</h3>
+<div class="well" style="width: 700px;">
+<div class="list-group">
+{% for data_collection in data_type_collections.list %}
+{% with data_collection.data_set as dataset %}
+<a href="{{ dataset.name }}" title="{{ dataset.name }}" class="list-group-item link-list-group-item {% if dataset.recommended and not dataset.external %}recommended{% endif %}"><b>{{ dataset.name }}{% if dataset.recommended and not dataset.external %} <span class="pull-right">recommended</span>{% endif %}</b><br/>{{ dataset.description|safe }}</a>
+{% endwith %}
+{% endfor %}
+</div>
+</div>
+{% endfor %}
+
+{% endblock main %}

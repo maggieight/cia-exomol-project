@@ -1,0 +1,30 @@
+{
+  "collision_pair": {
+    "formula": "CO2-He",
+    "slug": "co2-he",
+    "active_species_status": "unique",
+    "active_species": "co2",
+    "collider": "he",
+    "components": [
+      {
+        "formula": "CO2",
+        "slug": "co2",
+        "cas_registry_number": "124-38-9"
+      },
+      {
+        "formula": "He",
+        "slug": "he",
+        "cas_registry_number": "7440-59-7"
+      }
+    ]
+  },
+  "version": "20260817",
+  "recommended_dataset": "barziv1972",
+  "datasets": [
+    {
+      "dataset_id": "barziv1972",
+      "dataset_version": "20260817",
+      "metadata_file": "CO2-He_barziv1972_1_1000_300_300.json"
+    }
+  ]
+}
