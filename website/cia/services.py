@@ -137,20 +137,9 @@ def get_pair(pair_slug):
                     "formula", active_species_slug
                 ),
             }
-        recommended_datasets = [
-            item for item in datasets if item["recommended"]
-        ]
-        other_datasets = [
-            item for item in datasets if not item["recommended"]
-        ]
         return {
             "pair": pair,
-            "version": manifest.get("version"),
-            "manifest_file": manifest_path.name,
-            "recommended_dataset": manifest.get("recommended_dataset"),
             "datasets": datasets,
-            "recommended_datasets": recommended_datasets,
-            "other_datasets": other_datasets,
             "parent_species": parent_species,
         }
     raise CIADataNotFound("CIA collision pair not found")

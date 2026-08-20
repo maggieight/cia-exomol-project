@@ -227,9 +227,6 @@ TEMPLATES = [
             "builtins": [
                 #"mezzanine.template.loader_tags",
             ],
-            "libraries": {
-                "cia_tags": "cia.templatetags.cia_tags",
-            },
             'loaders': [
                 'django.template.loaders.filesystem.Loader',
                 'django.template.loaders.app_directories.Loader',
