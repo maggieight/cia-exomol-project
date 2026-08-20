@@ -1,206 +1,239 @@
 # CIA Pipeline v1
 
-This project converts HITRAN collision-induced absorption files into a deterministic ExoMol-style release. It parses raw blocks, resolves curate metadata, groups datasets, writes pair and dataset metadata, preserves numerical text, creates `cia.all.json`, and performs strict end-to-end validation.
+This project converts HITRAN collision-induced absorption data and non-HITRAN CIA data found in independent literature into a unified ExoMol-style release. 
 
 ## Layout
 
-`input/main` contains recommended inputs and `input/sup` supplementary inputs.
-`metadata` contains the only accepted species, source, and dataset mappings.
-Unprocessed publisher supplements live under `source_data/non_hitran`; canonical
-non-HITRAN inputs produced by dedicated preprocessors live under `input/extra`.
-`examples` contains the CO2-CH4 golden files. Python code is under
-`src/cia_pipeline`, tests under `tests`, generated scientific data under
-`output`, and release records under `reports`.
+```text
+input/
+├── main/                 recommended HITRAN CIA input
+├── sup/                  supplementary HITRAN CIA input
+└── extra/                canonical non-HITRAN CSV/JSON input
 
-The three build input collections are:
+metadata/
+├── species.json          accepted species records
+├── sources.json          bibliography and HITRAN reference mappings
+└── dataset_map.json      explicit input-to-dataset mappings
 
-- `input/main`: recommended HITRAN CIA files;
-- `input/sup`: supplementary HITRAN CIA files;
-- `input/extra`: canonical, preprocessed non-HITRAN datasets, grouped by source ID.
+source_data/non_hitran/   provenance storage for unprocessed publisher material; never read by the main build
+examples/                 golden comparison files
+src/cia_pipeline/         Python package
+tests/                    unit and output acceptance tests
+output/                   current formal release
+releases/backups/         previous formal outputs, grouped by old version
+reports/release/          JSON reports for successful releases
+```
 
-`source_data/non_hitran` is provenance storage for unprocessed publisher
-material and is never read by the main build.
+## Requirements
+
+Python 3.10 or newer is required.
 
 ## Installation
+
+Install the package and test dependencies:
 
 ```bash
 python -m pip install -e '.[test]'
 ```
 
-The package has no runtime dependencies outside the Python standard library.
+To use the Ptashnik Word-table converter, install the extra Python dependency:
 
-## Inputs and metadata
+```bash
+python -m pip install -e '.[test,extradata]'
+```
 
-Raw files are never modified. `species.json` supplies formulas, slugs, and
-`cas_registry_number`; `sources.json` supplies verified bibliography and HITRAN
-reference mappings; `dataset_map.json` supplies canonical pairs, collection
-paths, active-species semantics, and variants. Missing metadata is reported and
-never inferred.
+The Ptashnik converter also requires a local LibreOffice installation with an available `soffice` executable. 
+The main build, validation, and release commands otherwise use only the Python standard library.
 
-Non-HITRAN bibliography records use `ref: null`. Only records whose repository
-is exactly `HITRAN CIA` participate in the numeric raw-header reference index.
+After installation, inspect the available commands with:
 
-## Ptashnik 2011 supplementary data
+```bash
+cia-pipeline --help
+```
 
-The dedicated `cia-pipeline convert ptashnik2011` preprocessor converts
-the binary Word supplementary table through a temporary DOCX, reconstructs its
-13 vertical token streams, and writes long-format CSV plus a canonical input
-descriptor. It preserves scientific-notation tokens and absolute uncertainty;
-it performs no unit conversion, interpolation, or CIA output generation.
+## Workflow
+<img width="447" height="542" alt="pipeline" src="https://github.com/user-attachments/assets/8ce88f67-8584-49bc-a98d-b4312cb162d1" />
 
+## Commands
+
+### `inventory`
+
+`inventory` checks the HITRAN input collection against `dataset_map.json`, parses the input blocks, and reports missing, unexpected, or invalid records.
+```bash
+cia-pipeline inventory \
+  --input input \
+  --metadata metadata \
+  --report reports/inventory.json \
+  --strict
+```
+
+Use `--dry-run` to print the readable summary instead of writing the JSON file.
+The `--report` argument is still required by the command-line interface.
+
+### `convert`
+
+`convert` transforms archived non-HITRAN publisher files into the canonical CSV/JSON format consumed from `input/extra`.
+
+Available converters:
+```text
+ptashnik2011
+chandran2025
+dong2026
+vitali2026
+finenko2026
+```
+Examples:
 ```bash
 cia-pipeline convert ptashnik2011 \
   --source source_data/non_hitran/ptashnik2011/water-data.doc \
   --output input/extra/ptashnik2011 \
   --metadata metadata
-```
 
-The main pipeline discovers `input/extra/*/*.json`. Each descriptor names a
-long-format CSV through its safe relative `data_file`; the temperature column
-forms output groups and is omitted from numerical CIA rows. Extradata does not
-imitate a HITRAN header. Its source-native quantity names and units are defined
-by the reusable column schema and may differ from HITRAN units. Ptashnik remains
-`cm^2 molecule^-1 atm^-1`; it is not relabelled or converted to a HITRAN CIA
-coefficient. Recommendation status is mandatory and explicit.
-
-To add another extradata dataset, first create a reproducible source-specific
-preprocessor, place its canonical CSV and pair-name JSON under
-`input/extra/<dataset-id>/`, reference verified null-ref bibliography keys, and
-describe the actual output columns and units. The formal build/release command
-builds and strictly validates the candidate in a temporary directory, then
-atomically publishes it as `output`; no persistent `staging` tree is required.
-
-The Chandran & Karman 2025 preprocessor reads the exact archived `.data`
-collection and creates three canonical pair descriptors in one source folder:
-
-```bash
 cia-pipeline convert chandran2025 \
   --source source_data/non_hitran/chandran2025 \
   --output input/extra/chandran2025 \
   --metadata metadata
-```
 
-Its source-native coefficient and absolute-uncertainty units are
-`cm^-1 amagat^-2`; no conversion to HITRAN coefficient units is performed.
-
-Dong 2026 and Vitali 2026 use the same canonical long-CSV descriptor path and
-the same downstream extra loader. Their source-specific preprocessors are:
-
-```bash
 cia-pipeline convert dong2026 \
-  --source source_data/non_hitran/dong2026 --output input/extra/dong2026 --metadata metadata
+  --source source_data/non_hitran/dong2026 \
+  --output input/extra/dong2026 \
+  --metadata metadata
+
 cia-pipeline convert vitali2026 \
-  --source source_data/non_hitran/vitali2026 --output input/extra/vitali2026 --metadata metadata
-```
+  --source source_data/non_hitran/vitali2026 \
+  --output input/extra/vitali2026 \
+  --metadata metadata
 
-Dong retains `cm^-1 amagat^-2` combined standard absolute uncertainty and a
-0.01 cm^-1 nominal grid step without claiming an instrumental resolution.
-Vitali retains `cm^5 molecule^-2` systematic absolute uncertainty, its stated
-1 cm^-1 resolution, and all three discontinuous spectral regions. Zero values
-are valid scientific data and are not treated as missing.
-
-Finenko et al. 2026 supplies two HITRAN-style files as non-HITRAN provenance.
-The dedicated preprocessor canonicalizes their original `CH4-CO2` label to the
-existing `CO2-CH4` pair and writes one dataset with two file-level variants,
-`d3-schofield` and `d4a-frommhold`:
-
-```bash
 cia-pipeline convert finenko2026 \
   --source source_data/non_hitran/finenko2026 \
-  --output input/extra/finenko2026 --metadata metadata
+  --output input/extra/finenko2026 \
+  --metadata metadata
 ```
 
-The signed desymmetrized spectra are preserved verbatim, including small
-negative tail values. Their standard HCIA/HITRAN two-column coefficient is
-recorded in `cm^5 molecule^-2`; the header-provided 0.1 cm^-1 resolution is
-retained and is not replaced by a calculated spacing.
+Each converter prints a JSON result to standard output. Chandran, Dong, Vitali, and Finenko also accept an optional `--report PATH` argument. Ptashnik performs the same conversion validation but does not write a persistent report.
+
+The converters preserve source-native scientific units. They do not normalize all datasets to HITRAN coefficient units.
+
+### `build`
+
+`build` is only for the first formal build, when `output` does not exist. It also requires an empty reports directory.
+
+```bash
+cia-pipeline build \
+  --input input \
+  --metadata metadata \
+  --output output \
+  --reports reports \
+  --examples examples \
+  --strict
+```
+
+The command builds in a temporary sibling directory, validates the candidate, and atomically renames it to `output`. A failed build does not leave a complete-looking formal output.
+
+Do not use `build` to update an existing `output`; use `release` instead.
+
+### `validate`
+
+`validate` reads the version from `output/cia.all.json`, rebuilds the same version in a temporary directory, and compares every generated file with the formal output. It reports: missing files, orphan files, content mismatches and internal structural or numerical errors. It does not modify `output`.
+
+```text
+cia-pipeline validate \
+  --input input \
+  --metadata metadata \
+  --output output \
+  --examples examples \
+  --strict
+```
+
+### `release`
+
+`release` validates and verifies a reproducible build, backs up the current output, atomically publishes the new version, and automatically restores the previous version if post-release validation fails. Backups are named from the version stored in the old `output/cia.all.json`:
+
+```text
+releases/backups/20260817
+releases/backups/20260817-1
+releases/backups/20260817-2
+```
+The numeric suffix prevents an existing backup from being overwritten.
+
+## Inputs and metadata
+Raw source files are never modified. Every accepted HITRAN file under `input/main` or `input/sup` must have an explicit entry in `metadata/dataset_map.json`; missing metadata is reported and never inferred.
+
+`metadata/species.json` defines the accepted formulas, slugs, and `cas_registry_number` values. 
+`metadata/sources.json` supplies verified bibliographic metadata and HITRAN raw-header reference mappings. Ordinary records whose `repository` is exactly `HITRAN CIA` use a positive integer `ref` and participate in the numeric raw-header reference index. Shared HITRAN provenance records and non-HITRAN bibliography records use `ref: null`.
+`metadata/dataset_map.json` defines canonical collision pairs, collection paths, active-species semantics, dataset mappings, and variants.
+
+Canonical non-HITRAN data is discovered at:
+```text
+input/extra/<dataset-id>/*.json
+```
+Each JSON descriptor references a local long-format CSV through a safe relative `data_file` path and explicitly defines the source-native column names and units. 
+
+## Output structure
+
+```text
+output/
+├── cia.all.json
+└── <pair>/
+    ├── <pair>.json
+    ├── <dataset-metadata>.json
+    └── <data-file>.cia
+```
+
+`cia.all.json` is the `CIA.master` entry point. It references every pair JSON.
+Each pair JSON references its dataset metadata, and each dataset JSON references its .cia files. The master stores pointers and counts rather than duplicating scientific metadata.
+
+Also output reports under:
+```text
+reports/release/<new-version>/
+
+final_build_summary.json       candidate build statistics and warnings
+final_validation.json          candidate internal validation
+post_release_validation.json   validation of the published output
+previous_output_manifest.json  path, size, and SHA-256 for old output files
+release_manifest.json          release metadata, hashes, and backup location
+```
 
 ## Grouping and recommendation
+`input/main` records are recommended data. Each collision pair can have at most one recommended dataset. 
+Main compilations use IDs such as `hitran<repository-version>-main`; a single-source main dataset can use its citation key.
 
-`main` data are recommended and each pair may have at most one recommended
-dataset. Main compilations use `hitran<repository-version>-main`; a single-source
-main dataset uses its citation key. H2-CH4 equilibrium and normal data form
-`hitran2011-main`, retaining variants at file level. Supplementary blocks with
-the same pair and citation set form one dataset; variants remain dataset/file
-metadata and do not enter the supplementary dataset ID. CH4-Ar and CH4-CH4
-remain supplementary-only with a null recommendation.
-
-## Output hierarchy
-
-`cia.all.json` is the `CIA.master` entry point. It reaches every pair JSON; each
-pair JSON reaches all dataset JSON files; each dataset JSON reaches its physical
-CIA files. The master contains pointers and counts, not duplicated scientific
-metadata.
-
-Pair JSON records the canonical collision pair, release version, recommended
-dataset ID (or null), and every dataset pointer with `dataset_version`. Dataset
-JSON records repository provenance, sources, variants, ranges, reusable column
-schemas, and file entries.
+Supplementary records are grouped by pair and source identity. Variants remain dataset or file metadata and do not automatically create separate datasets.
+Pairs with supplementary data only use a null recommendation.
 
 ## Columns and uncertainty
 
-Two-column datasets use the reusable `standard` schema. Only datasets containing
-three-column input define `with_absolute_uncertainty`; only affected files select
-it. The third column is finite, non-negative absolute uncertainty in the same
-units as the CIA coefficient. File-level duplicate column definitions and null
-uncertainty placeholders are not used.
+Two-column files contain wavenumber and absorption quantities. Datasets with absolute uncertainty can use a three-column schema containing wavenumber, coefficient, and uncertainty.
 
 ## Naming
 
-Dataset JSON names use outward-rounded wavenumber and temperature ranges.
-CIA names use outward-rounded wavenumber bounds and the actual temperature with
-a normal decimal point. Collisions are resolved by variant, then exact maximum
-and minimum (`_<exact-max>_r<exact-min>`), then reference and deterministic block
-identity. Random hashes are never used.
+General form:
+```
+<pair> <dataset-id> <min-wavenumber> <max-wavenumber> <min-temperature> <max-temperature>.json
+<pair> <dataset-id> <min-wavenumber> <max-wavenumber> <temperature>.cia
+```
 
 ## Versions
 
-At build start, one `BuildContext` captures the date in `Europe/London`.
-Versions use `YYYYMMDD`. The master, pair JSON, dataset JSON, pair dataset
-pointers, and master recommendation pointers all use that one value. Currently
-`dataset_version = build_version`; no registry or incremental dataset versioning
-is implemented. HITRAN repository versions such as 2011 or 2024 remain separate.
-
-## Commands
-
-```bash
-cia-pipeline inventory --input input --metadata metadata \
-  --report reports/inventory.json --strict
-
-cia-pipeline build --input input --metadata metadata --output output \
-  --reports reports --examples examples --strict
-
-cia-pipeline validate --input input --metadata metadata --output output \
-  --examples examples --strict
-```
-
-Build refuses an existing output and non-empty reports directory. It writes to a
-sibling staging directory, validates there, and only then atomically publishes
-the output. A failed build never creates a complete-looking formal output.
-
-## Validation
-
-Validation checks metadata resolution, grouping, safe paths, counts, duplicate
-IDs and names, master reachability, orphans, versions, effective column schemas,
-point counts, monotonic and finite values, reference/variant/source attribution,
-selected raw rows, complete three-column text, and the complete 16,956-line
-CO2-CH4 golden comparison.
+At build start, one `BuildContext` captures the date in `Europe/London`. Versions use `YYYYMMDD`. 
+The master, pair JSON, dataset JSON, pair dataset pointers, and master recommendation pointers all use that one value. 
+Currently `dataset_version = build_version`; no registry or incremental dataset versioning is implemented. 
+HITRAN repository versions such as 2011 or 2024 remain separate.
 
 ## Adding data
 
-Add an untouched raw file under `input/main` or `input/sup`, add its explicit mapping
-to `dataset_map.json`, and ensure all species and reference records already exist
-in the curated registries. Run inventory, tests, then a strict build into a new
-empty output directory.
+For a HITRAN file:
+1. Add the untouched file under `input/main` or `input/sup`.
+2. Add its explicit mapping to `metadata/dataset_map.json`.
+3. Ensure all species and reference records exist in the curated registries.
+4. Run `inventory` and the test suite.
+5. Run a strict build into a new empty output directory, or use `release` to update the formal output.
 
-## Tests and release reproduction
-
-```bash
-pytest
-cia-pipeline build --input input --metadata metadata --output output \
-  --reports reports --examples examples --strict
-```
-
-The release manifest records environment details and SHA-256 for every output
-file. Independent dataset version management can be added in a future release
-without changing these pointer fields.
+For a non-HITRAN source:
+1. Archive the original files under `source_data/non_hitran/<dataset-id>`.
+2. Add its explicit mapping to `metadata/dataset_map.json`.
+3. Add a source-specific converter under `src/cia_pipeline`.
+4. Generate canonical CSV/JSON files under `input/extra/<dataset-id>`.
+5. Ensure all species and verified bibliography records exist; non-HITRAN records use `ref: null`.
+6. Define the source-native columns and units.
+7. Run the relevant converter and tests, then publish the data with build or release.
